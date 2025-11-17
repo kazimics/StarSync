@@ -16,7 +16,7 @@
         "多平台"
       ],
       "aiFingerprint": "22ce2c4836250374802064fe7a72a26e979225d53c41c5ea0b2bddfe3281511c",
-      "updatedAt": "2025-11-17T12:42:53Z"
+      "updatedAt": "2025-11-17T14:21:38Z"
     },
     "1217614": {
       "id": "1217614",
@@ -34,7 +34,7 @@
         "图形界面"
       ],
       "aiFingerprint": "bb08242cbc1a5e7fedcc7f6d4e3e0dd72695131d4b9f1853cf659230150bf4cd",
-      "updatedAt": "2025-11-17T12:01:18Z"
+      "updatedAt": "2025-11-17T13:27:14Z"
     },
     "1638524": {
       "id": "1638524",
@@ -69,7 +69,7 @@
         "Angular"
       ],
       "aiFingerprint": "310bd2609bdcd1f940be9fd48ed49b6d6782b02cc8e4170a43101fe880cc1656",
-      "updatedAt": "2025-11-17T11:23:27Z"
+      "updatedAt": "2025-11-17T13:47:18Z"
     },
     "3402537": {
       "id": "3402537",
@@ -84,7 +84,7 @@
         "JavaScript"
       ],
       "aiFingerprint": "82b00a22f2130c9d6c44963b29cd3ce430774d4cd9bd1dd5fd3c8536bc723df1",
-      "updatedAt": "2025-11-16T18:29:14Z"
+      "updatedAt": "2025-11-17T13:19:07Z"
     },
     "3757435": {
       "id": "3757435",
@@ -130,7 +130,7 @@
         "P2P"
       ],
       "aiFingerprint": "0feb15bc370ae4e4df59891f3d01adb7182eeeb62e1687a4cc06135ac501b233",
-      "updatedAt": "2025-11-17T12:43:02Z"
+      "updatedAt": "2025-11-17T14:30:40Z"
     },
     "15333471": {
       "id": "15333471",
@@ -148,7 +148,7 @@
         "PDF解析"
       ],
       "aiFingerprint": "86387a9e7ce5cc0a2f2f55bb8b3f9ea173d46b837836276ae638c83ebe4594e3",
-      "updatedAt": "2025-11-17T11:37:00Z"
+      "updatedAt": "2025-11-17T14:21:09Z"
     },
     "15634981": {
       "id": "15634981",
@@ -163,7 +163,7 @@
         "OpenGL"
       ],
       "aiFingerprint": "b9d2a0cc766c7b868c12d86fabdf61f1d24357650d3f19de98090a7e2636800a",
-      "updatedAt": "2025-11-17T12:44:14Z"
+      "updatedAt": "2025-11-17T14:14:05Z"
     },
     "17940105": {
       "id": "17940105",
@@ -195,7 +195,7 @@
         "C++"
       ],
       "aiFingerprint": "74569782dc65f6203d795a605188a89b6f470767b224a099635d2827c83da797",
-      "updatedAt": "2025-11-17T10:08:30Z"
+      "updatedAt": "2025-11-17T14:15:45Z"
     },
     "23083156": {
       "id": "23083156",
@@ -213,7 +213,7 @@
         "组件化"
       ],
       "aiFingerprint": "2a23a0ca074d639b7a29d9b3cc2f31f7b54ab72da53ca785f93b04f37ea6230a",
-      "updatedAt": "2025-11-17T12:10:27Z"
+      "updatedAt": "2025-11-17T14:23:43Z"
     },
     "26850443": {
       "id": "26850443",
@@ -264,7 +264,7 @@
         "PeerTube"
       ],
       "aiFingerprint": "0a00c993d9632ffb574f1ceb50b2b8d7197d518bf371d17c5bc3ab72504f7b42",
-      "updatedAt": "2025-11-17T11:42:15Z"
+      "updatedAt": "2025-11-17T13:53:49Z"
     },
     "42009758": {
       "id": "42009758",
@@ -282,7 +282,7 @@
         "加密钱包"
       ],
       "aiFingerprint": "bf13bbaec1b2d0cd1e9314e3587707e970b924182e714182dd0ceaed2e2265a5",
-      "updatedAt": "2025-11-17T12:37:55Z"
+      "updatedAt": "2025-11-17T13:26:59Z"
     },
     "43441403": {
       "id": "43441403",
@@ -301,7 +301,7 @@
         "数据库"
       ],
       "aiFingerprint": "9e7f240a42a14db1f01ee0beaaeb88a653d0187398a7d789e182d0c4cbc3919e",
-      "updatedAt": "2025-11-17T11:34:02Z"
+      "updatedAt": "2025-11-17T14:20:46Z"
     },
     "44571718": {
       "id": "44571718",
@@ -345,7 +345,7 @@
         "SVG"
       ],
       "aiFingerprint": "ac574792d47710616e421f9a2ba3c91e3dd09d580730aa4078e163f176ae5cf7",
-      "updatedAt": "2025-11-17T12:18:27Z"
+      "updatedAt": "2025-11-17T13:26:46Z"
     },
     "54173593": {
       "id": "54173593",
@@ -359,7 +359,7 @@
         "React"
       ],
       "aiFingerprint": "35322fe4e3d84dca4cd895fa902b455dfa395b1447cd03f13b7ce37806b90da9",
-      "updatedAt": "2025-11-17T12:43:57Z"
+      "updatedAt": "2025-11-17T14:27:48Z"
     },
     "55381387": {
       "id": "55381387",
@@ -373,7 +373,7 @@
         "量化分析"
       ],
       "aiFingerprint": "b99e233bebf52f23d0035f4136cefecc9727f244120955417b996f338bb64b50",
-      "updatedAt": "2025-11-17T04:18:50Z"
+      "updatedAt": "2025-11-17T12:50:59Z"
     },
     "57602001": {
       "id": "57602001",
@@ -402,7 +402,7 @@
         "Jupyter"
       ],
       "aiFingerprint": "414bed0a608b99c8a75dcd33465015c8c049183d52916e54ab72950f9c7f94e6",
-      "updatedAt": "2025-11-17T07:43:40Z"
+      "updatedAt": "2025-11-17T14:19:07Z"
     },
     "60493101": {
       "id": "60493101",
@@ -415,7 +415,7 @@
         "未标注"
       ],
       "aiFingerprint": "a191f94661864dc7ad749a7167363ac07459ed6ad3554129b325f3a2dabafe61",
-      "updatedAt": "2025-11-17T12:29:30Z"
+      "updatedAt": "2025-11-17T14:10:47Z"
     },
     "64700934": {
       "id": "64700934",
@@ -465,7 +465,7 @@
         "Nuxt"
       ],
       "aiFingerprint": "ee36441777716ad892cef6191a861b0f335a1f6a185cd198f8c5871040f8f34e",
-      "updatedAt": "2025-11-17T11:13:45Z"
+      "updatedAt": "2025-11-17T14:23:45Z"
     },
     "72560323": {
       "id": "72560323",
@@ -542,7 +542,7 @@
         "JavaScript"
       ],
       "aiFingerprint": "c13f9253a1513e708562e300abfc5ae0100b202074a5b17b84c67778728c72ad",
-      "updatedAt": "2025-11-17T11:54:09Z"
+      "updatedAt": "2025-11-17T14:23:38Z"
     },
     "81810486": {
       "id": "81810486",
@@ -557,7 +557,7 @@
         "JavaScript"
       ],
       "aiFingerprint": "90ff49d234905c58a5c29b63e1badd0f70c1693289941e4056c29eb8221c7d66",
-      "updatedAt": "2025-11-17T12:14:40Z"
+      "updatedAt": "2025-11-17T12:57:10Z"
     },
     "82359910": {
       "id": "82359910",
@@ -571,7 +571,7 @@
         "M3U8"
       ],
       "aiFingerprint": "afd1a971646dc4f0d358eae890f63b4216ac819f32d1a9fb5a22a41b55f55ccc",
-      "updatedAt": "2025-11-17T08:22:06Z"
+      "updatedAt": "2025-11-17T13:07:49Z"
     },
     "84811466": {
       "id": "84811466",
@@ -647,7 +647,7 @@
         "C++"
       ],
       "aiFingerprint": "2815c5f598f36ff4bbb153529f810de78d569a54808fd3608df383e56220ed0e",
-      "updatedAt": "2025-11-17T12:36:59Z"
+      "updatedAt": "2025-11-17T14:23:53Z"
     },
     "90175624": {
       "id": "90175624",
@@ -673,7 +673,7 @@
         "HTML"
       ],
       "aiFingerprint": "f2ccd5b4fd135884e24e538ee2a8cbff471f8c47da9da7c51520524b35d94c3f",
-      "updatedAt": "2025-11-17T12:27:08Z"
+      "updatedAt": "2025-11-17T14:25:05Z"
     },
     "93629835": {
       "id": "93629835",
@@ -690,7 +690,7 @@
         "代码库"
       ],
       "aiFingerprint": "b175da39787e7400ce1a2081d344d233a0293b57b5c31db7ad0af8d77876c8c6",
-      "updatedAt": "2025-11-17T11:32:15Z"
+      "updatedAt": "2025-11-17T13:27:06Z"
     },
     "94677514": {
       "id": "94677514",
@@ -746,7 +746,7 @@
         "深度学习"
       ],
       "aiFingerprint": "b0e08aee47fe95be02d7d67f87984b6094a917f4c5ee2f8bb7b80dfe81acc57e",
-      "updatedAt": "2025-11-17T12:28:37Z"
+      "updatedAt": "2025-11-17T14:08:51Z"
     },
     "101562026": {
       "id": "101562026",
@@ -773,7 +773,7 @@
         "JavaScript"
       ],
       "aiFingerprint": "66840c7b35b06950fed92738e40fb10ad79418207bb03767fc80d7cf311e8d31",
-      "updatedAt": "2025-11-17T10:36:01Z"
+      "updatedAt": "2025-11-17T14:11:52Z"
     },
     "104054358": {
       "id": "104054358",
@@ -819,7 +819,7 @@
         "未标注"
       ],
       "aiFingerprint": "2928c43a98d3ac11f7aa78a290bbfb57bc5730512ad3422eae623a35327159f7",
-      "updatedAt": "2025-11-17T12:21:53Z"
+      "updatedAt": "2025-11-17T13:02:21Z"
     },
     "105229748": {
       "id": "105229748",
@@ -867,7 +867,7 @@
         "ES6"
       ],
       "aiFingerprint": "1e3b94e44deddb0f01790e11fe7d997689d7eb5ac524926a6db83c4f8bd2b572",
-      "updatedAt": "2025-11-17T11:59:14Z"
+      "updatedAt": "2025-11-17T13:39:51Z"
     },
     "116389886": {
       "id": "116389886",
@@ -894,7 +894,7 @@
         "Python"
       ],
       "aiFingerprint": "dab86e1fe51e80d517f036a99ec8da3d1095e0456455f518bd5fde40417b3eb7",
-      "updatedAt": "2025-11-16T19:18:12Z"
+      "updatedAt": "2025-11-17T14:14:34Z"
     },
     "120710644": {
       "id": "120710644",
@@ -968,7 +968,7 @@
         "Jupyter Notebook"
       ],
       "aiFingerprint": "b9d552fb3ff50ee0d2b1d922cd78f95dc94ec73adeab5011decbeae311c30840",
-      "updatedAt": "2025-11-17T12:44:08Z"
+      "updatedAt": "2025-11-17T14:30:38Z"
     },
     "125791597": {
       "id": "125791597",
@@ -997,7 +997,7 @@
         "JavaScript"
       ],
       "aiFingerprint": "5fe65bd929690d28cd115c5177dd25b4b22c17b67301188286463da6bbb45bd7",
-      "updatedAt": "2025-11-17T10:45:43Z"
+      "updatedAt": "2025-11-17T13:20:29Z"
     },
     "127407957": {
       "id": "127407957",
@@ -1043,7 +1043,7 @@
         "Markdown"
       ],
       "aiFingerprint": "5cde81c9001b963b28beae47faf701fde502f56aa1153348d14c0d065ee9620c",
-      "updatedAt": "2025-11-17T12:41:29Z"
+      "updatedAt": "2025-11-17T14:32:14Z"
     },
     "136780445": {
       "id": "136780445",
@@ -1116,7 +1116,7 @@
         "Markdown"
       ],
       "aiFingerprint": "f730043a8ce39a7cc06ac41f562b4e9465255ddc2f94a311b9907f74a8ce4788",
-      "updatedAt": "2025-11-17T11:03:42Z"
+      "updatedAt": "2025-11-17T14:00:57Z"
     },
     "145553672": {
       "id": "145553672",
@@ -1132,7 +1132,7 @@
         "深度学习"
       ],
       "aiFingerprint": "a88880ecc3fa0b1ad00f920a2f61854ff0c688171622ca84dc6656fd3975b302",
-      "updatedAt": "2025-11-17T12:42:43Z"
+      "updatedAt": "2025-11-17T14:08:40Z"
     },
     "146023032": {
       "id": "146023032",
@@ -1241,7 +1241,7 @@
         "类型推断"
       ],
       "aiFingerprint": "485ba697d637f6dbc14ab0b1ea3e3b1c9fd40b497062bcee479b21622eeb6d57",
-      "updatedAt": "2025-11-15T20:49:36Z"
+      "updatedAt": "2025-11-17T14:23:50Z"
     },
     "159447129": {
       "id": "159447129",
@@ -1274,7 +1274,7 @@
         ".NET"
       ],
       "aiFingerprint": "9f6093f0186052bc32577c23257dfbaf66c3e5587cc6c102f2bd0b2bdd76220a",
-      "updatedAt": "2025-11-17T12:29:40Z"
+      "updatedAt": "2025-11-17T13:57:39Z"
     },
     "162028712": {
       "id": "162028712",
@@ -1316,7 +1316,7 @@
         "未标注"
       ],
       "aiFingerprint": "77e0afa276361e1a4d5e6d9ed6cdfb935f9c6485ae6e77721dbfad5229ca9dfd",
-      "updatedAt": "2025-11-17T10:30:43Z"
+      "updatedAt": "2025-11-17T12:52:46Z"
     },
     "164768889": {
       "id": "164768889",
@@ -1376,7 +1376,7 @@
         "ActivityPub"
       ],
       "aiFingerprint": "da44fc932d2da5cea3cfaf751cfd0aef81ea4ff21442768c02c6ea3369c10749",
-      "updatedAt": "2025-11-17T06:57:45Z"
+      "updatedAt": "2025-11-17T13:26:47Z"
     },
     "171974903": {
       "id": "171974903",
@@ -1409,7 +1409,7 @@
         "Shell"
       ],
       "aiFingerprint": "1bb043fbd1e4f3bf9ff4caa44858f3b00fee51d07e4208fbc340be78b8854228",
-      "updatedAt": "2025-11-17T12:40:50Z"
+      "updatedAt": "2025-11-17T14:11:59Z"
     },
     "175176201": {
       "id": "175176201",
@@ -1542,7 +1542,7 @@
         "Spotify"
       ],
       "aiFingerprint": "ffdb098283c8bd0ad901922b1d0c3aecc3fae54d6cd9bd883caa5822ae4ce974",
-      "updatedAt": "2025-11-17T08:24:34Z"
+      "updatedAt": "2025-11-17T13:11:03Z"
     },
     "188352267": {
       "id": "188352267",
@@ -1588,7 +1588,7 @@
         "系统集成"
       ],
       "aiFingerprint": "0996a9263429843d22ce0ef252988c4875528d4af092c50da4740405ff70cb1a",
-      "updatedAt": "2025-11-17T12:34:36Z"
+      "updatedAt": "2025-11-17T14:27:54Z"
     },
     "197206410": {
       "id": "197206410",
@@ -1601,7 +1601,7 @@
         "Python"
       ],
       "aiFingerprint": "9264e51c1bb0c6b133f95156c9f9f4eb7070bd6d2db381ffa2f81cb73439159d",
-      "updatedAt": "2025-11-17T09:22:58Z"
+      "updatedAt": "2025-11-17T14:14:26Z"
     },
     "200468551": {
       "id": "200468551",
@@ -1652,7 +1652,7 @@
         "音频处理"
       ],
       "aiFingerprint": "56c9baf8a62ba14296bccca2fa8c462545f919479b6636dcb2a9bc29edf8aafc",
-      "updatedAt": "2025-11-17T12:31:57Z"
+      "updatedAt": "2025-11-17T13:13:56Z"
     },
     "203587744": {
       "id": "203587744",
@@ -1671,7 +1671,7 @@
         "HTTP"
       ],
       "aiFingerprint": "b1a790c0d716b1ebecbe5db8d4d9b6c81cac2af34161ca5a31e7bf6a90176bbf",
-      "updatedAt": "2025-11-17T12:00:35Z"
+      "updatedAt": "2025-11-17T14:23:52Z"
     },
     "205255284": {
       "id": "205255284",
@@ -1703,7 +1703,7 @@
         "AI"
       ],
       "aiFingerprint": "6f55e001939bde72cbd3a7b6a985251645d4e3a2ea6ce5593672ff9e4b7076a9",
-      "updatedAt": "2025-11-17T09:51:21Z"
+      "updatedAt": "2025-11-17T14:27:33Z"
     },
     "206254792": {
       "id": "206254792",
@@ -1752,7 +1752,7 @@
         "Tmux"
       ],
       "aiFingerprint": "b9ff5206db05cc863b04f79fd21c851a79f8edce7b005a447b4590a224a3485a",
-      "updatedAt": "2025-11-17T11:12:20Z"
+      "updatedAt": "2025-11-17T14:22:54Z"
     },
     "216773481": {
       "id": "216773481",
@@ -1767,7 +1767,7 @@
         "RSS"
       ],
       "aiFingerprint": "9e90fec7ed42a54282345bf56cd366277a51845c0e7004fd90cdefb2ff440464",
-      "updatedAt": "2025-11-17T11:05:18Z"
+      "updatedAt": "2025-11-17T13:14:52Z"
     },
     "218686763": {
       "id": "218686763",
@@ -1782,7 +1782,7 @@
         "Clash"
       ],
       "aiFingerprint": "61d831c4b020c909e85a45ef4a92ec7b3974cd14c644cea438730daedb848d52",
-      "updatedAt": "2025-11-17T08:54:26Z"
+      "updatedAt": "2025-11-17T14:23:16Z"
     },
     "219164711": {
       "id": "219164711",
@@ -1830,7 +1830,7 @@
         "Root"
       ],
       "aiFingerprint": "28cdb8d9189bfe0a0a068c2791d7a64732ec1b345db7155edce10f1724cfbdc9",
-      "updatedAt": "2025-11-17T06:14:11Z"
+      "updatedAt": "2025-11-17T13:20:12Z"
     },
     "226693375": {
       "id": "226693375",
@@ -1876,7 +1876,7 @@
         "Roff"
       ],
       "aiFingerprint": "60ab62d52c0ba4c2b81c35ad1fcd845c59fa815ce904eb4863a4a496c6e929f7",
-      "updatedAt": "2025-11-17T12:44:38Z"
+      "updatedAt": "2025-11-17T14:29:52Z"
     },
     "239760033": {
       "id": "239760033",
@@ -1909,7 +1909,7 @@
         "计算机科学"
       ],
       "aiFingerprint": "b7d81d4fa959e07552538c35e57e96817cc0dc1c9d5c5eb8483c57842ceab4e1",
-      "updatedAt": "2025-11-17T11:53:22Z"
+      "updatedAt": "2025-11-17T13:44:56Z"
     },
     "242041853": {
       "id": "242041853",
@@ -1945,7 +1945,7 @@
         "数据解析"
       ],
       "aiFingerprint": "bfe768d245bfc57e18d480ff3f72ad790eb52c9f2ec2b78e5e8a8a8642444aeb",
-      "updatedAt": "2025-11-17T12:03:55Z"
+      "updatedAt": "2025-11-17T14:22:39Z"
     },
     "246335987": {
       "id": "246335987",
@@ -1960,7 +1960,7 @@
         "Secure Boot"
       ],
       "aiFingerprint": "bbe67299101bc037311341f6a5b4ddaa63431049fcc8fbb9b31986a01839d100",
-      "updatedAt": "2025-11-17T08:23:39Z"
+      "updatedAt": "2025-11-17T14:29:54Z"
     },
     "247327255": {
       "id": "247327255",
@@ -1989,7 +1989,7 @@
         "Tailwind CSS"
       ],
       "aiFingerprint": "d1d1f2f1f065d79cccb005ec3bc4812c2279f26306f39f11e480c93e6f139976",
-      "updatedAt": "2025-11-17T12:25:53Z"
+      "updatedAt": "2025-11-17T13:56:35Z"
     },
     "253461233": {
       "id": "253461233",
@@ -2007,7 +2007,7 @@
         "本地存储"
       ],
       "aiFingerprint": "e69bc03f486a57d2a3f156002b99bde3e3053477d4ca017da2b3aac820d68137",
-      "updatedAt": "2025-11-17T11:41:38Z"
+      "updatedAt": "2025-11-17T13:28:08Z"
     },
     "260037952": {
       "id": "260037952",
@@ -2036,7 +2036,7 @@
         "Volar"
       ],
       "aiFingerprint": "688863df2a82798431e69ad547930f6ea5034302c2c78d2b1afcf6ac59145a53",
-      "updatedAt": "2025-11-17T09:29:56Z"
+      "updatedAt": "2025-11-17T14:13:37Z"
     },
     "262309662": {
       "id": "262309662",
@@ -2055,7 +2055,7 @@
         "HTML"
       ],
       "aiFingerprint": "357308cc8874121cf94d703b817e4192e6281f83115ca596ac18f9f6dd49730d",
-      "updatedAt": "2025-11-17T11:42:19Z"
+      "updatedAt": "2025-11-17T13:26:28Z"
     },
     "262666767": {
       "id": "262666767",
@@ -2105,7 +2105,7 @@
         "X11"
       ],
       "aiFingerprint": "71d29b463a021699b9f5bda9a5239a160a64a981018b8ada689a29f8467a0c97",
-      "updatedAt": "2025-11-17T11:08:06Z"
+      "updatedAt": "2025-11-17T14:26:08Z"
     },
     "271550942": {
       "id": "271550942",
@@ -2135,7 +2135,7 @@
         "Polyglot"
       ],
       "aiFingerprint": "d8cd3025593579441feecb294e9ecd4be2b65114c2c5c187dc845a1013cff504",
-      "updatedAt": "2025-11-17T06:06:23Z"
+      "updatedAt": "2025-11-17T13:57:42Z"
     },
     "273642731": {
       "id": "273642731",
@@ -2162,7 +2162,7 @@
         "正则表达式"
       ],
       "aiFingerprint": "8b362110e6777f4efa97af2ca7e76df96e223aa5b57e59220c264aa6ecaf57ce",
-      "updatedAt": "2025-11-17T12:39:04Z"
+      "updatedAt": "2025-11-17T14:21:13Z"
     },
     "279362298": {
       "id": "279362298",
@@ -2208,7 +2208,7 @@
         "未标注"
       ],
       "aiFingerprint": "7158f371177dd67341379e9f0bb1c83f79fb296e3bd657df18f981f752a29a51",
-      "updatedAt": "2025-11-17T12:18:25Z"
+      "updatedAt": "2025-11-17T14:28:06Z"
     },
     "285468156": {
       "id": "285468156",
@@ -2256,7 +2256,7 @@
         "优化器"
       ],
       "aiFingerprint": "d0f88902119f61dd7d114e08f35ca38c8023bf842c2eeac88d2ce49fde12cd56",
-      "updatedAt": "2025-11-17T12:35:31Z"
+      "updatedAt": "2025-11-17T14:19:13Z"
     },
     "290138319": {
       "id": "290138319",
@@ -2290,7 +2290,7 @@
         "本地优先"
       ],
       "aiFingerprint": "19c072c0e90ab5b01dd560d6ea28722dac07a211dd3d1eab55da1b974d6c9f17",
-      "updatedAt": "2025-11-17T12:38:14Z"
+      "updatedAt": "2025-11-17T14:30:34Z"
     },
     "291485614": {
       "id": "291485614",
@@ -2303,7 +2303,7 @@
         "Go"
       ],
       "aiFingerprint": "c8a33414e5f91d4c0903419a2c7ba5ed020618201df6ed3de79ccc9f6029378c",
-      "updatedAt": "2025-11-17T10:22:59Z"
+      "updatedAt": "2025-11-17T13:42:33Z"
     },
     "291625908": {
       "id": "291625908",
@@ -2333,7 +2333,7 @@
         "TailwindCSS"
       ],
       "aiFingerprint": "4e0bb9528237aecdde591164bd0260151dc1937fbb48689eb7c9ffc507473346",
-      "updatedAt": "2025-11-17T08:56:42Z"
+      "updatedAt": "2025-11-17T14:32:04Z"
     },
     "296233312": {
       "id": "296233312",
@@ -2360,7 +2360,7 @@
         "Tampermonkey"
       ],
       "aiFingerprint": "6aa43ebfdc891788afdb389395bec1b31590eaa5f07978ba87981515244fb58c",
-      "updatedAt": "2025-11-17T10:31:19Z"
+      "updatedAt": "2025-11-17T14:16:08Z"
     },
     "301216792": {
       "id": "301216792",
@@ -2378,7 +2378,7 @@
         "GitHub Pages"
       ],
       "aiFingerprint": "2cb5b236c4557f5630a83f3d7084438b974843f3fbab6324b233c70b23b25b9a",
-      "updatedAt": "2025-11-17T11:17:09Z"
+      "updatedAt": "2025-11-17T14:23:57Z"
     },
     "301421364": {
       "id": "301421364",
@@ -2422,7 +2422,7 @@
         "Surge"
       ],
       "aiFingerprint": "9ae5f28dfa2d14309000a6802ef798524e81442f3dea5edf59618bc15dbf7304",
-      "updatedAt": "2025-11-17T03:43:34Z"
+      "updatedAt": "2025-11-17T12:53:34Z"
     },
     "311254390": {
       "id": "311254390",
@@ -2455,7 +2455,7 @@
         "Web技术"
       ],
       "aiFingerprint": "60d7241f6f9214548b0664d1923a3b728b80286ba25d53712a4fc633c1b51e74",
-      "updatedAt": "2025-11-17T12:38:13Z"
+      "updatedAt": "2025-11-17T13:08:57Z"
     },
     "316540672": {
       "id": "316540672",
@@ -2530,7 +2530,7 @@
         "量化金融"
       ],
       "aiFingerprint": "35a786b9e184960ece7d0920e6241cad26a91332171598273a1e164ed59259ca",
-      "updatedAt": "2025-11-17T11:41:50Z"
+      "updatedAt": "2025-11-17T13:34:36Z"
     },
     "327628682": {
       "id": "327628682",
@@ -2545,7 +2545,7 @@
         "Hooks"
       ],
       "aiFingerprint": "5b4850b8fdcde0279d695c8ea6bb12fbb086c2adb5d63d0eb81f283cd94e5556",
-      "updatedAt": "2025-11-17T10:03:52Z"
+      "updatedAt": "2025-11-17T12:49:19Z"
     },
     "329202727": {
       "id": "329202727",
@@ -2603,7 +2603,7 @@
         "Rime"
       ],
       "aiFingerprint": "b61ef457291b6a5efdca2280315899ddc5d355efc19e6f8d512e5968beeff26e",
-      "updatedAt": "2025-11-17T11:05:45Z"
+      "updatedAt": "2025-11-17T13:16:56Z"
     },
     "334448316": {
       "id": "334448316",
@@ -2616,7 +2616,7 @@
         "Shell"
       ],
       "aiFingerprint": "e3c7375b4748e557dfa3ca0b1819bde0b67f30d8892cafce5a98e413f4d9c136",
-      "updatedAt": "2025-11-17T09:23:22Z"
+      "updatedAt": "2025-11-17T13:13:55Z"
     },
     "336274588": {
       "id": "336274588",
@@ -2648,7 +2648,7 @@
         "Flutter"
       ],
       "aiFingerprint": "9a73d13d498df62e9c4052d052c35b96712f50de2f763fe0117eeb2a07b69a97",
-      "updatedAt": "2025-11-17T12:32:11Z"
+      "updatedAt": "2025-11-17T13:58:10Z"
     },
     "339920287": {
       "id": "339920287",
@@ -2664,7 +2664,7 @@
         "深度学习"
       ],
       "aiFingerprint": "a84fb032ac18774ea85b8d81b6eeac1d359ed726c729cfae31ff2bb248222fb7",
-      "updatedAt": "2025-11-17T07:24:39Z"
+      "updatedAt": "2025-11-17T12:45:45Z"
     },
     "342884320": {
       "id": "342884320",
@@ -2697,7 +2697,7 @@
         "Docker"
       ],
       "aiFingerprint": "669cf6663a32be689aa63e961b85bb75d5a2ac7b1eac590feeff351d77dd2d33",
-      "updatedAt": "2025-11-17T10:50:33Z"
+      "updatedAt": "2025-11-17T14:19:46Z"
     },
     "343533419": {
       "id": "343533419",
@@ -2711,7 +2711,7 @@
         "TUI"
       ],
       "aiFingerprint": "3fc863961f147958e554bbc987676dd0060c173e5a73336b89b559b51d419989",
-      "updatedAt": "2025-11-17T07:15:08Z"
+      "updatedAt": "2025-11-17T13:29:22Z"
     },
     "345923708": {
       "id": "345923708",
@@ -2802,7 +2802,7 @@
         "React Native"
       ],
       "aiFingerprint": "c2086aa37453f511e9e5131efa86592301a8657d6bd971517bfb6a6ef7d68edd",
-      "updatedAt": "2025-11-17T09:26:56Z"
+      "updatedAt": "2025-11-17T14:30:52Z"
     },
     "370408532": {
       "id": "370408532",
@@ -2912,7 +2912,7 @@
         "SSG"
       ],
       "aiFingerprint": "91d3031e45e382396d8430d1ab206a022afbe77f471394f5c4d7ddfea2800b3d",
-      "updatedAt": "2025-11-17T09:05:12Z"
+      "updatedAt": "2025-11-17T12:51:24Z"
     },
     "387326890": {
       "id": "387326890",
@@ -2931,7 +2931,7 @@
         "深度学习"
       ],
       "aiFingerprint": "29875d0c259afbf094916e9a3a122d4eb4a104732d2ebdef9425b7953ce7bb4d",
-      "updatedAt": "2025-11-17T12:40:54Z"
+      "updatedAt": "2025-11-17T13:08:01Z"
     },
     "389529349": {
       "id": "389529349",
@@ -3100,7 +3100,7 @@
         "Hysteria"
       ],
       "aiFingerprint": "bea5759737e2b3b75199cbb8d56c402915c465c3a582a46299ad45db5ac20cd8",
-      "updatedAt": "2025-11-16T11:42:21Z"
+      "updatedAt": "2025-11-17T14:22:34Z"
     },
     "408081575": {
       "id": "408081575",
@@ -3147,7 +3147,7 @@
         "Notion API"
       ],
       "aiFingerprint": "a55e6814068ac09c8e5703348e69d0874e08e525d5da902fde7c39dc2ff842eb",
-      "updatedAt": "2025-11-17T09:15:12Z"
+      "updatedAt": "2025-11-17T14:28:42Z"
     },
     "412522122": {
       "id": "412522122",
@@ -3176,7 +3176,7 @@
         "ADB"
       ],
       "aiFingerprint": "636741ba0344b4b3528b3bfce74654d97f1310c655641673f931e4372bcb69b2",
-      "updatedAt": "2025-11-17T05:34:24Z"
+      "updatedAt": "2025-11-17T12:51:38Z"
     },
     "415489170": {
       "id": "415489170",
@@ -3242,7 +3242,7 @@
         "HTML"
       ],
       "aiFingerprint": "69d6fee6662167bd89c121500318806393aa807c1c6da8202a2c5b95905c39b5",
-      "updatedAt": "2025-11-17T12:24:29Z"
+      "updatedAt": "2025-11-17T13:30:35Z"
     },
     "423398688": {
       "id": "423398688",
@@ -3275,7 +3275,7 @@
         "教学文档"
       ],
       "aiFingerprint": "7478336c55329d5689441e472b6e5aff7fe2eda0c4c88b7992626e17c34dc008",
-      "updatedAt": "2025-11-17T11:25:26Z"
+      "updatedAt": "2025-11-17T14:27:13Z"
     },
     "425387994": {
       "id": "425387994",
@@ -3293,7 +3293,7 @@
         "网络请求"
       ],
       "aiFingerprint": "09a18c9497cd409eea8651f20cdf32a3e5014e82c2ac126bce0c8718364978c7",
-      "updatedAt": "2025-11-17T12:09:37Z"
+      "updatedAt": "2025-11-17T13:47:32Z"
     },
     "426988527": {
       "id": "426988527",
@@ -3337,7 +3337,7 @@
         "WPF"
       ],
       "aiFingerprint": "3b5c8266cd02cf2dcc2a4930d9afe563c62c087d840f93651f0750a2f5bd8c64",
-      "updatedAt": "2025-11-17T03:48:11Z"
+      "updatedAt": "2025-11-17T13:09:04Z"
     },
     "430540203": {
       "id": "430540203",
@@ -3436,7 +3436,7 @@
         "ChatGPT"
       ],
       "aiFingerprint": "9177b72fc774d94767f605ec6c51447be8e6da9f53ca08f72ced76412b75d196",
-      "updatedAt": "2025-11-17T09:51:03Z"
+      "updatedAt": "2025-11-17T14:09:56Z"
     },
     "438540166": {
       "id": "438540166",
@@ -3506,7 +3506,7 @@
         "JavaScript"
       ],
       "aiFingerprint": "660e9a3506afb3be7deda54422d2b48cbb5cad9629fe91d3f2072e55128ab034",
-      "updatedAt": "2025-11-17T11:53:13Z"
+      "updatedAt": "2025-11-17T14:01:17Z"
     },
     "458094748": {
       "id": "458094748",
@@ -3519,7 +3519,7 @@
         "TypeScript"
       ],
       "aiFingerprint": "29b4d11ec40de77e268b9876915a7099aa099ce97fe8882adf85e09821f210dd",
-      "updatedAt": "2025-11-17T10:40:29Z"
+      "updatedAt": "2025-11-17T14:13:37Z"
     },
     "461893894": {
       "id": "461893894",
@@ -3629,7 +3629,7 @@
         "QML"
       ],
       "aiFingerprint": "09bbe624d93b943e4aa2fa77245ac7a9a08ded48a9ea1406eace944851793d7c",
-      "updatedAt": "2025-11-17T09:52:23Z"
+      "updatedAt": "2025-11-17T14:03:19Z"
     },
     "476957520": {
       "id": "476957520",
@@ -3696,7 +3696,7 @@
         "变量字体"
       ],
       "aiFingerprint": "ef157e80fee69a0a155f727ad5bac3039ec12bf0fc5563c936f45be5d636cb07",
-      "updatedAt": "2025-11-17T11:59:13Z"
+      "updatedAt": "2025-11-17T13:10:43Z"
     },
     "480048700": {
       "id": "480048700",
@@ -3737,7 +3737,7 @@
         "Kotlin"
       ],
       "aiFingerprint": "0635c6c3b2cd6e884dd1afcd73170d3253776c6f85f4610dc3594ad4753aba58",
-      "updatedAt": "2025-11-17T09:31:32Z"
+      "updatedAt": "2025-11-17T14:10:37Z"
     },
     "484130565": {
       "id": "484130565",
@@ -3797,7 +3797,7 @@
         "React"
       ],
       "aiFingerprint": "37df7d515b2b7f42609f5170d8eb79dff6cea5b23cdeec21a5cce4c04c34f8bf",
-      "updatedAt": "2025-11-17T12:18:40Z"
+      "updatedAt": "2025-11-17T14:23:27Z"
     },
     "487908269": {
       "id": "487908269",
@@ -3915,7 +3915,7 @@
         "UE5"
       ],
       "aiFingerprint": "6f88f94bdcc17d399ba6012f886f0a28ead3ad14f8174e991781d0fd3c520638",
-      "updatedAt": "2025-11-17T09:09:07Z"
+      "updatedAt": "2025-11-17T13:29:36Z"
     },
     "503408858": {
       "id": "503408858",
@@ -3944,7 +3944,7 @@
         "未标注"
       ],
       "aiFingerprint": "999ec0a1411289d9a63480cc43c22e03dc2242e64270e2bd070df468e6f9eb33",
-      "updatedAt": "2025-11-17T12:42:17Z"
+      "updatedAt": "2025-11-17T14:10:36Z"
     },
     "505981007": {
       "id": "505981007",
@@ -4006,7 +4006,7 @@
         "自动化更新"
       ],
       "aiFingerprint": "e3039d4dff25d20faa715a0ac5269e4099afac560396cdef60089696e96d6ae6",
-      "updatedAt": "2025-11-17T12:12:48Z"
+      "updatedAt": "2025-11-17T14:16:40Z"
     },
     "509091576": {
       "id": "509091576",
@@ -4019,7 +4019,7 @@
         "Go"
       ],
       "aiFingerprint": "fa698e97c5ddb2f660bd011282dd1badee82ab2f0eb009d157f0a8106bda58b9",
-      "updatedAt": "2025-11-17T10:42:35Z"
+      "updatedAt": "2025-11-17T14:10:54Z"
     },
     "517072951": {
       "id": "517072951",
@@ -4097,7 +4097,7 @@
         "多模态AI"
       ],
       "aiFingerprint": "2d4495ee6ddafeb817dfb40912b85774aaf81e10b576b2a45429118904a424e5",
-      "updatedAt": "2025-11-17T12:05:23Z"
+      "updatedAt": "2025-11-17T14:31:58Z"
     },
     "524706527": {
       "id": "524706527",
@@ -4111,7 +4111,7 @@
         "Markdown"
       ],
       "aiFingerprint": "40064d198f11e11af2f6b3ffaeacc739b5d5e3db9b2456f1c2abf72447bc7b2c",
-      "updatedAt": "2025-11-17T08:35:21Z"
+      "updatedAt": "2025-11-17T13:58:25Z"
     },
     "529238370": {
       "id": "529238370",
@@ -4177,7 +4177,7 @@
         "Ant Design Vue"
       ],
       "aiFingerprint": "77d5841c20e50b930f2efeeda4be24bf880062eea598729eabe37ec7a409fa95",
-      "updatedAt": "2025-11-15T15:22:07Z"
+      "updatedAt": "2025-11-17T14:03:44Z"
     },
     "542386106": {
       "id": "542386106",
@@ -4193,7 +4193,7 @@
         "Win32"
       ],
       "aiFingerprint": "37d7e958d53949b604fca8518e7d8e8b2c202161e868d5e6133c7716393b564a",
-      "updatedAt": "2025-11-17T12:12:57Z"
+      "updatedAt": "2025-11-17T14:09:25Z"
     },
     "547270634": {
       "id": "547270634",
@@ -4284,7 +4284,7 @@
         "JavaScript"
       ],
       "aiFingerprint": "7dff0c6b3e334b3274dfcc0e98ec9ccfacf32355beb738cf8f2da3e13a7ab407",
-      "updatedAt": "2025-11-17T12:44:38Z"
+      "updatedAt": "2025-11-17T14:29:54Z"
     },
     "564785929": {
       "id": "564785929",
@@ -4299,7 +4299,7 @@
         "字体渲染"
       ],
       "aiFingerprint": "b785f0c984acba1ef2131503cba4e42748200cde3a7c2f2fdeb64366101df4ed",
-      "updatedAt": "2025-11-17T10:51:12Z"
+      "updatedAt": "2025-11-17T13:40:09Z"
     },
     "565339821": {
       "id": "565339821",
@@ -4400,7 +4400,7 @@
         "ChatGPT"
       ],
       "aiFingerprint": "cc8fde1d94b22d997f40d2e2f7d47d6c32b4e664e10f7f4143db0d3c736fef03",
-      "updatedAt": "2025-11-17T12:38:39Z"
+      "updatedAt": "2025-11-17T14:20:16Z"
     },
     "577603990": {
       "id": "577603990",
@@ -4429,7 +4429,7 @@
         "Markdown"
       ],
       "aiFingerprint": "1ecb709f2644cc01441941810fcee9d7e322506f8dbbb4fa961f93b0f6ea75f3",
-      "updatedAt": "2025-11-13T15:08:31Z"
+      "updatedAt": "2025-11-17T13:36:18Z"
     },
     "583824425": {
       "id": "583824425",
@@ -4459,7 +4459,7 @@
         "Next.js"
       ],
       "aiFingerprint": "f6010483a17c371f4ed9b1acd0c41b6454bb0506792046a42aeb7a4c78e376cb",
-      "updatedAt": "2025-11-17T12:37:29Z"
+      "updatedAt": "2025-11-17T14:20:40Z"
     },
     "587586087": {
       "id": "587586087",
@@ -4488,7 +4488,7 @@
         "Magisk"
       ],
       "aiFingerprint": "c29754da15b8940defb089f7fac769839e1cf45efc48fe1a95567abd0162178f",
-      "updatedAt": "2025-11-17T12:30:55Z"
+      "updatedAt": "2025-11-17T13:02:22Z"
     },
     "600596928": {
       "id": "600596928",
@@ -4507,7 +4507,7 @@
         "Azure"
       ],
       "aiFingerprint": "412bb86e38d50656fb43ed0d9176587bb4e328bc12c80f3bdd1a15f81d5f01ac",
-      "updatedAt": "2025-11-17T11:51:31Z"
+      "updatedAt": "2025-11-17T14:29:05Z"
     },
     "606762843": {
       "id": "606762843",
@@ -4540,7 +4540,7 @@
         "Flutter"
       ],
       "aiFingerprint": "06f16348c382bcecaf9ad6b446986953d1aab1f607c53e5a3dade54bb6e73dc3",
-      "updatedAt": "2025-11-17T10:48:33Z"
+      "updatedAt": "2025-11-17T13:31:49Z"
     },
     "608058255": {
       "id": "608058255",
@@ -4623,7 +4623,7 @@
         "自主代理"
       ],
       "aiFingerprint": "198f00841dd3b4632c991e7c4c29236be045e0cc00c4e0c7601a190c3b5afa86",
-      "updatedAt": "2025-11-17T11:48:55Z"
+      "updatedAt": "2025-11-17T14:19:15Z"
     },
     "616372661": {
       "id": "616372661",
@@ -4642,7 +4642,7 @@
         "多模型"
       ],
       "aiFingerprint": "8f272e041c9591ff8b7d9478df0b74efa918e5501d1cdb0e714313e90d6b5600",
-      "updatedAt": "2025-11-17T12:43:07Z"
+      "updatedAt": "2025-11-17T13:58:37Z"
     },
     "616519872": {
       "id": "616519872",
@@ -4675,7 +4675,7 @@
         "OpenAI"
       ],
       "aiFingerprint": "cd4b961e79c0a2b564d57e1e8f5c305a27360b19d15f802c23fd7c1d55a67c07",
-      "updatedAt": "2025-11-17T01:09:18Z"
+      "updatedAt": "2025-11-17T14:24:10Z"
     },
     "623522857": {
       "id": "623522857",
@@ -4716,7 +4716,7 @@
         "Python"
       ],
       "aiFingerprint": "f7ab9c8444a8cc0074865078f4c6795fb2e50dd9c7d962c29bf551c6f708458a",
-      "updatedAt": "2025-11-17T12:32:49Z"
+      "updatedAt": "2025-11-17T13:54:46Z"
     },
     "631396418": {
       "id": "631396418",
@@ -4747,7 +4747,7 @@
         "数据聚合"
       ],
       "aiFingerprint": "8f529a2bcd41da53ec7cc038984de6ed1489bb90098366ced703127637c95a76",
-      "updatedAt": "2025-11-17T12:02:51Z"
+      "updatedAt": "2025-11-17T14:11:38Z"
     },
     "633307647": {
       "id": "633307647",
@@ -4778,7 +4778,7 @@
         "机器学习"
       ],
       "aiFingerprint": "91967c72407e3d9884ef79cc41e540215f4c9b92cc836a956bfd72b91ae2cafe",
-      "updatedAt": "2025-11-17T04:35:58Z"
+      "updatedAt": "2025-11-17T14:24:11Z"
     },
     "636272306": {
       "id": "636272306",
@@ -4807,7 +4807,7 @@
         "Kotlin"
       ],
       "aiFingerprint": "0794a8635587a7f4db34b0caa524bf472516cf15181e14fc797112765c52583f",
-      "updatedAt": "2025-11-16T18:57:35Z"
+      "updatedAt": "2025-11-17T13:55:42Z"
     },
     "640079149": {
       "id": "640079149",
@@ -4823,7 +4823,7 @@
         "Docker"
       ],
       "aiFingerprint": "28b4fb0eeb80ef6872f45feb4c0c7e0c14ac3934fd187b2bc28beaadf78c0eed",
-      "updatedAt": "2025-11-17T07:23:19Z"
+      "updatedAt": "2025-11-17T12:53:58Z"
     },
     "641984003": {
       "id": "641984003",
@@ -4914,7 +4914,7 @@
         "Rust"
       ],
       "aiFingerprint": "5336905005eb019c07641a7c477bcaeec0654e9dacf794189982d522a51dbdba",
-      "updatedAt": "2025-11-17T12:20:32Z"
+      "updatedAt": "2025-11-17T13:19:46Z"
     },
     "660551251": {
       "id": "660551251",
@@ -4930,7 +4930,7 @@
         "LLM"
       ],
       "aiFingerprint": "354d4ca043df4192239d35c70a5ecfb4a05ca5b5be94e43c9f8b5189e8d0a069",
-      "updatedAt": "2025-11-17T12:21:28Z"
+      "updatedAt": "2025-11-17T14:19:42Z"
     },
     "661957079": {
       "id": "661957079",
@@ -4944,7 +4944,7 @@
         "Jetpack Compose"
       ],
       "aiFingerprint": "b1f6df38c623d70d1fd2177e051a963e7cb83fc0c80de5a4bbaf02f8378fce81",
-      "updatedAt": "2025-11-17T12:44:47Z"
+      "updatedAt": "2025-11-17T14:14:02Z"
     },
     "664655564": {
       "id": "664655564",
@@ -5020,7 +5020,7 @@
         "Jupyter Notebook"
       ],
       "aiFingerprint": "b4d2b755c88e03d7e855d418b40270c467dcb0342326414db0c0ea37e0aaa447",
-      "updatedAt": "2025-11-17T12:41:44Z"
+      "updatedAt": "2025-11-17T14:32:28Z"
     },
     "671061529": {
       "id": "671061529",
@@ -5034,7 +5034,7 @@
         "Wine"
       ],
       "aiFingerprint": "0826109302081bc461c2069ed52797243462bd6c363c3dea45f372b67482612b",
-      "updatedAt": "2025-11-17T10:36:16Z"
+      "updatedAt": "2025-11-17T14:19:42Z"
     },
     "673881338": {
       "id": "673881338",
@@ -5135,7 +5135,7 @@
         "C"
       ],
       "aiFingerprint": "5207667e556e039a3098a36acebcd114eaac8d06d5b5bfaa2dba53e1fa86a217",
-      "updatedAt": "2025-11-17T10:20:17Z"
+      "updatedAt": "2025-11-17T13:43:09Z"
     },
     "737509032": {
       "id": "737509032",
@@ -5148,7 +5148,7 @@
         "C++"
       ],
       "aiFingerprint": "6c62b15bd12da8a9d4c884d1972206077ca1f8f4c5e170a23a576f11e4da4d0b",
-      "updatedAt": "2025-11-17T09:55:58Z"
+      "updatedAt": "2025-11-17T14:12:31Z"
     },
     "737898780": {
       "id": "737898780",
@@ -5183,7 +5183,7 @@
         "DNS"
       ],
       "aiFingerprint": "fd4e2d1a4efd080b0850897ddc9488d5fa7709b83d53308356d00b2259ca27f4",
-      "updatedAt": "2025-11-17T11:14:54Z"
+      "updatedAt": "2025-11-17T14:15:02Z"
     },
     "750320895": {
       "id": "750320895",
@@ -5323,7 +5323,7 @@
         "分布式训练"
       ],
       "aiFingerprint": "176de5d2f35e6dc15f7eedc15e6a3f6b55e1e461e3c2798b3b1d58de32619f89",
-      "updatedAt": "2025-11-17T11:35:43Z"
+      "updatedAt": "2025-11-17T12:50:05Z"
     },
     "774217261": {
       "id": "774217261",
@@ -5451,7 +5451,7 @@
         "AI"
       ],
       "aiFingerprint": "817bd0d786a1c0990ab886480dc8a06fc9398649a479952e80263c58d3a2b737",
-      "updatedAt": "2025-11-17T12:42:55Z"
+      "updatedAt": "2025-11-17T14:29:28Z"
     },
     "888092115": {
       "id": "888092115",
@@ -5466,7 +5466,7 @@
         "Microsoft Office"
       ],
       "aiFingerprint": "19a6c4e5ea7aaeb0059033f542953ed983d58329711895bcf8234269699f24ed",
-      "updatedAt": "2025-11-17T12:29:02Z"
+      "updatedAt": "2025-11-17T13:53:39Z"
     },
     "891642747": {
       "id": "891642747",
@@ -5513,7 +5513,7 @@
         "机器学习"
       ],
       "aiFingerprint": "01cbd01f093827e32b9c6712a356d59c8d7d3da5aa4ea6e14b9fa8e4da80a165",
-      "updatedAt": "2025-11-17T12:14:30Z"
+      "updatedAt": "2025-11-17T14:09:21Z"
     },
     "901726626": {
       "id": "901726626",
@@ -5541,7 +5541,7 @@
         "Cursor AI"
       ],
       "aiFingerprint": "937f32ae0bb1b8fa5a460a57af5a80368e27f0d06045f71295f1ba8265c01ee1",
-      "updatedAt": "2025-11-17T12:44:53Z"
+      "updatedAt": "2025-11-17T14:32:18Z"
     },
     "916662373": {
       "id": "916662373",
@@ -5588,7 +5588,7 @@
         "TypeScript"
       ],
       "aiFingerprint": "29d9b0e90c8bc826f17ac1e41b0fd3e005a9cd40a78844757c14fa45aaf71913",
-      "updatedAt": "2025-11-17T10:27:03Z"
+      "updatedAt": "2025-11-17T14:24:18Z"
     },
     "930132430": {
       "id": "930132430",
@@ -5637,7 +5637,7 @@
         "语音助手"
       ],
       "aiFingerprint": "956ebcc8da49ae2e18bbc8e99f898d8f26c89e25ed9605faee1872aefb84ecc8",
-      "updatedAt": "2025-11-17T12:38:39Z"
+      "updatedAt": "2025-11-17T13:24:31Z"
     },
     "964996396": {
       "id": "964996396",
@@ -5656,7 +5656,25 @@
         "字幕生成"
       ],
       "aiFingerprint": "78871b23af9e20463dc017c6dc3ad92df0e2ec2f56a47622695f61bb064e3d6a",
-      "updatedAt": "2025-11-17T11:38:47Z"
+      "updatedAt": "2025-11-17T14:00:05Z"
+    },
+    "965360470": {
+      "id": "965360470",
+      "fullName": "glitternetwork/pinme",
+      "tags": [
+        "前端部署",
+        "静态托管",
+        "去中心化",
+        "一键部署"
+      ],
+      "technologies": [
+        "TypeScript",
+        "ENS",
+        "IPFS",
+        "Node.js"
+      ],
+      "aiFingerprint": "f0dbcacb326fbf74cfa1ec63efae6767e5b27bf940ca9f759bab03ddb4ea59da",
+      "updatedAt": "2025-11-17T14:28:47Z"
     },
     "975233337": {
       "id": "975233337",
@@ -5674,7 +5692,7 @@
         "API集成"
       ],
       "aiFingerprint": "afe2d6c70d28771245f92c44859068ecdfe127846d9f0089157ea8e3af42d03b",
-      "updatedAt": "2025-11-17T12:34:03Z"
+      "updatedAt": "2025-11-17T13:27:48Z"
     },
     "982517950": {
       "id": "982517950",
@@ -5768,7 +5786,7 @@
         "文本处理"
       ],
       "aiFingerprint": "71b4805b951a6f0a8fce124206589302ba2b0d506c50145217103037a71ce3d4",
-      "updatedAt": "2025-11-17T12:00:39Z"
+      "updatedAt": "2025-11-17T14:02:00Z"
     },
     "1084802670": {
       "id": "1084802670",
@@ -5787,7 +5805,7 @@
         "多模型"
       ],
       "aiFingerprint": "0c1a206842dccf6eba30e4c9f4af16d67fb5d5c6028804f683a29b3ca56fedec",
-      "updatedAt": "2025-11-17T12:43:58Z"
+      "updatedAt": "2025-11-17T14:20:50Z"
     },
     "1096861940": {
       "id": "1096861940",
@@ -5804,10 +5822,10 @@
     }
   },
   "siyuanDocId": "20251117204210-vd543de",
-  "lastSync": "2025-11-17T12:45:48.187Z",
+  "lastSync": "2025-11-17T14:32:51.523Z",
   "stats": {
-    "added": 0,
+    "added": 1,
     "removed": 0,
-    "aiUpdated": 0
+    "aiUpdated": 1
   }
 }

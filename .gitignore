@@ -145,3 +145,8 @@ dist
 .svelte-kit
 
 # End of https://www.toptal.com/developers/gitignore/api/node
+
+# Generated files
+starred_repos.json
+starred_state.json
+siyuan_table.md
