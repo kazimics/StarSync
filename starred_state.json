@@ -1,0 +1,5813 @@
+{
+  "repos": {
+    "1039520": {
+      "id": "1039520",
+      "fullName": "ytdl-org/youtube-dl",
+      "tags": [
+        "视频下载",
+        "命令行工具",
+        "媒体获取",
+        "网络爬虫"
+      ],
+      "technologies": [
+        "Python",
+        "网络请求",
+        "视频解析",
+        "多平台"
+      ],
+      "aiFingerprint": "22ce2c4836250374802064fe7a72a26e979225d53c41c5ea0b2bddfe3281511c",
+      "updatedAt": "2025-11-17T12:42:53Z"
+    },
+    "1217614": {
+      "id": "1217614",
+      "fullName": "xbmc/xbmc",
+      "tags": [
+        "媒体中心",
+        "家庭影院",
+        "多媒体播放",
+        "娱乐系统"
+      ],
+      "technologies": [
+        "C++",
+        "多媒体框架",
+        "跨平台",
+        "图形界面"
+      ],
+      "aiFingerprint": "bb08242cbc1a5e7fedcc7f6d4e3e0dd72695131d4b9f1853cf659230150bf4cd",
+      "updatedAt": "2025-11-17T12:01:18Z"
+    },
+    "1638524": {
+      "id": "1638524",
+      "fullName": "liuxinyu95/AlgoXY",
+      "tags": [
+        "算法书籍",
+        "函数式编程",
+        "数据结构"
+      ],
+      "technologies": [
+        "TeX",
+        "Haskell",
+        "算法实现"
+      ],
+      "aiFingerprint": "f6a3c3fb70fffc76d7c70aa1414be35ed105c2abe55ef9ebd64aac1260bbe290",
+      "updatedAt": "2025-11-15T13:38:54Z"
+    },
+    "3328572": {
+      "id": "3328572",
+      "fullName": "getsentry/sentry-javascript",
+      "tags": [
+        "错误监控",
+        "前端SDK",
+        "性能分析",
+        "应用诊断"
+      ],
+      "technologies": [
+        "TypeScript",
+        "JavaScript",
+        "React",
+        "Node.js",
+        "Angular"
+      ],
+      "aiFingerprint": "310bd2609bdcd1f940be9fd48ed49b6d6782b02cc8e4170a43101fe880cc1656",
+      "updatedAt": "2025-11-17T11:23:27Z"
+    },
+    "3402537": {
+      "id": "3402537",
+      "fullName": "h5bp/Front-end-Developer-Interview-Questions",
+      "tags": [
+        "前端面试",
+        "技术题库"
+      ],
+      "technologies": [
+        "HTML",
+        "CSS",
+        "JavaScript"
+      ],
+      "aiFingerprint": "82b00a22f2130c9d6c44963b29cd3ce430774d4cd9bd1dd5fd3c8536bc723df1",
+      "updatedAt": "2025-11-16T18:29:14Z"
+    },
+    "3757435": {
+      "id": "3757435",
+      "fullName": "pytube/pytube",
+      "tags": [
+        "视频下载",
+        "YouTube工具"
+      ],
+      "technologies": [
+        "Python"
+      ],
+      "aiFingerprint": "0f038ec8822719e366d47db858d625e8bee78ebf405b063df222179aff446de7",
+      "updatedAt": "2025-11-16T09:54:56Z"
+    },
+    "5890857": {
+      "id": "5890857",
+      "fullName": "sindresorhus/pure",
+      "tags": [
+        "Shell主题",
+        "终端美化",
+        "ZSH配置",
+        "开发者工具"
+      ],
+      "technologies": [
+        "Shell",
+        "ZSH",
+        "Git集成",
+        "主题定制",
+        "终端模拟"
+      ],
+      "aiFingerprint": "6ec5d9b61b9d807b0244cb8a20d104bfb99bb95eaac04a4f7f52777a5d33d47f",
+      "updatedAt": "2025-11-15T18:41:49Z"
+    },
+    "14712850": {
+      "id": "14712850",
+      "fullName": "syncthing/syncthing",
+      "tags": [
+        "文件同步",
+        "P2P"
+      ],
+      "technologies": [
+        "Go",
+        "P2P"
+      ],
+      "aiFingerprint": "0feb15bc370ae4e4df59891f3d01adb7182eeeb62e1687a4cc06135ac501b233",
+      "updatedAt": "2025-11-17T12:43:02Z"
+    },
+    "15333471": {
+      "id": "15333471",
+      "fullName": "ocrmypdf/OCRmyPDF",
+      "tags": [
+        "PDF处理",
+        "OCR识别",
+        "文档搜索",
+        "图像转文本"
+      ],
+      "technologies": [
+        "Python",
+        "Tesseract",
+        "图像处理",
+        "PDF解析"
+      ],
+      "aiFingerprint": "86387a9e7ce5cc0a2f2f55bb8b3f9ea173d46b837836276ae638c83ebe4594e3",
+      "updatedAt": "2025-11-17T11:37:00Z"
+    },
+    "15634981": {
+      "id": "15634981",
+      "fullName": "godotengine/godot",
+      "tags": [
+        "游戏开发",
+        "游戏引擎",
+        "跨平台"
+      ],
+      "technologies": [
+        "C++",
+        "OpenGL"
+      ],
+      "aiFingerprint": "b9d2a0cc766c7b868c12d86fabdf61f1d24357650d3f19de98090a7e2636800a",
+      "updatedAt": "2025-11-17T12:44:14Z"
+    },
+    "17940105": {
+      "id": "17940105",
+      "fullName": "ShareDropio/sharedrop",
+      "tags": [
+        "文件传输",
+        "P2P通信",
+        "WebRTC应用",
+        "跨平台分享"
+      ],
+      "technologies": [
+        "JavaScript",
+        "WebRTC",
+        "P2P网络",
+        "EmberJS",
+        "文件共享"
+      ],
+      "aiFingerprint": "e578a0532e1a12d79a5e78030add199aa17f0f8c9bf40a5b88f1cf08fad44d67",
+      "updatedAt": "2025-11-15T18:15:51Z"
+    },
+    "19374812": {
+      "id": "19374812",
+      "fullName": "telegramdesktop/tdesktop",
+      "tags": [
+        "即时通讯",
+        "跨平台"
+      ],
+      "technologies": [
+        "C++"
+      ],
+      "aiFingerprint": "74569782dc65f6203d795a605188a89b6f470767b224a099635d2827c83da797",
+      "updatedAt": "2025-11-17T10:08:30Z"
+    },
+    "23083156": {
+      "id": "23083156",
+      "fullName": "mui/material-ui",
+      "tags": [
+        "前端组件库",
+        "UI设计",
+        "React生态",
+        "Material Design"
+      ],
+      "technologies": [
+        "JavaScript",
+        "React",
+        "Material Design",
+        "组件化"
+      ],
+      "aiFingerprint": "2a23a0ca074d639b7a29d9b3cc2f31f7b54ab72da53ca785f93b04f37ea6230a",
+      "updatedAt": "2025-11-17T12:10:27Z"
+    },
+    "26850443": {
+      "id": "26850443",
+      "fullName": "rust-lang/rust-clippy",
+      "tags": [
+        "代码检查",
+        "Rust开发"
+      ],
+      "technologies": [
+        "Rust"
+      ],
+      "aiFingerprint": "102e5c36bd9c03823ecc856a8a39fe79239225be8a191ddcfda1241af1424236",
+      "updatedAt": "2025-11-17T10:37:16Z"
+    },
+    "33951348": {
+      "id": "33951348",
+      "fullName": "kolodny/exercises",
+      "tags": [
+        "编程练习",
+        "面试准备",
+        "算法挑战",
+        "JavaScript学习"
+      ],
+      "technologies": [
+        "JavaScript",
+        "算法",
+        "数据结构",
+        "编程题",
+        "面试题"
+      ],
+      "aiFingerprint": "50be4eec3eee564495a8d9d0d385f2fd776d02350c711900ef725aa8794e41e4",
+      "updatedAt": "2025-11-15T20:41:07Z"
+    },
+    "41889031": {
+      "id": "41889031",
+      "fullName": "TeamNewPipe/NewPipe",
+      "tags": [
+        "视频流",
+        "Android应用",
+        "开源播放器",
+        "媒体下载"
+      ],
+      "technologies": [
+        "Java",
+        "Android",
+        "YouTube",
+        "SoundCloud",
+        "PeerTube"
+      ],
+      "aiFingerprint": "0a00c993d9632ffb574f1ceb50b2b8d7197d518bf371d17c5bc3ab72504f7b42",
+      "updatedAt": "2025-11-17T11:42:15Z"
+    },
+    "42009758": {
+      "id": "42009758",
+      "fullName": "MetaMask/metamask-extension",
+      "tags": [
+        "区块链",
+        "浏览器扩展",
+        "以太坊",
+        "去中心化应用"
+      ],
+      "technologies": [
+        "TypeScript",
+        "Ethereum",
+        "浏览器API",
+        "加密钱包"
+      ],
+      "aiFingerprint": "bf13bbaec1b2d0cd1e9314e3587707e970b924182e714182dd0ceaed2e2265a5",
+      "updatedAt": "2025-11-17T12:37:55Z"
+    },
+    "43441403": {
+      "id": "43441403",
+      "fullName": "strapi/strapi",
+      "tags": [
+        "内容管理",
+        "无头CMS",
+        "API开发",
+        "Web应用"
+      ],
+      "technologies": [
+        "TypeScript",
+        "JavaScript",
+        "GraphQL",
+        "Node.js",
+        "数据库"
+      ],
+      "aiFingerprint": "9e7f240a42a14db1f01ee0beaaeb88a653d0187398a7d789e182d0c4cbc3919e",
+      "updatedAt": "2025-11-17T11:34:02Z"
+    },
+    "44571718": {
+      "id": "44571718",
+      "fullName": "vuejs/awesome-vue",
+      "tags": [
+        "前端资源",
+        "Vue生态"
+      ],
+      "technologies": [
+        "Vue.js"
+      ],
+      "aiFingerprint": "f4079c11d035cf4695f8e4edec8c36f8b0299c598a8dd80643ff96fa632edb2b",
+      "updatedAt": "2025-11-17T03:03:43Z"
+    },
+    "52631841": {
+      "id": "52631841",
+      "fullName": "gothinkster/realworld",
+      "tags": [
+        "全栈示例",
+        "博客平台"
+      ],
+      "technologies": [
+        "TypeScript",
+        "React",
+        "Node.js"
+      ],
+      "aiFingerprint": "cf82660b3a12d2796a0027119dbced9fc9bd11e88698db946a7f4abba2aa07ad",
+      "updatedAt": "2025-11-17T08:01:09Z"
+    },
+    "53809090": {
+      "id": "53809090",
+      "fullName": "juliangarnier/anime",
+      "tags": [
+        "动画引擎",
+        "前端开发",
+        "可视化"
+      ],
+      "technologies": [
+        "JavaScript",
+        "CSS",
+        "SVG"
+      ],
+      "aiFingerprint": "ac574792d47710616e421f9a2ba3c91e3dd09d580730aa4078e163f176ae5cf7",
+      "updatedAt": "2025-11-17T12:18:27Z"
+    },
+    "54173593": {
+      "id": "54173593",
+      "fullName": "storybookjs/storybook",
+      "tags": [
+        "UI组件",
+        "前端开发"
+      ],
+      "technologies": [
+        "TypeScript",
+        "React"
+      ],
+      "aiFingerprint": "35322fe4e3d84dca4cd895fa902b455dfa395b1447cd03f13b7ce37806b90da9",
+      "updatedAt": "2025-11-17T12:43:57Z"
+    },
+    "55381387": {
+      "id": "55381387",
+      "fullName": "Rockyzsu/stock",
+      "tags": [
+        "量化交易",
+        "股票"
+      ],
+      "technologies": [
+        "Python",
+        "量化分析"
+      ],
+      "aiFingerprint": "b99e233bebf52f23d0035f4136cefecc9727f244120955417b996f338bb64b50",
+      "updatedAt": "2025-11-17T04:18:50Z"
+    },
+    "57602001": {
+      "id": "57602001",
+      "fullName": "wechaty/wechaty",
+      "tags": [
+        "聊天机器人",
+        "RPA"
+      ],
+      "technologies": [
+        "TypeScript",
+        "WeChat",
+        "WhatsApp"
+      ],
+      "aiFingerprint": "be4dd16606fa549369989a155b8f3f8dff1a105c942555385a47ae8ff583d3aa",
+      "updatedAt": "2025-11-17T07:55:15Z"
+    },
+    "60374819": {
+      "id": "60374819",
+      "fullName": "jupyterlab/jupyterlab",
+      "tags": [
+        "数据科学",
+        "开发环境"
+      ],
+      "technologies": [
+        "TypeScript",
+        "Jupyter"
+      ],
+      "aiFingerprint": "414bed0a608b99c8a75dcd33465015c8c049183d52916e54ab72950f9c7f94e6",
+      "updatedAt": "2025-11-17T07:43:40Z"
+    },
+    "60493101": {
+      "id": "60493101",
+      "fullName": "jwasham/coding-interview-university",
+      "tags": [
+        "编程面试",
+        "计算机科学"
+      ],
+      "technologies": [
+        "未标注"
+      ],
+      "aiFingerprint": "a191f94661864dc7ad749a7167363ac07459ed6ad3554129b325f3a2dabafe61",
+      "updatedAt": "2025-11-17T12:29:30Z"
+    },
+    "64700934": {
+      "id": "64700934",
+      "fullName": "OpenZeppelin/openzeppelin-contracts",
+      "tags": [
+        "智能合约",
+        "区块链开发",
+        "安全审计",
+        "以太坊"
+      ],
+      "technologies": [
+        "Solidity",
+        "EVM",
+        "安全框架",
+        "合约库"
+      ],
+      "aiFingerprint": "a7a6736e752f5de77346ebde4e8f54fbb74784bc0013ce0b6a2376a349258f24",
+      "updatedAt": "2025-11-17T11:33:56Z"
+    },
+    "70973604": {
+      "id": "70973604",
+      "fullName": "cobaltdisco/Google-Chinese-Results-Blocklist",
+      "tags": [
+        "搜索引擎优化",
+        "垃圾站点过滤",
+        "中文搜索"
+      ],
+      "technologies": [
+        "黑名单",
+        "搜索结果处理"
+      ],
+      "aiFingerprint": "9d0adb01617924ac0dfb454a17aaf6bc3c4237a1c3b4ca6b849ee685a392e257",
+      "updatedAt": "2025-11-14T12:36:13Z"
+    },
+    "71995937": {
+      "id": "71995937",
+      "fullName": "nuxt/nuxt",
+      "tags": [
+        "前端框架",
+        "全栈开发",
+        "服务端渲染"
+      ],
+      "technologies": [
+        "TypeScript",
+        "Node.js",
+        "Vue.js",
+        "Nuxt"
+      ],
+      "aiFingerprint": "ee36441777716ad892cef6191a861b0f335a1f6a185cd198f8c5871040f8f34e",
+      "updatedAt": "2025-11-17T11:13:45Z"
+    },
+    "72560323": {
+      "id": "72560323",
+      "fullName": "ecmadao/js-bits-cn",
+      "tags": [
+        "JavaScript",
+        "编程学习"
+      ],
+      "technologies": [
+        "JavaScript"
+      ],
+      "aiFingerprint": "3089a2d644ccff0dc89bb5d1514d535f193bce93a6a82c93d754fa8b3efcf831",
+      "updatedAt": "2025-11-10T03:26:13Z"
+    },
+    "73300983": {
+      "id": "73300983",
+      "fullName": "axetroy/anti-redirect",
+      "tags": [
+        "搜索引擎优化",
+        "重定向去除",
+        "浏览器脚本"
+      ],
+      "technologies": [
+        "TypeScript",
+        "Greasy Fork",
+        "JavaScript"
+      ],
+      "aiFingerprint": "918c8e7dbae4b2aca04c3bb5d0b5a10764289c7d187b1dd3f86d4af0051ed9ee",
+      "updatedAt": "2025-11-15T10:40:58Z"
+    },
+    "74359442": {
+      "id": "74359442",
+      "fullName": "Tencent/APIJSON",
+      "tags": [
+        "ORM框架",
+        "低代码",
+        "API开发"
+      ],
+      "technologies": [
+        "Java",
+        "JSON",
+        "数据库"
+      ],
+      "aiFingerprint": "b638ada55d9bd7a35a3c09f1bfa5c9649ab0ed4e37c886dfe31d325828ff6c4e",
+      "updatedAt": "2025-11-17T10:56:22Z"
+    },
+    "75701562": {
+      "id": "75701562",
+      "fullName": "miloyip/game-programmer",
+      "tags": [
+        "游戏开发",
+        "学习路径"
+      ],
+      "technologies": [
+        "Python"
+      ],
+      "aiFingerprint": "b7f06360e5f61388445aad55bdd1a7f0181323c2949bdc0525266cc4155b6cdc",
+      "updatedAt": "2025-11-16T20:21:26Z"
+    },
+    "80945428": {
+      "id": "80945428",
+      "fullName": "nestjs/nest",
+      "tags": [
+        "后端框架",
+        "企业应用",
+        "微服务",
+        "Node.js"
+      ],
+      "technologies": [
+        "TypeScript",
+        "Node.js",
+        "NestJS",
+        "微服务",
+        "JavaScript"
+      ],
+      "aiFingerprint": "c13f9253a1513e708562e300abfc5ae0100b202074a5b17b84c67778728c72ad",
+      "updatedAt": "2025-11-17T11:54:09Z"
+    },
+    "81810486": {
+      "id": "81810486",
+      "fullName": "antvis/G6",
+      "tags": [
+        "数据可视化",
+        "图形框架",
+        "网络分析"
+      ],
+      "technologies": [
+        "TypeScript",
+        "JavaScript"
+      ],
+      "aiFingerprint": "90ff49d234905c58a5c29b63e1badd0f70c1693289941e4056c29eb8221c7d66",
+      "updatedAt": "2025-11-17T12:14:40Z"
+    },
+    "82359910": {
+      "id": "82359910",
+      "fullName": "imDazui/Tvlist-awesome-m3u-m3u8",
+      "tags": [
+        "直播源",
+        "IPTV"
+      ],
+      "technologies": [
+        "M3U",
+        "M3U8"
+      ],
+      "aiFingerprint": "afd1a971646dc4f0d358eae890f63b4216ac819f32d1a9fb5a22a41b55f55ccc",
+      "updatedAt": "2025-11-17T08:22:06Z"
+    },
+    "84811466": {
+      "id": "84811466",
+      "fullName": "mqyqingfeng/Blog",
+      "tags": [
+        "博客",
+        "JavaScript",
+        "前端开发"
+      ],
+      "technologies": [
+        "JavaScript",
+        "React"
+      ],
+      "aiFingerprint": "b3e1bc141e9f921f6096ffbfedd1ade832480fa88fc1ae6d27108faa16bf788e",
+      "updatedAt": "2025-11-17T10:47:26Z"
+    },
+    "85566485": {
+      "id": "85566485",
+      "fullName": "edrlab/thorium-reader",
+      "tags": [
+        "电子书阅读",
+        "跨平台"
+      ],
+      "technologies": [
+        "TypeScript",
+        "Electron",
+        "React",
+        "Redux"
+      ],
+      "aiFingerprint": "a9aa086e66aeae23d884678daa526a50bc0a1ed9c4d151302868814eaaeda546",
+      "updatedAt": "2025-11-17T09:42:27Z"
+    },
+    "85928537": {
+      "id": "85928537",
+      "fullName": "yimengfan/BDFramework.Core",
+      "tags": [
+        "游戏开发",
+        "Unity框架"
+      ],
+      "technologies": [
+        "C++",
+        "Unity",
+        "ILRuntime",
+        "热更新"
+      ],
+      "aiFingerprint": "235c0c452efcfbd2be2b3992acdfde6e59bc6b172b19ded1e8d97083042bf4bb",
+      "updatedAt": "2025-11-17T04:45:37Z"
+    },
+    "86239094": {
+      "id": "86239094",
+      "fullName": "ice1000/resume",
+      "tags": [
+        "简历",
+        "文档"
+      ],
+      "technologies": [
+        "Typst"
+      ],
+      "aiFingerprint": "c9eccc5b0fdfe2c7d3286b4df5a74bc7358fc4455a66883e19fe99e2fab3601e",
+      "updatedAt": "2025-11-04T18:45:20Z"
+    },
+    "88011908": {
+      "id": "88011908",
+      "fullName": "practical-tutorials/project-based-learning",
+      "tags": [
+        "项目学习",
+        "编程教程"
+      ],
+      "technologies": [
+        "Python",
+        "JavaScript",
+        "Go",
+        "C++"
+      ],
+      "aiFingerprint": "2815c5f598f36ff4bbb153529f810de78d569a54808fd3608df383e56220ed0e",
+      "updatedAt": "2025-11-17T12:36:59Z"
+    },
+    "90175624": {
+      "id": "90175624",
+      "fullName": "mezod/awesome-indie",
+      "tags": [
+        "独立开发",
+        "收入资源"
+      ],
+      "technologies": [
+        "未标注"
+      ],
+      "aiFingerprint": "e60014380cc1c72b9ebaa45a808a5bda0c61c92d0180eb32c448afad80653711",
+      "updatedAt": "2025-11-16T16:44:31Z"
+    },
+    "92807616": {
+      "id": "92807616",
+      "fullName": "byoungd/English-level-up-tips",
+      "tags": [
+        "英语学习",
+        "中文指南"
+      ],
+      "technologies": [
+        "HTML"
+      ],
+      "aiFingerprint": "f2ccd5b4fd135884e24e538ee2a8cbff471f8c47da9da7c51520524b35d94c3f",
+      "updatedAt": "2025-11-17T12:27:08Z"
+    },
+    "93629835": {
+      "id": "93629835",
+      "fullName": "walter201230/Python",
+      "tags": [
+        "编程教程",
+        "Python学习",
+        "代码示例",
+        "教育资料"
+      ],
+      "technologies": [
+        "Python",
+        "教学材料",
+        "代码库"
+      ],
+      "aiFingerprint": "b175da39787e7400ce1a2081d344d233a0293b57b5c31db7ad0af8d77876c8c6",
+      "updatedAt": "2025-11-17T11:32:15Z"
+    },
+    "94677514": {
+      "id": "94677514",
+      "fullName": "tuteng/Best-websites-a-programmer-should-visit-zh",
+      "tags": [
+        "编程资源",
+        "学习导航"
+      ],
+      "technologies": [
+        "Markdown",
+        "GitHub Pages"
+      ],
+      "aiFingerprint": "b74bc923b13182177c61391071e42c69f0475a5f9ff09f777fd743649209cd5c",
+      "updatedAt": "2025-11-17T08:44:12Z"
+    },
+    "96287699": {
+      "id": "96287699",
+      "fullName": "spritejs/spritejs",
+      "tags": [
+        "图形渲染",
+        "跨平台"
+      ],
+      "technologies": [
+        "JavaScript",
+        "WebGL",
+        "Canvas"
+      ],
+      "aiFingerprint": "de9f3f060184333189dd5cde5cdd9d4c3b368c4ed9d925773216235387119370",
+      "updatedAt": "2025-11-07T06:47:22Z"
+    },
+    "97249406": {
+      "id": "97249406",
+      "fullName": "denysdovhan/wtfjs",
+      "tags": [
+        "JavaScript",
+        "编程学习"
+      ],
+      "technologies": [
+        "JavaScript"
+      ],
+      "aiFingerprint": "1548e7594ab23c7616f32a00034704f42969046accaa8c65d5599d77fb460551",
+      "updatedAt": "2025-11-17T12:30:49Z"
+    },
+    "101138315": {
+      "id": "101138315",
+      "fullName": "d2l-ai/d2l-zh",
+      "tags": [
+        "深度学习",
+        "中文教材"
+      ],
+      "technologies": [
+        "Python",
+        "深度学习"
+      ],
+      "aiFingerprint": "b0e08aee47fe95be02d7d67f87984b6094a917f4c5ee2f8bb7b80dfe81acc57e",
+      "updatedAt": "2025-11-17T12:28:37Z"
+    },
+    "101562026": {
+      "id": "101562026",
+      "fullName": "alibaba/kiwi",
+      "tags": [
+        "国际化",
+        "翻译"
+      ],
+      "technologies": [
+        "TypeScript"
+      ],
+      "aiFingerprint": "24d29a4b0edc0ceda7ddef404a81b6813fb298061221303df475c459b08e2034",
+      "updatedAt": "2025-11-07T03:53:09Z"
+    },
+    "103633984": {
+      "id": "103633984",
+      "fullName": "goldbergyoni/nodebestpractices",
+      "tags": [
+        "最佳实践",
+        "Node.js开发"
+      ],
+      "technologies": [
+        "Node.js",
+        "JavaScript"
+      ],
+      "aiFingerprint": "66840c7b35b06950fed92738e40fb10ad79418207bb03767fc80d7cf311e8d31",
+      "updatedAt": "2025-11-17T10:36:01Z"
+    },
+    "104054358": {
+      "id": "104054358",
+      "fullName": "maoxiaoquan/kite",
+      "tags": [
+        "内容管理",
+        "多权限系统"
+      ],
+      "technologies": [
+        "JavaScript",
+        "Vue",
+        "React",
+        "Node.js",
+        "GraphQL"
+      ],
+      "aiFingerprint": "0495c0720dd7054aff2402f23e3b0bac23cff3e9248eb06976220e2aded350f1",
+      "updatedAt": "2025-08-30T01:47:53Z"
+    },
+    "104216989": {
+      "id": "104216989",
+      "fullName": "sumimakito/hexo-theme-typography",
+      "tags": [
+        "Hexo主题",
+        "博客",
+        "排版设计"
+      ],
+      "technologies": [
+        "JavaScript",
+        "Hexo"
+      ],
+      "aiFingerprint": "05f9b31f94c11070cfeadc83a33e17d787ed0309c9e4b2aa50fed02e513b1c73",
+      "updatedAt": "2025-11-11T06:09:11Z"
+    },
+    "104337773": {
+      "id": "104337773",
+      "fullName": "1c7/chinese-independent-developer",
+      "tags": [
+        "开发者社区",
+        "项目展示",
+        "独立开发者"
+      ],
+      "technologies": [
+        "未标注"
+      ],
+      "aiFingerprint": "2928c43a98d3ac11f7aa78a290bbfb57bc5730512ad3422eae623a35327159f7",
+      "updatedAt": "2025-11-17T12:21:53Z"
+    },
+    "105229748": {
+      "id": "105229748",
+      "fullName": "apachecn/apachecn-algo-zh",
+      "tags": [
+        "算法学习",
+        "数据结构"
+      ],
+      "technologies": [
+        "JavaScript",
+        "Python"
+      ],
+      "aiFingerprint": "91f3681ecce20fc8fba4810b8c841e7c8e82f043ee5b096757f48fce7a18ccef",
+      "updatedAt": "2025-11-16T12:41:38Z"
+    },
+    "112321084": {
+      "id": "112321084",
+      "fullName": "Raathigesh/majestic",
+      "tags": [
+        "测试工具",
+        "开发者体验"
+      ],
+      "technologies": [
+        "TypeScript",
+        "Jest",
+        "React"
+      ],
+      "aiFingerprint": "3906516a1f25ca45bd09f1fd168e741ba4145f7917780564e5b42ba62bb01779",
+      "updatedAt": "2025-11-17T12:25:19Z"
+    },
+    "112507086": {
+      "id": "112507086",
+      "fullName": "Chalarangelo/30-seconds-of-code",
+      "tags": [
+        "编程学习",
+        "代码片段",
+        "前端开发",
+        "教育资源"
+      ],
+      "technologies": [
+        "JavaScript",
+        "Node.js",
+        "HTML",
+        "CSS",
+        "ES6"
+      ],
+      "aiFingerprint": "1e3b94e44deddb0f01790e11fe7d997689d7eb5ac524926a6db83c4f8bd2b572",
+      "updatedAt": "2025-11-17T11:59:14Z"
+    },
+    "116389886": {
+      "id": "116389886",
+      "fullName": "Anankke/SSPanel-UIM",
+      "tags": [
+        "代理服务",
+        "管理系统"
+      ],
+      "technologies": [
+        "PHP",
+        "MySQL"
+      ],
+      "aiFingerprint": "9ece13e834375cdf5c1b628584f1f87bf035f379e6fd4cbb0620946f83018376",
+      "updatedAt": "2025-11-17T05:39:19Z"
+    },
+    "116561419": {
+      "id": "116561419",
+      "fullName": "biliup/biliup",
+      "tags": [
+        "直播录制",
+        "视频搬运"
+      ],
+      "technologies": [
+        "Python"
+      ],
+      "aiFingerprint": "dab86e1fe51e80d517f036a99ec8da3d1095e0456455f518bd5fde40417b3eb7",
+      "updatedAt": "2025-11-16T19:18:12Z"
+    },
+    "120710644": {
+      "id": "120710644",
+      "fullName": "Vonng/ddia",
+      "tags": [
+        "数据系统",
+        "分布式",
+        "技术翻译"
+      ],
+      "technologies": [
+        "Python",
+        "数据库"
+      ],
+      "aiFingerprint": "d240440e852a3fc9abe0df2ed49883b1d44ebf903c7931cf55df400c16901185",
+      "updatedAt": "2025-11-17T10:55:10Z"
+    },
+    "121010586": {
+      "id": "121010586",
+      "fullName": "AZeC4/TelegramGroup",
+      "tags": [
+        "社交平台",
+        "群组资源",
+        "机器人"
+      ],
+      "technologies": [
+        "Telegram API"
+      ],
+      "aiFingerprint": "a127bba831c450ac15bbe172c4d93969cee467cf1c12469a0807694b7c034f3f",
+      "updatedAt": "2025-11-17T12:18:36Z"
+    },
+    "122838124": {
+      "id": "122838124",
+      "fullName": "Chalarangelo/30-seconds-of-css",
+      "tags": [
+        "CSS片段",
+        "前端资源"
+      ],
+      "technologies": [
+        "CSS",
+        "HTML"
+      ],
+      "aiFingerprint": "b22daf03986afc2d770faa355e033c4851eef2bf2659387d480816141c3c72e6",
+      "updatedAt": "2025-11-13T15:05:16Z"
+    },
+    "123424015": {
+      "id": "123424015",
+      "fullName": "shibing624/pycorrector",
+      "tags": [
+        "文本纠错",
+        "自然语言处理"
+      ],
+      "technologies": [
+        "Python",
+        "T5",
+        "ChatGLM3",
+        "KenLM"
+      ],
+      "aiFingerprint": "f18c74a1b43b6e7efda0ad5128033203a4af2e95483e6cc61e950886bbe273f8",
+      "updatedAt": "2025-11-17T09:26:03Z"
+    },
+    "123458551": {
+      "id": "123458551",
+      "fullName": "jackfrued/Python-100-Days",
+      "tags": [
+        "编程教育",
+        "Python学习",
+        "新手教程"
+      ],
+      "technologies": [
+        "Python",
+        "Jupyter Notebook"
+      ],
+      "aiFingerprint": "b9d552fb3ff50ee0d2b1d922cd78f95dc94ec73adeab5011decbeae311c30840",
+      "updatedAt": "2025-11-17T12:44:08Z"
+    },
+    "125791597": {
+      "id": "125791597",
+      "fullName": "InterviewMap/CS-Interview-Knowledge-Map",
+      "tags": [
+        "面试准备",
+        "知识图谱"
+      ],
+      "technologies": [
+        "JavaScript",
+        "React",
+        "Vue"
+      ],
+      "aiFingerprint": "998c4b513423ace10131f44b87bef30c72a1a025f9c390d5ae54ccecbb101503",
+      "updatedAt": "2025-11-17T07:35:34Z"
+    },
+    "126577260": {
+      "id": "126577260",
+      "fullName": "trekhleb/javascript-algorithms",
+      "tags": [
+        "算法",
+        "数据结构",
+        "面试准备"
+      ],
+      "technologies": [
+        "JavaScript"
+      ],
+      "aiFingerprint": "5fe65bd929690d28cd115c5177dd25b4b22c17b67301188286463da6bbb45bd7",
+      "updatedAt": "2025-11-17T10:45:43Z"
+    },
+    "127407957": {
+      "id": "127407957",
+      "fullName": "azl397985856/leetcode",
+      "tags": [
+        "算法题解",
+        "编程练习",
+        "面试准备"
+      ],
+      "technologies": [
+        "JavaScript",
+        "Java",
+        "C++",
+        "算法"
+      ],
+      "aiFingerprint": "31508c53fb28ff0e315b8a055b2b011aa16db7e5b808c4d0e980a6386ba8df50",
+      "updatedAt": "2025-11-17T11:02:02Z"
+    },
+    "131143048": {
+      "id": "131143048",
+      "fullName": "xjh22222228/nav",
+      "tags": [
+        "导航网站",
+        "资源聚合",
+        "前端应用"
+      ],
+      "technologies": [
+        "TypeScript",
+        "Next.js",
+        "Angular"
+      ],
+      "aiFingerprint": "77c1ddd556cc5c7d05c8acd5e4e09a22824d7e54ede625d7ad24168dbd0d2609",
+      "updatedAt": "2025-11-17T11:09:26Z"
+    },
+    "132750724": {
+      "id": "132750724",
+      "fullName": "codecrafters-io/build-your-own-x",
+      "tags": [
+        "编程教育",
+        "技术实现"
+      ],
+      "technologies": [
+        "Markdown"
+      ],
+      "aiFingerprint": "5cde81c9001b963b28beae47faf701fde502f56aa1153348d14c0d065ee9620c",
+      "updatedAt": "2025-11-17T12:41:29Z"
+    },
+    "136780445": {
+      "id": "136780445",
+      "fullName": "kitao/pyxel",
+      "tags": [
+        "游戏引擎",
+        "复古游戏"
+      ],
+      "technologies": [
+        "Rust",
+        "Python",
+        "OpenGL"
+      ],
+      "aiFingerprint": "4a8dcd188098852ef4b02a58b03d03f0bbbd745daa21d14cc63e0d1bb1455c2a",
+      "updatedAt": "2025-11-16T16:52:52Z"
+    },
+    "138660042": {
+      "id": "138660042",
+      "fullName": "alaboshu/alaweb",
+      "tags": [
+        "跨端开发",
+        "UI组件库"
+      ],
+      "technologies": [
+        "Vue",
+        "小程序",
+        "Weex",
+        "原生应用"
+      ],
+      "aiFingerprint": "fe4dadbd1129ddbb5f620bbd2d65771ae8a76f98d1cccb9343c0899203af637b",
+      "updatedAt": "2025-10-01T14:04:09Z"
+    },
+    "138666429": {
+      "id": "138666429",
+      "fullName": "inoutcode/ethereum_book",
+      "tags": [
+        "以太坊",
+        "区块链"
+      ],
+      "technologies": [
+        "Vue"
+      ],
+      "aiFingerprint": "8a4a22033f78b5fab980c8235880a7cdb4e9854eb21cc276a5db6b0752252fbe",
+      "updatedAt": "2025-11-16T12:43:10Z"
+    },
+    "139305803": {
+      "id": "139305803",
+      "fullName": "alibaba/pont",
+      "tags": [
+        "数据服务",
+        "API"
+      ],
+      "technologies": [
+        "TypeScript",
+        "Swagger"
+      ],
+      "aiFingerprint": "5ba12dfea20b7deaad48e8ebf9d0b96d93a6f0f7f8abd929971048d34fcf1afb",
+      "updatedAt": "2025-11-07T09:05:28Z"
+    },
+    "143822069": {
+      "id": "143822069",
+      "fullName": "sunface/rust-course",
+      "tags": [
+        "编程教程",
+        "Rust语言",
+        "学习资源"
+      ],
+      "technologies": [
+        "Rust",
+        "Markdown"
+      ],
+      "aiFingerprint": "f730043a8ce39a7cc06ac41f562b4e9465255ddc2f94a311b9907f74a8ce4788",
+      "updatedAt": "2025-11-17T11:03:42Z"
+    },
+    "145553672": {
+      "id": "145553672",
+      "fullName": "fighting41love/funNLP",
+      "tags": [
+        "自然语言处理",
+        "文本处理",
+        "中文NLP"
+      ],
+      "technologies": [
+        "Python",
+        "BERT",
+        "深度学习"
+      ],
+      "aiFingerprint": "a88880ecc3fa0b1ad00f920a2f61854ff0c688171622ca84dc6656fd3975b302",
+      "updatedAt": "2025-11-17T12:42:43Z"
+    },
+    "146023032": {
+      "id": "146023032",
+      "fullName": "superman66/wakatime-dashboard",
+      "tags": [
+        "开发统计",
+        "数据可视化"
+      ],
+      "technologies": [
+        "JavaScript",
+        "WakaTime"
+      ],
+      "aiFingerprint": "d0e000d921434c91c33a3e8a0306cb4d8958fa6fa71be1dd4469c05e0dc84a35",
+      "updatedAt": "2025-07-08T15:42:49Z"
+    },
+    "147530276": {
+      "id": "147530276",
+      "fullName": "alex-shpak/hugo-book",
+      "tags": [
+        "文档主题",
+        "静态网站"
+      ],
+      "technologies": [
+        "CSS",
+        "Hugo"
+      ],
+      "aiFingerprint": "3c04ad303ba37d0f24a67ec2f35453394acfb78077cda83607ad5f4a2ae51024",
+      "updatedAt": "2025-11-17T02:08:30Z"
+    },
+    "148641954": {
+      "id": "148641954",
+      "fullName": "TheAlgorithms/Rust",
+      "tags": [
+        "算法实现",
+        "数据结构"
+      ],
+      "technologies": [
+        "Rust",
+        "标准库"
+      ],
+      "aiFingerprint": "3f028f477bef1b1ff7346326b5f00b8dde1f9c713b87a2af910a795f5d544729",
+      "updatedAt": "2025-11-17T09:12:41Z"
+    },
+    "149151909": {
+      "id": "149151909",
+      "fullName": "QiShaoXuan/css_tricks",
+      "tags": [
+        "CSS样式",
+        "前端开发",
+        "界面设计",
+        "Web技巧"
+      ],
+      "technologies": [
+        "CSS",
+        "CSS3",
+        "样式技巧",
+        "前端优化",
+        "响应式设计"
+      ],
+      "aiFingerprint": "8579712b97cd4746e20f8c316336d5798cd9d259aee909c9e9c89ab61d22354a",
+      "updatedAt": "2025-11-15T17:03:07Z"
+    },
+    "152179772": {
+      "id": "152179772",
+      "fullName": "chokcoco/CSS-Inspiration",
+      "tags": [
+        "CSS设计",
+        "前端开发"
+      ],
+      "technologies": [
+        "CSS",
+        "HTML"
+      ],
+      "aiFingerprint": "98d98a0b9f1d67fe955fa3982c697ec73fa7077148cc9529f3ec3d950f311f21",
+      "updatedAt": "2025-11-14T11:56:59Z"
+    },
+    "154165373": {
+      "id": "154165373",
+      "fullName": "lmc999/auto-add-routes",
+      "tags": [
+        "VPN路由",
+        "网络优化",
+        "中国网络"
+      ],
+      "technologies": [
+        "Shell",
+        "路由配置"
+      ],
+      "aiFingerprint": "5c63351bbca92185b237ebca7f818eddc07f91ac5eb5848d072b86d3c07f3e8b",
+      "updatedAt": "2025-11-14T14:05:13Z"
+    },
+    "158038584": {
+      "id": "158038584",
+      "fullName": "JoshuaKGoldberg/TypeStat",
+      "tags": [
+        "代码转换",
+        "类型系统",
+        "静态分析",
+        "开发工具"
+      ],
+      "technologies": [
+        "TypeScript",
+        "JavaScript",
+        "静态分析",
+        "代码迁移",
+        "类型推断"
+      ],
+      "aiFingerprint": "485ba697d637f6dbc14ab0b1ea3e3b1c9fd40b497062bcee479b21622eeb6d57",
+      "updatedAt": "2025-11-15T20:49:36Z"
+    },
+    "159447129": {
+      "id": "159447129",
+      "fullName": "xiangyuecn/AreaCity-JsSpider-StatsGov",
+      "tags": [
+        "行政区划",
+        "数据采集",
+        "地理数据",
+        "数据转换"
+      ],
+      "technologies": [
+        "JavaScript",
+        "CSV",
+        "GeoJSON",
+        "SQL",
+        "数据爬虫"
+      ],
+      "aiFingerprint": "bd92041dd285d1941333273c27573f3d3e4537b3e006319ee73ad3036af61943",
+      "updatedAt": "2025-11-17T11:43:21Z"
+    },
+    "161012019": {
+      "id": "161012019",
+      "fullName": "jellyfin/jellyfin",
+      "tags": [
+        "媒体系统",
+        "开源软件"
+      ],
+      "technologies": [
+        "C#",
+        ".NET"
+      ],
+      "aiFingerprint": "9f6093f0186052bc32577c23257dfbaf66c3e5587cc6c102f2bd0b2bdd76220a",
+      "updatedAt": "2025-11-17T12:29:40Z"
+    },
+    "162028712": {
+      "id": "162028712",
+      "fullName": "leerob/next-mdx-blog",
+      "tags": [
+        "博客系统",
+        "内容管理"
+      ],
+      "technologies": [
+        "TypeScript",
+        "Next.js",
+        "MDX",
+        "Tailwind CSS"
+      ],
+      "aiFingerprint": "bb90d3dcfb71969a9b2fa06f7efa3a07ef2e062cf799c5ba21315efb88a6cecb",
+      "updatedAt": "2025-11-17T08:10:57Z"
+    },
+    "162783195": {
+      "id": "162783195",
+      "fullName": "datawhalechina/pumpkin-book",
+      "tags": [
+        "机器学习",
+        "教材解析"
+      ],
+      "technologies": [
+        "未标注"
+      ],
+      "aiFingerprint": "b36e0eb6e57a0e32cc4aa3fa42cba5cce867a12bccf182e38a35e778d0ae9480",
+      "updatedAt": "2025-11-16T16:30:47Z"
+    },
+    "163171368": {
+      "id": "163171368",
+      "fullName": "csseky/cskaoyan",
+      "tags": [
+        "考研",
+        "计算机科学"
+      ],
+      "technologies": [
+        "未标注"
+      ],
+      "aiFingerprint": "77e0afa276361e1a4d5e6d9ed6cdfb935f9c6485ae6e77721dbfad5229ca9dfd",
+      "updatedAt": "2025-11-17T10:30:43Z"
+    },
+    "164768889": {
+      "id": "164768889",
+      "fullName": "alibaba/formily",
+      "tags": [
+        "表单构建",
+        "低代码平台",
+        "跨端开发",
+        "动态表单"
+      ],
+      "technologies": [
+        "TypeScript",
+        "React",
+        "Vue",
+        "JSON Schema"
+      ],
+      "aiFingerprint": "c2c4c7dba0c6b747c07c3c5ad8f9910fa8d6b700cb93fb36b4edfc1ef57afcf1",
+      "updatedAt": "2025-11-17T12:07:08Z"
+    },
+    "166514296": {
+      "id": "166514296",
+      "fullName": "t9tio/cloudquery",
+      "tags": [
+        "API生成",
+        "无服务器"
+      ],
+      "technologies": [
+        "JavaScript"
+      ],
+      "aiFingerprint": "ff6d388e7a47ee1380b2a937667838533854811540466619f9c24d0fe8797492",
+      "updatedAt": "2025-10-21T02:50:49Z"
+    },
+    "169099759": {
+      "id": "169099759",
+      "fullName": "godotjs/javascript",
+      "tags": [
+        "游戏引擎",
+        "JavaScript"
+      ],
+      "technologies": [
+        "C++",
+        "JavaScript",
+        "TypeScript"
+      ],
+      "aiFingerprint": "c2715a99f6235f7c302645f24874a3c133306f780121e7edc409934d12d21baa",
+      "updatedAt": "2025-11-07T18:40:02Z"
+    },
+    "170729130": {
+      "id": "170729130",
+      "fullName": "LemmyNet/lemmy",
+      "tags": [
+        "社交聚合",
+        "联邦宇宙"
+      ],
+      "technologies": [
+        "Rust",
+        "ActivityPub"
+      ],
+      "aiFingerprint": "da44fc932d2da5cea3cfaf751cfd0aef81ea4ff21442768c02c6ea3369c10749",
+      "updatedAt": "2025-11-17T06:57:45Z"
+    },
+    "171974903": {
+      "id": "171974903",
+      "fullName": "guanguans/design-patterns-for-humans-cn",
+      "tags": [
+        "设计模式",
+        "编程教程",
+        "软件开发",
+        "代码规范"
+      ],
+      "technologies": [
+        "设计模式",
+        "编程范式",
+        "代码示例",
+        "软件架构"
+      ],
+      "aiFingerprint": "f364d65c69ba95a35b65f0f09a75b0f80b0be2f107a96381ffd7236528f09091",
+      "updatedAt": "2025-11-16T06:28:53Z"
+    },
+    "172378503": {
+      "id": "172378503",
+      "fullName": "romkatv/powerlevel10k",
+      "tags": [
+        "终端美化",
+        "Shell配置",
+        "开发工具"
+      ],
+      "technologies": [
+        "Zsh",
+        "Shell"
+      ],
+      "aiFingerprint": "1bb043fbd1e4f3bf9ff4caa44858f3b00fee51d07e4208fbc340be78b8854228",
+      "updatedAt": "2025-11-17T12:40:50Z"
+    },
+    "175176201": {
+      "id": "175176201",
+      "fullName": "alexfoxy/lax.js",
+      "tags": [
+        "滚动动画",
+        "前端效果"
+      ],
+      "technologies": [
+        "JavaScript",
+        "CSS"
+      ],
+      "aiFingerprint": "4db365373f8bb2ab7634bd7032b3c7cce54f059caf8d5258bae036550a2bc9cf",
+      "updatedAt": "2025-11-14T10:18:24Z"
+    },
+    "176368100": {
+      "id": "176368100",
+      "fullName": "matchai/awesome-pinned-gists",
+      "tags": [
+        "GitHub美化",
+        "动态Gist",
+        "开发者工具"
+      ],
+      "technologies": [
+        "GitHub API",
+        "动态内容"
+      ],
+      "aiFingerprint": "39192a906a29abe20c7ab156d5525ba86ac957cea0e87524912c5a48bd1c05a6",
+      "updatedAt": "2025-11-14T15:24:00Z"
+    },
+    "178167554": {
+      "id": "178167554",
+      "fullName": "Kr1s77/Python-crawler-tutorial-starts-from-zero",
+      "tags": [
+        "爬虫",
+        "数据采集",
+        "教程"
+      ],
+      "technologies": [
+        "Python",
+        "Scrapy",
+        "Selenium"
+      ],
+      "aiFingerprint": "f97ecabda5265a8af98e60ff6ded404a8745b757813ab8acbac6cf132879a863",
+      "updatedAt": "2025-11-17T10:46:32Z"
+    },
+    "178976529": {
+      "id": "178976529",
+      "fullName": "bentoml/BentoML",
+      "tags": [
+        "AI服务",
+        "模型部署",
+        "MLOps",
+        "推理平台"
+      ],
+      "technologies": [
+        "Python",
+        "机器学习",
+        "模型服务",
+        "容器化"
+      ],
+      "aiFingerprint": "ba4bd23fb714b72aa5fa8d43646b706f374afb1397885093e94086bb7af9d498",
+      "updatedAt": "2025-11-17T12:01:45Z"
+    },
+    "179204379": {
+      "id": "179204379",
+      "fullName": "aduck/snippets",
+      "tags": [
+        "代码片段",
+        "工具转换"
+      ],
+      "technologies": [
+        "JavaScript"
+      ],
+      "aiFingerprint": "bd46909284c3f5ff758d95bc04ab0abe8891bb0615b1a5bc2e6fc50156536fd3",
+      "updatedAt": "2022-06-23T09:37:06Z"
+    },
+    "180347803": {
+      "id": "180347803",
+      "fullName": "EYHN/Furigana",
+      "tags": [
+        "日语",
+        "浏览器扩展"
+      ],
+      "technologies": [
+        "JavaScript"
+      ],
+      "aiFingerprint": "2e67d1f0331e5f71864df340e614f6421f4ff51942ef845d16e5715cef694d38",
+      "updatedAt": "2025-10-22T12:40:28Z"
+    },
+    "181190511": {
+      "id": "181190511",
+      "fullName": "PetalsOnaWet/lizhi",
+      "tags": [
+        "音乐下载",
+        "资源聚合",
+        "李志歌曲"
+      ],
+      "technologies": [
+        "资源收集",
+        "文件管理"
+      ],
+      "aiFingerprint": "014477413ffd1ef4c0d9c27680c7c5ce59cd1b3bb2ab32eb54a516d3afdda5f9",
+      "updatedAt": "2025-11-14T16:59:46Z"
+    },
+    "181807583": {
+      "id": "181807583",
+      "fullName": "haizlin/fe-interview",
+      "tags": [
+        "前端面试",
+        "学习资源"
+      ],
+      "technologies": [
+        "JavaScript",
+        "Vue",
+        "React"
+      ],
+      "aiFingerprint": "1b53ae67a67e238922dde8276c93e380e5767853bc26ef65cf47945afebb13b7",
+      "updatedAt": "2025-11-17T09:04:19Z"
+    },
+    "184660676": {
+      "id": "184660676",
+      "fullName": "mrpond/BlockTheSpot",
+      "tags": [
+        "广告拦截",
+        "媒体播放"
+      ],
+      "technologies": [
+        "C++",
+        "Spotify"
+      ],
+      "aiFingerprint": "ffdb098283c8bd0ad901922b1d0c3aecc3fae54d6cd9bd883caa5822ae4ce974",
+      "updatedAt": "2025-11-17T08:24:34Z"
+    },
+    "188352267": {
+      "id": "188352267",
+      "fullName": "jackwener/CS-Awesome-Courses",
+      "tags": [
+        "计算机课程",
+        "学习资源",
+        "教育"
+      ],
+      "technologies": [
+        "课程整理",
+        "资源聚合"
+      ],
+      "aiFingerprint": "ed2ea7c1e2c7128cfa01d5bb598891425d53762400800fb0451c68cfe53ff6b0",
+      "updatedAt": "2025-11-15T02:43:07Z"
+    },
+    "196043348": {
+      "id": "196043348",
+      "fullName": "ajayyy/SponsorBlockServer",
+      "tags": [
+        "YouTube",
+        "广告过滤"
+      ],
+      "technologies": [
+        "TypeScript"
+      ],
+      "aiFingerprint": "e20f4a0ddc86c79a1155bb63763334a3640b4057cbbc5ac973074b70bd1f6d70",
+      "updatedAt": "2025-11-08T08:07:45Z"
+    },
+    "196701619": {
+      "id": "196701619",
+      "fullName": "tauri-apps/tauri",
+      "tags": [
+        "桌面应用",
+        "跨平台开发",
+        "Web技术",
+        "原生应用"
+      ],
+      "technologies": [
+        "Rust",
+        "Webview",
+        "前端框架",
+        "系统集成"
+      ],
+      "aiFingerprint": "0996a9263429843d22ce0ef252988c4875528d4af092c50da4740405ff70cb1a",
+      "updatedAt": "2025-11-17T12:34:36Z"
+    },
+    "197206410": {
+      "id": "197206410",
+      "fullName": "guofei9987/blind_watermark",
+      "tags": [
+        "数字水印",
+        "图像处理"
+      ],
+      "technologies": [
+        "Python"
+      ],
+      "aiFingerprint": "9264e51c1bb0c6b133f95156c9f9f4eb7070bd6d2db381ffa2f81cb73439159d",
+      "updatedAt": "2025-11-17T09:22:58Z"
+    },
+    "200468551": {
+      "id": "200468551",
+      "fullName": "deckerst/aves",
+      "tags": [
+        "图库应用",
+        "元数据"
+      ],
+      "technologies": [
+        "Dart",
+        "Flutter",
+        "Android"
+      ],
+      "aiFingerprint": "ef54eb07cc26277e3a24b9b6293605847e2575ce4a5929b65952da7ee3f77413",
+      "updatedAt": "2025-11-17T06:58:20Z"
+    },
+    "200995481": {
+      "id": "200995481",
+      "fullName": "kuangshp/nestjs-mysql-api",
+      "tags": [
+        "后端开发",
+        "权限管理",
+        "RESTful API"
+      ],
+      "technologies": [
+        "TypeScript",
+        "NestJS",
+        "MySQL",
+        "TypeORM",
+        "JWT"
+      ],
+      "aiFingerprint": "dd8a04ac9526b83f792c14ecfb8e6b94349fa73f84421a1002e418c82f28e80f",
+      "updatedAt": "2025-11-11T02:55:22Z"
+    },
+    "202367615": {
+      "id": "202367615",
+      "fullName": "lyswhut/lx-music-desktop",
+      "tags": [
+        "音乐播放器",
+        "桌面应用",
+        "跨平台",
+        "媒体管理"
+      ],
+      "technologies": [
+        "TypeScript",
+        "Electron",
+        "Vue",
+        "音频处理"
+      ],
+      "aiFingerprint": "56c9baf8a62ba14296bccca2fa8c462545f919479b6636dcb2a9bc29edf8aafc",
+      "updatedAt": "2025-11-17T12:31:57Z"
+    },
+    "203587744": {
+      "id": "203587744",
+      "fullName": "hoppscotch/hoppscotch",
+      "tags": [
+        "API开发",
+        "测试工具",
+        "开发者工具",
+        "Web应用"
+      ],
+      "technologies": [
+        "TypeScript",
+        "PWA",
+        "GraphQL",
+        "REST",
+        "HTTP"
+      ],
+      "aiFingerprint": "b1a790c0d716b1ebecbe5db8d4d9b6c81cac2af34161ca5a31e7bf6a90176bbf",
+      "updatedAt": "2025-11-17T12:00:35Z"
+    },
+    "205255284": {
+      "id": "205255284",
+      "fullName": "Uniswap/v2-core",
+      "tags": [
+        "去中心化交易",
+        "智能合约"
+      ],
+      "technologies": [
+        "TypeScript",
+        "Ethereum",
+        "ERC20"
+      ],
+      "aiFingerprint": "00115469873504f97fc5c3c2f9d5fe8abab17fb43d152dc473d2a1164a3ac9ea",
+      "updatedAt": "2025-11-17T00:46:56Z"
+    },
+    "205679232": {
+      "id": "205679232",
+      "fullName": "flipped-aurora/gin-vue-admin",
+      "tags": [
+        "后台管理",
+        "企业级开发"
+      ],
+      "technologies": [
+        "Go",
+        "Gin",
+        "Vue",
+        "TypeScript",
+        "AI"
+      ],
+      "aiFingerprint": "6f55e001939bde72cbd3a7b6a985251645d4e3a2ea6ce5593672ff9e4b7076a9",
+      "updatedAt": "2025-11-17T09:51:21Z"
+    },
+    "206254792": {
+      "id": "206254792",
+      "fullName": "zidoro/pomatez",
+      "tags": [
+        "番茄工作法",
+        "时间管理",
+        "生产力工具"
+      ],
+      "technologies": [
+        "TypeScript",
+        "Electron",
+        "桌面应用"
+      ],
+      "aiFingerprint": "a61f3000a6aee6d93f839612d9c12ff00addb8c460817312a43a5354cc7054ed",
+      "updatedAt": "2025-11-15T04:24:10Z"
+    },
+    "212204036": {
+      "id": "212204036",
+      "fullName": "astrit/css.gg",
+      "tags": [
+        "UI设计",
+        "图标库"
+      ],
+      "technologies": [
+        "CSS",
+        "JavaScript",
+        "SVG"
+      ],
+      "aiFingerprint": "8959f9253951c2f9bb1976938d1aec5884c24ef73aebc9803fd9196b799961da",
+      "updatedAt": "2025-11-16T19:28:49Z"
+    },
+    "214011414": {
+      "id": "214011414",
+      "fullName": "kingToolbox/WindTerm",
+      "tags": [
+        "终端工具",
+        "远程连接",
+        "跨平台"
+      ],
+      "technologies": [
+        "C",
+        "SSH",
+        "SFTP",
+        "Telnet",
+        "Tmux"
+      ],
+      "aiFingerprint": "b9ff5206db05cc863b04f79fd21c851a79f8edce7b005a447b4590a224a3485a",
+      "updatedAt": "2025-11-17T11:12:20Z"
+    },
+    "216773481": {
+      "id": "216773481",
+      "fullName": "timqian/chinese-independent-blogs",
+      "tags": [
+        "博客聚合",
+        "内容发现",
+        "RSS订阅"
+      ],
+      "technologies": [
+        "Python",
+        "RSS"
+      ],
+      "aiFingerprint": "9e90fec7ed42a54282345bf56cd366277a51845c0e7004fd90cdefb2ff440464",
+      "updatedAt": "2025-11-17T11:05:18Z"
+    },
+    "218686763": {
+      "id": "218686763",
+      "fullName": "tindy2013/subconverter",
+      "tags": [
+        "订阅转换",
+        "代理工具"
+      ],
+      "technologies": [
+        "C++",
+        "正则表达式",
+        "Clash"
+      ],
+      "aiFingerprint": "61d831c4b020c909e85a45ef4a92ec7b3974cd14c644cea438730daedb848d52",
+      "updatedAt": "2025-11-17T08:54:26Z"
+    },
+    "219164711": {
+      "id": "219164711",
+      "fullName": "leochen-g/wechat-assistant-pro",
+      "tags": [
+        "微信机器人",
+        "AI助手",
+        "智能客服",
+        "多平台集成"
+      ],
+      "technologies": [
+        "JavaScript",
+        "ChatGPT",
+        "DeepSeek",
+        "语音识别",
+        "定时任务"
+      ],
+      "aiFingerprint": "ec7311dd34da22d3dbcea13d91f21a07076091c7b4958da3b86b86d891f85b39",
+      "updatedAt": "2025-11-17T11:51:39Z"
+    },
+    "219705144": {
+      "id": "219705144",
+      "fullName": "ferdikoomen/openapi-typescript-codegen",
+      "tags": [
+        "代码生成",
+        "API开发"
+      ],
+      "technologies": [
+        "TypeScript",
+        "Node.js",
+        "OpenAPI"
+      ],
+      "aiFingerprint": "c8991a26f463f0ab3d4efa3041dc2803390e6657617f4a900098129e42d18e52",
+      "updatedAt": "2025-11-14T03:43:08Z"
+    },
+    "226567781": {
+      "id": "226567781",
+      "fullName": "NeoApplications/Neo-Backup",
+      "tags": [
+        "Android",
+        "备份工具"
+      ],
+      "technologies": [
+        "Kotlin",
+        "Root"
+      ],
+      "aiFingerprint": "28cdb8d9189bfe0a0a068c2791d7a64732ec1b345db7155edce10f1724cfbdc9",
+      "updatedAt": "2025-11-17T06:14:11Z"
+    },
+    "226693375": {
+      "id": "226693375",
+      "fullName": "Kenshin-liu/damai",
+      "tags": [
+        "抢票工具",
+        "票务系统",
+        "自动化"
+      ],
+      "technologies": [
+        "JavaScript"
+      ],
+      "aiFingerprint": "dfa2884e5b23a1ec167293dd8f70ace0dded652bf5a32d24ac78d6ee59b0d3db",
+      "updatedAt": "2025-11-11T08:32:13Z"
+    },
+    "229764065": {
+      "id": "229764065",
+      "fullName": "anyant/rssant",
+      "tags": [
+        "RSS阅读",
+        "资讯订阅",
+        "内容聚合",
+        "博客工具"
+      ],
+      "technologies": [
+        "Python",
+        "RSS",
+        "Web抓取",
+        "数据解析"
+      ],
+      "aiFingerprint": "7d0dd3160414c260169b7054857f4feed6b039d18e6f26224371537e72b34c66",
+      "updatedAt": "2025-11-17T11:39:29Z"
+    },
+    "231865705": {
+      "id": "231865705",
+      "fullName": "TapXWorld/ChinaTextbook",
+      "tags": [
+        "教育资源",
+        "教材分享",
+        "PDF文档"
+      ],
+      "technologies": [
+        "Roff"
+      ],
+      "aiFingerprint": "60ab62d52c0ba4c2b81c35ad1fcd845c59fa815ce904eb4863a4a496c6e929f7",
+      "updatedAt": "2025-11-17T12:44:38Z"
+    },
+    "239760033": {
+      "id": "239760033",
+      "fullName": "sivan/heti",
+      "tags": [
+        "中文排版",
+        "样式增强"
+      ],
+      "technologies": [
+        "SCSS",
+        "CSS"
+      ],
+      "aiFingerprint": "9544423499fe56d214869803fc0b7060b40088869801a7c0112f0a2fb050ff97",
+      "updatedAt": "2025-11-17T05:41:01Z"
+    },
+    "241576270": {
+      "id": "241576270",
+      "fullName": "labuladong/fucking-algorithm",
+      "tags": [
+        "算法学习",
+        "LeetCode",
+        "数据结构",
+        "面试准备"
+      ],
+      "technologies": [
+        "Markdown",
+        "算法",
+        "动态规划",
+        "KMP",
+        "计算机科学"
+      ],
+      "aiFingerprint": "b7d81d4fa959e07552538c35e57e96817cc0dc1c9d5c5eb8483c57842ceab4e1",
+      "updatedAt": "2025-11-17T11:53:22Z"
+    },
+    "242041853": {
+      "id": "242041853",
+      "fullName": "txperl/PixivBiu",
+      "tags": [
+        "Pixiv工具",
+        "图片下载",
+        "ACG资源",
+        "辅助工具"
+      ],
+      "technologies": [
+        "Python",
+        "网络爬虫",
+        "图片处理",
+        "API调用"
+      ],
+      "aiFingerprint": "72ea110011aaaab4a4b59bf4d278bd8d9b7394a721bb2d91a5ecbd240b787fbb",
+      "updatedAt": "2025-11-17T12:03:24Z"
+    },
+    "244779423": {
+      "id": "244779423",
+      "fullName": "SocialSisterYi/bilibili-API-collect",
+      "tags": [
+        "API收集",
+        "哔哩哔哩",
+        "数据接口",
+        "开发者工具"
+      ],
+      "technologies": [
+        "JavaScript",
+        "API文档",
+        "网络请求",
+        "数据解析"
+      ],
+      "aiFingerprint": "bfe768d245bfc57e18d480ff3f72ad790eb52c9f2ec2b78e5e8a8a8642444aeb",
+      "updatedAt": "2025-11-17T12:03:55Z"
+    },
+    "246335987": {
+      "id": "246335987",
+      "fullName": "ventoy/Ventoy",
+      "tags": [
+        "系统启动",
+        "USB工具"
+      ],
+      "technologies": [
+        "C",
+        "UEFI",
+        "Secure Boot"
+      ],
+      "aiFingerprint": "bbe67299101bc037311341f6a5b4ddaa63431049fcc8fbb9b31986a01839d100",
+      "updatedAt": "2025-11-17T08:23:39Z"
+    },
+    "247327255": {
+      "id": "247327255",
+      "fullName": "spencerwooo/substats",
+      "tags": [
+        "订阅统计",
+        "API服务"
+      ],
+      "technologies": [
+        "TypeScript",
+        "Cloudflare Workers"
+      ],
+      "aiFingerprint": "1612d31602b8d52b2205dca61cdd464fc5b099aeaabcc18b8ebaec07ea1c0614",
+      "updatedAt": "2025-11-17T02:33:54Z"
+    },
+    "248372441": {
+      "id": "248372441",
+      "fullName": "filamentphp/filament",
+      "tags": [
+        "Laravel",
+        "后台管理"
+      ],
+      "technologies": [
+        "PHP",
+        "Livewire",
+        "Tailwind CSS"
+      ],
+      "aiFingerprint": "d1d1f2f1f065d79cccb005ec3bc4812c2279f26306f39f11e480c93e6f139976",
+      "updatedAt": "2025-11-17T12:25:53Z"
+    },
+    "253461233": {
+      "id": "253461233",
+      "fullName": "tw93/MiaoYan",
+      "tags": [
+        "笔记应用",
+        "Markdown编辑",
+        "文档工具",
+        "写作辅助"
+      ],
+      "technologies": [
+        "Swift",
+        "macOS",
+        "Markdown",
+        "本地存储"
+      ],
+      "aiFingerprint": "e69bc03f486a57d2a3f156002b99bde3e3053477d4ca017da2b3aac820d68137",
+      "updatedAt": "2025-11-17T11:41:38Z"
+    },
+    "260037952": {
+      "id": "260037952",
+      "fullName": "Uniswap/v3-core",
+      "tags": [
+        "去中心化交易",
+        "AMM"
+      ],
+      "technologies": [
+        "TypeScript",
+        "Solidity",
+        "Ethereum"
+      ],
+      "aiFingerprint": "84e8186e7a262c22dbc543168a99dfb09dd8f9c341227b63d61c62f2e321567a",
+      "updatedAt": "2025-11-17T08:58:47Z"
+    },
+    "260554261": {
+      "id": "260554261",
+      "fullName": "vuejs/language-tools",
+      "tags": [
+        "Vue工具",
+        "语言服务"
+      ],
+      "technologies": [
+        "TypeScript",
+        "Volar"
+      ],
+      "aiFingerprint": "688863df2a82798431e69ad547930f6ea5034302c2c78d2b1afcf6ac59145a53",
+      "updatedAt": "2025-11-17T09:29:56Z"
+    },
+    "262309662": {
+      "id": "262309662",
+      "fullName": "palacms/palacms",
+      "tags": [
+        "内容管理",
+        "静态站点",
+        "开发者工具",
+        "编辑器友好"
+      ],
+      "technologies": [
+        "Svelte",
+        "PocketBase",
+        "JAMstack",
+        "组件库",
+        "HTML"
+      ],
+      "aiFingerprint": "357308cc8874121cf94d703b817e4192e6281f83115ca596ac18f9f6dd49730d",
+      "updatedAt": "2025-11-17T11:42:19Z"
+    },
+    "262666767": {
+      "id": "262666767",
+      "fullName": "maoserr/epublifier",
+      "tags": [
+        "电子书转换",
+        "网页小说",
+        "格式转换",
+        "浏览器扩展"
+      ],
+      "technologies": [
+        "TypeScript",
+        "Chrome扩展",
+        "Firefox扩展",
+        "爬虫",
+        "UI框架"
+      ],
+      "aiFingerprint": "d4870ce2dd141257129919bc2c249f5d30f73ea2f22252dcd1eb26f1a30a51d3",
+      "updatedAt": "2025-11-16T08:52:58Z"
+    },
+    "268006778": {
+      "id": "268006778",
+      "fullName": "MuntashirAkon/AppManager",
+      "tags": [
+        "安卓应用",
+        "包管理"
+      ],
+      "technologies": [
+        "Java",
+        "ADB"
+      ],
+      "aiFingerprint": "005fb9fda6d59cc91af42dd6bd9f0c63deabb0df5c7255de184642bc45a8d352",
+      "updatedAt": "2025-11-17T09:25:29Z"
+    },
+    "269336148": {
+      "id": "269336148",
+      "fullName": "sickcodes/Docker-OSX",
+      "tags": [
+        "虚拟化",
+        "容器技术",
+        "macOS"
+      ],
+      "technologies": [
+        "Docker",
+        "KVM",
+        "Shell",
+        "X11"
+      ],
+      "aiFingerprint": "71d29b463a021699b9f5bda9a5239a160a64a981018b8ada689a29f8467a0c97",
+      "updatedAt": "2025-11-17T11:08:06Z"
+    },
+    "271550942": {
+      "id": "271550942",
+      "fullName": "themsaid/ibis",
+      "tags": [
+        "电子书生成",
+        "文档转换"
+      ],
+      "technologies": [
+        "PHP",
+        "Markdown",
+        "PDF"
+      ],
+      "aiFingerprint": "12534b2d6e68dc9daec2ce8ac6f7410123194a5dc13343b4a893ae130067131e",
+      "updatedAt": "2025-11-13T14:05:22Z"
+    },
+    "272457606": {
+      "id": "272457606",
+      "fullName": "jart/cosmopolitan",
+      "tags": [
+        "跨平台",
+        "C库"
+      ],
+      "technologies": [
+        "C",
+        "Libc",
+        "Polyglot"
+      ],
+      "aiFingerprint": "d8cd3025593579441feecb294e9ecd4be2b65114c2c5c187dc845a1013cff504",
+      "updatedAt": "2025-11-17T06:06:23Z"
+    },
+    "273642731": {
+      "id": "273642731",
+      "fullName": "cuixiaorui/mini-vue",
+      "tags": [
+        "Vue3源码",
+        "学习框架"
+      ],
+      "technologies": [
+        "TypeScript"
+      ],
+      "aiFingerprint": "7131517cbe8e46c2d234e1897c774931f1ad8ee397f4f34763fbda5ce25da9ea",
+      "updatedAt": "2025-11-16T14:24:18Z"
+    },
+    "276008164": {
+      "id": "276008164",
+      "fullName": "blackmatrix7/ios_rule_script",
+      "tags": [
+        "网络代理",
+        "规则配置"
+      ],
+      "technologies": [
+        "JavaScript",
+        "正则表达式"
+      ],
+      "aiFingerprint": "8b362110e6777f4efa97af2ca7e76df96e223aa5b57e59220c264aa6ecaf57ce",
+      "updatedAt": "2025-11-17T12:39:04Z"
+    },
+    "279362298": {
+      "id": "279362298",
+      "fullName": "MilenaCarecho/30diasDeCSS",
+      "tags": [
+        "CSS挑战",
+        "前端学习"
+      ],
+      "technologies": [
+        "CSS",
+        "HTML"
+      ],
+      "aiFingerprint": "56b51eb1ddf64d9a3691b132720f07d7289e44dc0f85a297b29f5259b5eaa356",
+      "updatedAt": "2025-11-14T07:22:28Z"
+    },
+    "283801053": {
+      "id": "283801053",
+      "fullName": "CodePanda66/CSPostgraduate-408",
+      "tags": [
+        "计算机考研",
+        "408资料",
+        "真题资源",
+        "教育辅助"
+      ],
+      "technologies": [
+        "C++",
+        "数据结构",
+        "操作系统",
+        "计算机网络"
+      ],
+      "aiFingerprint": "642b43edf592ae1521c17695eb5bf3086d5f2711a422af84be0aa8034c2baa9f",
+      "updatedAt": "2025-11-17T11:18:23Z"
+    },
+    "284008087": {
+      "id": "284008087",
+      "fullName": "cloudcommunity/Free-Certifications",
+      "tags": [
+        "在线教育",
+        "免费认证",
+        "学习资源"
+      ],
+      "technologies": [
+        "未标注"
+      ],
+      "aiFingerprint": "7158f371177dd67341379e9f0bb1c83f79fb296e3bd657df18f981f752a29a51",
+      "updatedAt": "2025-11-17T12:18:25Z"
+    },
+    "285468156": {
+      "id": "285468156",
+      "fullName": "headllines/hackernews-daily",
+      "tags": [
+        "新闻聚合",
+        "RSS订阅"
+      ],
+      "technologies": [
+        "JavaScript"
+      ],
+      "aiFingerprint": "b526ee3f40ee4b03d5d81779557bd5709a581ce349b2b15f99841d937bf2dd5c",
+      "updatedAt": "2025-11-17T01:57:05Z"
+    },
+    "287706896": {
+      "id": "287706896",
+      "fullName": "Tencent/puerts",
+      "tags": [
+        "游戏开发",
+        "TypeScript"
+      ],
+      "technologies": [
+        "C++",
+        "TypeScript",
+        "Unity",
+        "Unreal Engine"
+      ],
+      "aiFingerprint": "d7362ed442f986bc75ee3529b67bf7dc33aa9894ed6b545923503b940de57ea6",
+      "updatedAt": "2025-11-17T12:26:53Z"
+    },
+    "290091948": {
+      "id": "290091948",
+      "fullName": "labmlai/annotated_deep_learning_paper_implementations",
+      "tags": [
+        "深度学习",
+        "论文实现",
+        "机器学习",
+        "教程"
+      ],
+      "technologies": [
+        "Python",
+        "PyTorch",
+        "Transformer",
+        "GAN",
+        "优化器"
+      ],
+      "aiFingerprint": "d0f88902119f61dd7d114e08f35ca38c8023bf842c2eeac88d2ce49fde12cd56",
+      "updatedAt": "2025-11-17T12:35:31Z"
+    },
+    "290138319": {
+      "id": "290138319",
+      "fullName": "AntiMicroX/antimicrox",
+      "tags": [
+        "游戏手柄",
+        "输入映射"
+      ],
+      "technologies": [
+        "C++",
+        "Gamepad",
+        "键盘模拟"
+      ],
+      "aiFingerprint": "862d651e1f99d83cf74c95ec84900949b7e959e5246f606bb545963053983b3e",
+      "updatedAt": "2025-11-17T04:28:30Z"
+    },
+    "291438522": {
+      "id": "291438522",
+      "fullName": "siyuan-note/siyuan",
+      "tags": [
+        "知识管理",
+        "笔记软件",
+        "隐私优先",
+        "自托管"
+      ],
+      "technologies": [
+        "TypeScript",
+        "Go",
+        "Electron",
+        "Markdown",
+        "本地优先"
+      ],
+      "aiFingerprint": "19c072c0e90ab5b01dd560d6ea28722dac07a211dd3d1eab55da1b974d6c9f17",
+      "updatedAt": "2025-11-17T12:38:14Z"
+    },
+    "291485614": {
+      "id": "291485614",
+      "fullName": "XIU2/CloudflareSpeedTest",
+      "tags": [
+        "网络测速",
+        "CDN优化"
+      ],
+      "technologies": [
+        "Go"
+      ],
+      "aiFingerprint": "c8a33414e5f91d4c0903419a2c7ba5ed020618201df6ed3de79ccc9f6029378c",
+      "updatedAt": "2025-11-17T10:22:59Z"
+    },
+    "291625908": {
+      "id": "291625908",
+      "fullName": "theanarkh/understand-nodejs",
+      "tags": [
+        "Node.js",
+        "源码分析",
+        "学习资源"
+      ],
+      "technologies": [
+        "JavaScript",
+        "Node.js"
+      ],
+      "aiFingerprint": "32a8f6ef2c67404fc163dbb7adcce60d7f396cef741466c3244de10982dae760",
+      "updatedAt": "2025-11-13T00:48:53Z"
+    },
+    "295992065": {
+      "id": "295992065",
+      "fullName": "tailwindlabs/headlessui",
+      "tags": [
+        "UI组件",
+        "无障碍设计"
+      ],
+      "technologies": [
+        "TypeScript",
+        "React",
+        "TailwindCSS"
+      ],
+      "aiFingerprint": "4e0bb9528237aecdde591164bd0260151dc1937fbb48689eb7c9ffc507473346",
+      "updatedAt": "2025-11-17T08:56:42Z"
+    },
+    "296233312": {
+      "id": "296233312",
+      "fullName": "yihong0618/running_page",
+      "tags": [
+        "跑步",
+        "数据可视化"
+      ],
+      "technologies": [
+        "Python"
+      ],
+      "aiFingerprint": "6f6abd112b38ade56691549b083d7538e2846bf5f3f8f35db5290e8cdcf87666",
+      "updatedAt": "2025-11-17T10:23:49Z"
+    },
+    "299634373": {
+      "id": "299634373",
+      "fullName": "XIU2/UserScript",
+      "tags": [
+        "浏览器脚本",
+        "用户脚本"
+      ],
+      "technologies": [
+        "JavaScript",
+        "Tampermonkey"
+      ],
+      "aiFingerprint": "6aa43ebfdc891788afdb389395bec1b31590eaa5f07978ba87981515244fb58c",
+      "updatedAt": "2025-11-17T10:31:19Z"
+    },
+    "301216792": {
+      "id": "301216792",
+      "fullName": "is-a-dev/register",
+      "tags": [
+        "域名服务",
+        "开发者工具",
+        "免费资源",
+        "子域名注册"
+      ],
+      "technologies": [
+        "JavaScript",
+        "Cloudflare",
+        "DNS",
+        "GitHub Pages"
+      ],
+      "aiFingerprint": "2cb5b236c4557f5630a83f3d7084438b974843f3fbab6324b233c70b23b25b9a",
+      "updatedAt": "2025-11-17T11:17:09Z"
+    },
+    "301421364": {
+      "id": "301421364",
+      "fullName": "thunlp/WantWords",
+      "tags": [
+        "自然语言处理",
+        "反向词典"
+      ],
+      "technologies": [
+        "JavaScript"
+      ],
+      "aiFingerprint": "0648cec3f9a4426a39599d1e8c34904ff9932934e67a4349aa6cc38324adb8b0",
+      "updatedAt": "2025-11-16T12:19:57Z"
+    },
+    "305539431": {
+      "id": "305539431",
+      "fullName": "BlueMatthew/WechatExporter",
+      "tags": [
+        "数据备份",
+        "聊天记录"
+      ],
+      "technologies": [
+        "C++",
+        "SQLite",
+        "音频编码"
+      ],
+      "aiFingerprint": "7329bd78251d8720aef5fdf890a676744f5ab485b48bc578fe788615a9a7c74a",
+      "updatedAt": "2025-11-17T09:22:37Z"
+    },
+    "307125642": {
+      "id": "307125642",
+      "fullName": "limbopro/Adblock4limbo",
+      "tags": [
+        "广告拦截",
+        "浏览器扩展",
+        "内容过滤"
+      ],
+      "technologies": [
+        "JavaScript",
+        "Quantumult",
+        "Surge"
+      ],
+      "aiFingerprint": "9ae5f28dfa2d14309000a6802ef798524e81442f3dea5edf59618bc15dbf7304",
+      "updatedAt": "2025-11-17T03:43:34Z"
+    },
+    "311254390": {
+      "id": "311254390",
+      "fullName": "shatyuka/Zhiliao",
+      "tags": [
+        "知乎优化",
+        "广告拦截",
+        "Xposed模块"
+      ],
+      "technologies": [
+        "Java",
+        "Xposed框架"
+      ],
+      "aiFingerprint": "6660e1e5cb6a0edd631e8ed5d9d7aa4d1b71e298fc987e08c24310654186d650",
+      "updatedAt": "2025-11-15T07:21:52Z"
+    },
+    "313330998": {
+      "id": "313330998",
+      "fullName": "bradtraversy/50projects50days",
+      "tags": [
+        "前端项目",
+        "Web开发",
+        "学习资源",
+        "实战练习"
+      ],
+      "technologies": [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "Web技术"
+      ],
+      "aiFingerprint": "60d7241f6f9214548b0664d1923a3b728b80286ba25d53712a4fc633c1b51e74",
+      "updatedAt": "2025-11-17T12:38:13Z"
+    },
+    "316540672": {
+      "id": "316540672",
+      "fullName": "kumakichi/easy_rust_chs",
+      "tags": [
+        "Rust",
+        "翻译"
+      ],
+      "technologies": [
+        "Shell"
+      ],
+      "aiFingerprint": "97cf0a087b23fc9cad78825e69c200d7491057d881130dfd7dedef8ab5763939",
+      "updatedAt": "2025-10-20T15:48:22Z"
+    },
+    "320936145": {
+      "id": "320936145",
+      "fullName": "Kareadita/Kavita",
+      "tags": [
+        "阅读服务",
+        "媒体管理"
+      ],
+      "technologies": [
+        "C#",
+        "EPUB",
+        "CBZ"
+      ],
+      "aiFingerprint": "ea3f881f6d38adf5adf87bf32806b60c14aaef66778125e17ae544b90e25957a",
+      "updatedAt": "2025-11-17T09:49:03Z"
+    },
+    "321366880": {
+      "id": "321366880",
+      "fullName": "KieSun/per-moniteur",
+      "tags": [
+        "性能监控",
+        "Web指标"
+      ],
+      "technologies": [
+        "TypeScript",
+        "Web Vitals"
+      ],
+      "aiFingerprint": "18087269f7de60783468283774739ab9032707351fa52bebe6b5ce1e7978f882",
+      "updatedAt": "2025-07-16T04:34:59Z"
+    },
+    "321631117": {
+      "id": "321631117",
+      "fullName": "yann0917/dedao-dl",
+      "tags": [
+        "课程下载",
+        "内容获取"
+      ],
+      "technologies": [
+        "Go",
+        "HTTP"
+      ],
+      "aiFingerprint": "4babcb9ba906c9a094863f4a4c6fb59933cdfd76858dd40a119de11e839844b5",
+      "updatedAt": "2025-11-13T11:14:19Z"
+    },
+    "323048702": {
+      "id": "323048702",
+      "fullName": "OpenBB-finance/OpenBB",
+      "tags": [
+        "金融数据",
+        "量化分析",
+        "AI交易",
+        "投资平台"
+      ],
+      "technologies": [
+        "Python",
+        "机器学习",
+        "AI",
+        "数据分析",
+        "量化金融"
+      ],
+      "aiFingerprint": "35a786b9e184960ece7d0920e6241cad26a91332171598273a1e164ed59259ca",
+      "updatedAt": "2025-11-17T11:41:50Z"
+    },
+    "327628682": {
+      "id": "327628682",
+      "fullName": "mantinedev/mantine",
+      "tags": [
+        "前端UI",
+        "React组件"
+      ],
+      "technologies": [
+        "TypeScript",
+        "React",
+        "Hooks"
+      ],
+      "aiFingerprint": "5b4850b8fdcde0279d695c8ea6bb12fbb086c2adb5d63d0eb81f283cd94e5556",
+      "updatedAt": "2025-11-17T10:03:52Z"
+    },
+    "329202727": {
+      "id": "329202727",
+      "fullName": "blacksmithgu/obsidian-dataview",
+      "tags": [
+        "笔记插件",
+        "数据查询"
+      ],
+      "technologies": [
+        "TypeScript",
+        "Obsidian"
+      ],
+      "aiFingerprint": "7b621baa49f026919b845f07b7d075687eaa43224effc08c38a993fe079e6e02",
+      "updatedAt": "2025-11-16T20:45:51Z"
+    },
+    "331107018": {
+      "id": "331107018",
+      "fullName": "FuelLabs/sway",
+      "tags": [
+        "智能合约",
+        "区块链开发"
+      ],
+      "technologies": [
+        "Rust",
+        "Fuel"
+      ],
+      "aiFingerprint": "83039848a0b51687a2b07737fb902079d7fd5818c3af4031b0c958d1a2c59d58",
+      "updatedAt": "2025-11-17T02:51:06Z"
+    },
+    "333723456": {
+      "id": "333723456",
+      "fullName": "vikejs/vike",
+      "tags": [
+        "全栈框架",
+        "服务端渲染"
+      ],
+      "technologies": [
+        "TypeScript",
+        "React",
+        "Vite"
+      ],
+      "aiFingerprint": "9811f3117411e6948cc10b8c64143b6f2e997b88c468a4afee9ca49171aa101f",
+      "updatedAt": "2025-11-17T01:25:34Z"
+    },
+    "334110599": {
+      "id": "334110599",
+      "fullName": "iDvel/rime-ice",
+      "tags": [
+        "输入法",
+        "中文输入",
+        "词库维护"
+      ],
+      "technologies": [
+        "Lua",
+        "Rime"
+      ],
+      "aiFingerprint": "b61ef457291b6a5efdca2280315899ddc5d355efc19e6f8d512e5968beeff26e",
+      "updatedAt": "2025-11-17T11:05:45Z"
+    },
+    "334448316": {
+      "id": "334448316",
+      "fullName": "lxgw/LxgwWenKai",
+      "tags": [
+        "字体设计",
+        "中文字体"
+      ],
+      "technologies": [
+        "Shell"
+      ],
+      "aiFingerprint": "e3c7375b4748e557dfa3ca0b1819bde0b67f30d8892cafce5a98e413f4d9c136",
+      "updatedAt": "2025-11-17T09:23:22Z"
+    },
+    "336274588": {
+      "id": "336274588",
+      "fullName": "PaddlePaddle/PaddleNLP",
+      "tags": [
+        "自然语言处理",
+        "AI",
+        "机器学习"
+      ],
+      "technologies": [
+        "Python",
+        "LLM",
+        "BERT",
+        "ERNIE",
+        "分布式训练"
+      ],
+      "aiFingerprint": "b5cc45646d31daf2ee87535447da6ad1e2ac0584a303e6fd5a8b78eb24b1a12b",
+      "updatedAt": "2025-11-17T06:24:18Z"
+    },
+    "338719962": {
+      "id": "338719962",
+      "fullName": "KRTirtho/spotube",
+      "tags": [
+        "音乐播放",
+        "跨平台"
+      ],
+      "technologies": [
+        "Dart",
+        "Flutter"
+      ],
+      "aiFingerprint": "9a73d13d498df62e9c4052d052c35b96712f50de2f763fe0117eeb2a07b69a97",
+      "updatedAt": "2025-11-17T12:32:11Z"
+    },
+    "339920287": {
+      "id": "339920287",
+      "fullName": "zyddnys/manga-image-translator",
+      "tags": [
+        "图像翻译",
+        "漫画处理"
+      ],
+      "technologies": [
+        "Python",
+        "PyTorch",
+        "OCR",
+        "深度学习"
+      ],
+      "aiFingerprint": "a84fb032ac18774ea85b8d81b6eeac1d359ed726c729cfae31ff2bb248222fb7",
+      "updatedAt": "2025-11-17T07:24:39Z"
+    },
+    "342884320": {
+      "id": "342884320",
+      "fullName": "cool-team-official/cool-admin-midway",
+      "tags": [
+        "后台管理",
+        "权限框架"
+      ],
+      "technologies": [
+        "TypeScript",
+        "Midway",
+        "Vue",
+        "MySQL",
+        "Redis"
+      ],
+      "aiFingerprint": "ec91d21bb8544e98c7d845e2f4bf606cba642b8c7bbbcf9afd2f51f43adfc6f9",
+      "updatedAt": "2025-11-17T06:09:04Z"
+    },
+    "343078060": {
+      "id": "343078060",
+      "fullName": "Lissy93/dashy",
+      "tags": [
+        "个人仪表板",
+        "自托管",
+        "工具聚合"
+      ],
+      "technologies": [
+        "Vue.js",
+        "Node.js",
+        "Docker"
+      ],
+      "aiFingerprint": "669cf6663a32be689aa63e961b85bb75d5a2ac7b1eac590feeff351d77dd2d33",
+      "updatedAt": "2025-11-17T10:50:33Z"
+    },
+    "343533419": {
+      "id": "343533419",
+      "fullName": "charmbracelet/lipgloss",
+      "tags": [
+        "终端美化",
+        "UI库"
+      ],
+      "technologies": [
+        "Go",
+        "TUI"
+      ],
+      "aiFingerprint": "3fc863961f147958e554bbc987676dd0060c173e5a73336b89b559b51d419989",
+      "updatedAt": "2025-11-17T07:15:08Z"
+    },
+    "345923708": {
+      "id": "345923708",
+      "fullName": "ThisisGame/cpp-game-engine-book",
+      "tags": [
+        "游戏开发",
+        "引擎教程",
+        "3D图形"
+      ],
+      "technologies": [
+        "C++",
+        "Lua",
+        "FMOD",
+        "FreeType",
+        "Blender"
+      ],
+      "aiFingerprint": "a5a378936811fce94b1843d9f17367766178c4eebb2792be297f643d02fbb9bf",
+      "updatedAt": "2025-11-17T10:22:17Z"
+    },
+    "360018415": {
+      "id": "360018415",
+      "fullName": "originjs/webpack-to-vite",
+      "tags": [
+        "构建工具",
+        "项目迁移"
+      ],
+      "technologies": [
+        "TypeScript",
+        "Vite",
+        "Webpack",
+        "Vue-CLI"
+      ],
+      "aiFingerprint": "b07a0dbf1251eceaa4318db736e39f28cb2b9a0212d703f83ebcd8c59db2650a",
+      "updatedAt": "2025-10-06T17:11:36Z"
+    },
+    "362302045": {
+      "id": "362302045",
+      "fullName": "haixiangyan/make-wheels",
+      "tags": [
+        "教学项目",
+        "npm库开发"
+      ],
+      "technologies": [
+        "HTML",
+        "JavaScript"
+      ],
+      "aiFingerprint": "43b32878e021384f5807825ce72e29566ccbdddad51f9e07ecdc9a934b2cd255",
+      "updatedAt": "2025-09-11T09:10:52Z"
+    },
+    "362361564": {
+      "id": "362361564",
+      "fullName": "ljinkai/weekly",
+      "tags": [
+        "产品变现",
+        "独立开发"
+      ],
+      "technologies": [
+        "Markdown",
+        "文档"
+      ],
+      "aiFingerprint": "dfce864410a2b91cd154f6ad0826bfbf823819b09d41035f48ee80f5c3bc2440",
+      "updatedAt": "2025-11-14T08:58:34Z"
+    },
+    "364474335": {
+      "id": "364474335",
+      "fullName": "google/zx",
+      "tags": [
+        "脚本工具",
+        "命令行"
+      ],
+      "technologies": [
+        "JavaScript",
+        "Node.js",
+        "Shell"
+      ],
+      "aiFingerprint": "2419c873a73feecfd7f5b2f848120e6277e6a8a4a6e586f264cbb8fc5603a097",
+      "updatedAt": "2025-11-17T08:33:12Z"
+    },
+    "367595430": {
+      "id": "367595430",
+      "fullName": "lyswhut/lx-music-mobile",
+      "tags": [
+        "音乐播放",
+        "移动应用"
+      ],
+      "technologies": [
+        "TypeScript",
+        "React Native"
+      ],
+      "aiFingerprint": "c2086aa37453f511e9e5131efa86592301a8657d6bd971517bfb6a6ef7d68edd",
+      "updatedAt": "2025-11-17T09:26:56Z"
+    },
+    "370408532": {
+      "id": "370408532",
+      "fullName": "pizzamx/zimuku_for_kodi",
+      "tags": [
+        "字幕下载",
+        "Kodi插件",
+        "媒体播放",
+        "字幕库"
+      ],
+      "technologies": [
+        "Python",
+        "Kodi",
+        "字幕解析",
+        "网络请求"
+      ],
+      "aiFingerprint": "e74635f33093284d721e04e1f7027d21b7e3e9c4e16ae9a51335f80fd1908fba",
+      "updatedAt": "2025-11-16T07:55:54Z"
+    },
+    "370873536": {
+      "id": "370873536",
+      "fullName": "Sitoi/dailycheckin",
+      "tags": [
+        "自动签到",
+        "任务脚本",
+        "多账号管理",
+        "日常任务"
+      ],
+      "technologies": [
+        "Python",
+        "Docker",
+        "定时任务",
+        "API调用"
+      ],
+      "aiFingerprint": "4f0e0cec7f6e06c49f26c28ad0fcad918e561d673cb35795e642e8bf878f0648",
+      "updatedAt": "2025-11-17T12:36:35Z"
+    },
+    "376881436": {
+      "id": "376881436",
+      "fullName": "skydevil88/XboxDownload",
+      "tags": [
+        "下载加速",
+        "游戏平台"
+      ],
+      "technologies": [
+        "C#"
+      ],
+      "aiFingerprint": "39d31817534170ac8eb46cf8b63cb6468bed11e2340b74692efa162075d8f016",
+      "updatedAt": "2025-11-17T01:17:40Z"
+    },
+    "378536025": {
+      "id": "378536025",
+      "fullName": "OffcierCia/DeFi-Developer-Road-Map",
+      "tags": [
+        "DeFi开发",
+        "区块链指南"
+      ],
+      "technologies": [
+        "JavaScript",
+        "Solidity",
+        "Web3"
+      ],
+      "aiFingerprint": "013d583257d96364d4b416930d74f1d08cca429e0d06031344bcace01102a178",
+      "updatedAt": "2025-11-17T09:09:24Z"
+    },
+    "384277586": {
+      "id": "384277586",
+      "fullName": "haixiangyan/nest-todo",
+      "tags": [
+        "任务管理",
+        "全栈应用"
+      ],
+      "technologies": [
+        "TypeScript",
+        "NestJS",
+        "React",
+        "Redis",
+        "TypeORM"
+      ],
+      "aiFingerprint": "c05acd8d79cade357f2a90b0b861629345956ca101eaaefb58a097cd43c2586f",
+      "updatedAt": "2025-09-12T15:43:01Z"
+    },
+    "386143667": {
+      "id": "386143667",
+      "fullName": "xzhangsir/gitstore-d",
+      "tags": [
+        "Git工具",
+        "仓库管理"
+      ],
+      "technologies": [
+        "JavaScript",
+        "Git"
+      ],
+      "aiFingerprint": "df0ddb8571f0bd3107e1b731b6cbffd97897916acbc7afd212e5b740448abbe9",
+      "updatedAt": "2023-01-31T19:00:53Z"
+    },
+    "387213208": {
+      "id": "387213208",
+      "fullName": "jackyzha0/quartz",
+      "tags": [
+        "静态站点",
+        "知识管理"
+      ],
+      "technologies": [
+        "TypeScript",
+        "Markdown",
+        "SSG"
+      ],
+      "aiFingerprint": "91d3031e45e382396d8430d1ab206a022afbe77f471394f5c4d7ddfea2800b3d",
+      "updatedAt": "2025-11-17T09:05:12Z"
+    },
+    "387326890": {
+      "id": "387326890",
+      "fullName": "xinntao/Real-ESRGAN",
+      "tags": [
+        "图像修复",
+        "超分辨率",
+        "视频增强",
+        "计算机视觉"
+      ],
+      "technologies": [
+        "Python",
+        "PyTorch",
+        "GAN",
+        "图像处理",
+        "深度学习"
+      ],
+      "aiFingerprint": "29875d0c259afbf094916e9a3a122d4eb4a104732d2ebdef9425b7953ce7bb4d",
+      "updatedAt": "2025-11-17T12:40:54Z"
+    },
+    "389529349": {
+      "id": "389529349",
+      "fullName": "shenweiyan/WebStack-Hugo",
+      "tags": [
+        "网址导航",
+        "静态网站",
+        "Hugo主题",
+        "Web开发"
+      ],
+      "technologies": [
+        "Go",
+        "Hugo",
+        "静态生成",
+        "导航配置",
+        "Web技术"
+      ],
+      "aiFingerprint": "026d9c4af512fea3c23ab76ac4fb843007309fb244587f4a6287685e7ad144e8",
+      "updatedAt": "2025-11-16T06:17:15Z"
+    },
+    "389803219": {
+      "id": "389803219",
+      "fullName": "smartcontractkit/full-blockchain-solidity-course-py",
+      "tags": [
+        "区块链",
+        "智能合约"
+      ],
+      "technologies": [
+        "Solidity",
+        "Python"
+      ],
+      "aiFingerprint": "64864fa169f8010785dbd64e5ff73924f389d791975bbcaba91eff8f73243a76",
+      "updatedAt": "2025-11-16T16:30:30Z"
+    },
+    "392517770": {
+      "id": "392517770",
+      "fullName": "overmind1980/oeasy-python-tutorial",
+      "tags": [
+        "Python教程",
+        "编程学习"
+      ],
+      "technologies": [
+        "Python",
+        "Shell",
+        "Linux"
+      ],
+      "aiFingerprint": "bbd381991b9391fcd52b583a29b84067c99939aa9a191db019f7db61853e060f",
+      "updatedAt": "2025-11-14T03:17:44Z"
+    },
+    "393571599": {
+      "id": "393571599",
+      "fullName": "babysor/MockingBird",
+      "tags": [
+        "语音合成",
+        "AI克隆",
+        "实时生成"
+      ],
+      "technologies": [
+        "Python",
+        "PyTorch",
+        "深度学习"
+      ],
+      "aiFingerprint": "97d7ad43c18d78cafac9c56b4efdbeaabcae4f51d60f19bc6b8611172f2713a3",
+      "updatedAt": "2025-11-17T12:14:57Z"
+    },
+    "396851346": {
+      "id": "396851346",
+      "fullName": "guyijie1211/JustLive-Android",
+      "tags": [
+        "直播平台",
+        "移动应用"
+      ],
+      "technologies": [
+        "Java",
+        "Android"
+      ],
+      "aiFingerprint": "2b7e108216322ddd7292cda1fdb5b6f0d955b2e176550bd4b36609168b0cc391",
+      "updatedAt": "2025-11-14T07:19:08Z"
+    },
+    "397672812": {
+      "id": "397672812",
+      "fullName": "eastlakeside/awesome-productivity-cn",
+      "tags": [
+        "生产力工具",
+        "资源集合",
+        "效率提升",
+        "个人管理"
+      ],
+      "technologies": [
+        "Awesome列表",
+        "工具推荐",
+        "效率方法",
+        "资源整理"
+      ],
+      "aiFingerprint": "7477749d4838ed02755cec7f10139af621ab907400846ee3a0f36f2b2f6571e0",
+      "updatedAt": "2025-11-16T06:29:50Z"
+    },
+    "398535094": {
+      "id": "398535094",
+      "fullName": "yuanji-dev/futu",
+      "tags": [
+        "博客主题",
+        "静态网站"
+      ],
+      "technologies": [
+        "HTML",
+        "Hugo",
+        "CSS"
+      ],
+      "aiFingerprint": "2bf21f8c4ada62581c289c0f75f142f3c4f556beaf57688e0e0b2610c66371d3",
+      "updatedAt": "2025-08-16T04:40:21Z"
+    },
+    "401948308": {
+      "id": "401948308",
+      "fullName": "miss-mumu/developer2gwy",
+      "tags": [
+        "公务员考试",
+        "职业转型",
+        "学习指南"
+      ],
+      "technologies": [
+        "未标注"
+      ],
+      "aiFingerprint": "475399488f2c2cea8292049f53261cf1c1d8971de175fe17557a9be590a42175",
+      "updatedAt": "2025-11-17T12:18:35Z"
+    },
+    "402005429": {
+      "id": "402005429",
+      "fullName": "cherry-white/cherry-white.github.io",
+      "tags": [
+        "个人博客",
+        "静态网站"
+      ],
+      "technologies": [
+        "HTML",
+        "CSS"
+      ],
+      "aiFingerprint": "776e3b8456a5f5983ff5a439aa6ae152ee946eb8b8c6e59099b4c33ab64818f3",
+      "updatedAt": "2025-02-19T02:50:50Z"
+    },
+    "404921727": {
+      "id": "404921727",
+      "fullName": "luolongfei/freenom",
+      "tags": [
+        "域名管理",
+        "自动续期",
+        "Freenom"
+      ],
+      "technologies": [
+        "PHP",
+        "Docker",
+        "Telegram Bot"
+      ],
+      "aiFingerprint": "368d9564957989bdf2485ec2c3dc3ea13b4e1bb0ccb3bf9fc035f9b9b1a8d415",
+      "updatedAt": "2025-11-15T15:50:46Z"
+    },
+    "408076823": {
+      "id": "408076823",
+      "fullName": "emptysuns/Hi_Hysteria",
+      "tags": [
+        "网络代理",
+        "线路优化"
+      ],
+      "technologies": [
+        "Shell",
+        "Hysteria"
+      ],
+      "aiFingerprint": "bea5759737e2b3b75199cbb8d56c402915c465c3a582a46299ad45db5ac20cd8",
+      "updatedAt": "2025-11-16T11:42:21Z"
+    },
+    "408081575": {
+      "id": "408081575",
+      "fullName": "alaskasquirrel/Email-newsletter-RSS",
+      "tags": [
+        "RSS",
+        "新闻聚合"
+      ],
+      "technologies": [
+        "未标注"
+      ],
+      "aiFingerprint": "d6933aceb23c2b38282aa5c31cf84b1b45c8084ab8d88c27692060dbcd294d61",
+      "updatedAt": "2025-10-25T02:16:36Z"
+    },
+    "409094972": {
+      "id": "409094972",
+      "fullName": "wangyuan389/mall-cook",
+      "tags": [
+        "低代码平台",
+        "商城搭建",
+        "可视化开发",
+        "多端适配"
+      ],
+      "technologies": [
+        "Vue",
+        "低代码引擎",
+        "H5",
+        "小程序",
+        "可视化编辑"
+      ],
+      "aiFingerprint": "5867a1025b67a256aefd993e49285ce8df57372249341e5168c3bccd0ad862fd",
+      "updatedAt": "2025-11-16T07:05:22Z"
+    },
+    "410480975": {
+      "id": "410480975",
+      "fullName": "tangly1024/NotionNext",
+      "tags": [
+        "静态博客",
+        "无服务器"
+      ],
+      "technologies": [
+        "JavaScript",
+        "Next.js",
+        "Notion API"
+      ],
+      "aiFingerprint": "a55e6814068ac09c8e5703348e69d0874e08e525d5da902fde7c39dc2ff842eb",
+      "updatedAt": "2025-11-17T09:15:12Z"
+    },
+    "412522122": {
+      "id": "412522122",
+      "fullName": "MeouSker77/ProgrammingRust",
+      "tags": [
+        "Rust",
+        "翻译",
+        "学习资源"
+      ],
+      "technologies": [
+        "TeX",
+        "LaTeX"
+      ],
+      "aiFingerprint": "54711df6c6bd4322a80d07e9670ef114fe5eb6d3e8048f6dd8316f4a6bd8fdbf",
+      "updatedAt": "2025-11-10T15:45:06Z"
+    },
+    "414585797": {
+      "id": "414585797",
+      "fullName": "0x192/universal-android-debloater",
+      "tags": [
+        "Android优化",
+        "隐私保护"
+      ],
+      "technologies": [
+        "Rust",
+        "ADB"
+      ],
+      "aiFingerprint": "636741ba0344b4b3528b3bfce74654d97f1310c655641673f931e4372bcb69b2",
+      "updatedAt": "2025-11-17T05:34:24Z"
+    },
+    "415489170": {
+      "id": "415489170",
+      "fullName": "Baiyuetribe/paper2gui",
+      "tags": [
+        "AI工具",
+        "图形界面",
+        "论文实现",
+        "人工智能"
+      ],
+      "technologies": [
+        "Jupyter Notebook",
+        "NCNN",
+        "GFPGAN",
+        "RealCUGAN",
+        "DAIN"
+      ],
+      "aiFingerprint": "3b8bed966753a216afe88f92a3313d19946415ab0232c92f98fa9dac1a45edb1",
+      "updatedAt": "2025-11-16T06:31:35Z"
+    },
+    "417141259": {
+      "id": "417141259",
+      "fullName": "ethereum-boilerplate/ethereum-boilerplate",
+      "tags": [
+        "以太坊",
+        "DApp",
+        "区块链"
+      ],
+      "technologies": [
+        "TypeScript",
+        "Next.js",
+        "React",
+        "Moralis",
+        "EVM"
+      ],
+      "aiFingerprint": "b891d2dc279631a026533141e19ae90296e79976890ff0536a5bda8c30319f0a",
+      "updatedAt": "2025-11-11T23:42:15Z"
+    },
+    "418846673": {
+      "id": "418846673",
+      "fullName": "BartoszCichecki/LenovoLegionToolkit",
+      "tags": [
+        "笔记本工具",
+        "系统优化"
+      ],
+      "technologies": [
+        "C#",
+        "Windows",
+        "Hotkeys"
+      ],
+      "aiFingerprint": "0262b835d6a3d412eaca3fc5b449b089dafc602ce1302a75326ced6ab5de445c",
+      "updatedAt": "2025-11-17T05:35:39Z"
+    },
+    "419347358": {
+      "id": "419347358",
+      "fullName": "PKUFlyingPig/cs-self-learning",
+      "tags": [
+        "计算机教育",
+        "自学指南",
+        "学习资源"
+      ],
+      "technologies": [
+        "HTML"
+      ],
+      "aiFingerprint": "69d6fee6662167bd89c121500318806393aa807c1c6da8202a2c5b95905c39b5",
+      "updatedAt": "2025-11-17T12:24:29Z"
+    },
+    "423398688": {
+      "id": "423398688",
+      "fullName": "xlucn/oh-my-foss-android",
+      "tags": [
+        "开源软件",
+        "安卓应用",
+        "软件推荐"
+      ],
+      "technologies": [
+        "Android",
+        "F-Droid"
+      ],
+      "aiFingerprint": "b0f05ec1f4bcf0d523fb09ed0b2ab5de64742736002b29ee87ad578268e97f6e",
+      "updatedAt": "2025-11-17T11:13:01Z"
+    },
+    "425159471": {
+      "id": "425159471",
+      "fullName": "dibingfa/flash-linux0.11-talk",
+      "tags": [
+        "操作系统",
+        "源码解析",
+        "Linux内核",
+        "教育资料"
+      ],
+      "technologies": [
+        "HTML",
+        "Linux",
+        "内核分析",
+        "教学文档"
+      ],
+      "aiFingerprint": "7478336c55329d5689441e472b6e5aff7fe2eda0c4c88b7992626e17c34dc008",
+      "updatedAt": "2025-11-17T11:25:26Z"
+    },
+    "425387994": {
+      "id": "425387994",
+      "fullName": "Evil0ctal/Douyin_TikTok_Download_API",
+      "tags": [
+        "数据爬取",
+        "视频下载",
+        "社交媒体",
+        "API服务"
+      ],
+      "technologies": [
+        "Python",
+        "FastAPI",
+        "异步编程",
+        "网络请求"
+      ],
+      "aiFingerprint": "09a18c9497cd409eea8651f20cdf32a3e5014e82c2ac126bce0c8718364978c7",
+      "updatedAt": "2025-11-17T12:09:37Z"
+    },
+    "426988527": {
+      "id": "426988527",
+      "fullName": "LinuxSuRen/remote-jobs-in-china",
+      "tags": [
+        "远程办公",
+        "招聘",
+        "公司列表"
+      ],
+      "technologies": [
+        "未标注"
+      ],
+      "aiFingerprint": "fd168028f5d983f24bcdafbc96423b15fe03c0623942e362689cd654037748c5",
+      "updatedAt": "2025-11-12T02:24:28Z"
+    },
+    "427384949": {
+      "id": "427384949",
+      "fullName": "Hufe921/canvas-editor",
+      "tags": [
+        "富文本编辑器",
+        "Canvas绘图",
+        "文档处理"
+      ],
+      "technologies": [
+        "TypeScript",
+        "Canvas",
+        "SVG"
+      ],
+      "aiFingerprint": "c475dfddef77557bce1108762dbb113ad21f92988858e6041fe0b54a09a7dd02",
+      "updatedAt": "2025-11-17T11:01:52Z"
+    },
+    "429850227": {
+      "id": "429850227",
+      "fullName": "Planshit/Tai",
+      "tags": [
+        "时间统计",
+        "Windows工具"
+      ],
+      "technologies": [
+        "C#",
+        "WPF"
+      ],
+      "aiFingerprint": "3b5c8266cd02cf2dcc2a4930d9afe563c62c087d840f93651f0750a2f5bd8c64",
+      "updatedAt": "2025-11-17T03:48:11Z"
+    },
+    "430540203": {
+      "id": "430540203",
+      "fullName": "XayahSuSuSu/Android-DataBackup",
+      "tags": [
+        "安卓备份",
+        "数据恢复"
+      ],
+      "technologies": [
+        "Kotlin",
+        "Android",
+        "Zstd"
+      ],
+      "aiFingerprint": "74c6d510de2c18afe4f8ea30bf2852f04cc45e4cb37ff160906a8f5715e1f5e1",
+      "updatedAt": "2025-11-17T09:03:32Z"
+    },
+    "432476753": {
+      "id": "432476753",
+      "fullName": "lizhipay/acg-faka",
+      "tags": [
+        "发卡系统",
+        "二次元",
+        "电商"
+      ],
+      "technologies": [
+        "PHP",
+        "MySQL",
+        "支付集成"
+      ],
+      "aiFingerprint": "5dc46c4a436fd9fcfad1609953431c1b015c2f0aea335e88fc5f19e678a4c89a",
+      "updatedAt": "2025-11-15T04:06:52Z"
+    },
+    "435105063": {
+      "id": "435105063",
+      "fullName": "foamzou/melody",
+      "tags": [
+        "音乐播放",
+        "个人工具",
+        "媒体管理",
+        "音频处理"
+      ],
+      "technologies": [
+        "JavaScript",
+        "音频API",
+        "媒体库",
+        "用户界面"
+      ],
+      "aiFingerprint": "4037259c967a456160239d58b49059f5ef1344a37137af9feaabe5bc6ca62797",
+      "updatedAt": "2025-11-16T06:30:35Z"
+    },
+    "436286849": {
+      "id": "436286849",
+      "fullName": "RayWangQvQ/BiliBiliToolPro",
+      "tags": [
+        "B站工具",
+        "自动任务",
+        "定时执行",
+        "容器部署"
+      ],
+      "technologies": [
+        "C#",
+        ".NET Core",
+        "Blazor",
+        "Quartz.NET",
+        "Serilog"
+      ],
+      "aiFingerprint": "0791a094d68aa599c528278e2d4524c6ad9b1d9b3bf38ccc01c8b746122c62e5",
+      "updatedAt": "2025-11-17T11:50:53Z"
+    },
+    "437796389": {
+      "id": "437796389",
+      "fullName": "yu-steven/openit",
+      "tags": [
+        "翻墙工具",
+        "网络代理",
+        "隐私保护"
+      ],
+      "technologies": [
+        "Clash",
+        "Shadowsocks",
+        "V2Ray"
+      ],
+      "aiFingerprint": "7f4a1df5249363c66e7b8a9aedfbd9af3d09c7aea3fcde2cb7723add53af84db",
+      "updatedAt": "2025-11-10T09:31:49Z"
+    },
+    "438514144": {
+      "id": "438514144",
+      "fullName": "wangrongding/wechat-bot",
+      "tags": [
+        "微信机器人",
+        "AI助手"
+      ],
+      "technologies": [
+        "JavaScript",
+        "Wechaty",
+        "ChatGPT"
+      ],
+      "aiFingerprint": "9177b72fc774d94767f605ec6c51447be8e6da9f53ca08f72ced76412b75d196",
+      "updatedAt": "2025-11-17T09:51:03Z"
+    },
+    "438540166": {
+      "id": "438540166",
+      "fullName": "qianguyihao/blog-list",
+      "tags": [
+        "博客聚合",
+        "内容推荐",
+        "独立博客",
+        "中文社区"
+      ],
+      "technologies": [
+        "静态网站",
+        "内容管理",
+        "前端展示"
+      ],
+      "aiFingerprint": "71dafff840afe8ac8328a9a47c8a8fa33f5a2394f0374c81fc175f340e875667",
+      "updatedAt": "2025-11-17T12:07:51Z"
+    },
+    "451816314": {
+      "id": "451816314",
+      "fullName": "wgfire/request-Interceptor-mock",
+      "tags": [
+        "请求拦截",
+        "开发工具"
+      ],
+      "technologies": [
+        "JavaScript",
+        "Chrome扩展",
+        "Mock"
+      ],
+      "aiFingerprint": "e5dbf6ff4ebafda9d67b836673a0ea405f3e1872afe4179b4ac64e6fca0ee839",
+      "updatedAt": "2024-11-11T07:57:40Z"
+    },
+    "453157608": {
+      "id": "453157608",
+      "fullName": "antfu/handle",
+      "tags": [
+        "文字游戏",
+        "汉字猜谜",
+        "休闲娱乐",
+        "语言学习"
+      ],
+      "technologies": [
+        "TypeScript",
+        "React",
+        "游戏逻辑",
+        "汉字处理",
+        "用户交互"
+      ],
+      "aiFingerprint": "375cfe88158df13bac4fcc60a1a54145b460ecdf7e8eb01dfa39bd833936d7ec",
+      "updatedAt": "2025-11-16T04:52:33Z"
+    },
+    "455229168": {
+      "id": "455229168",
+      "fullName": "immich-app/immich",
+      "tags": [
+        "照片管理",
+        "视频管理",
+        "自托管",
+        "云备份"
+      ],
+      "technologies": [
+        "TypeScript",
+        "NestJS",
+        "Flutter",
+        "Node.js",
+        "JavaScript"
+      ],
+      "aiFingerprint": "660e9a3506afb3be7deda54422d2b48cbb5cad9629fe91d3f2072e55128ab034",
+      "updatedAt": "2025-11-17T11:53:13Z"
+    },
+    "458094748": {
+      "id": "458094748",
+      "fullName": "omnivore-app/omnivore",
+      "tags": [
+        "稍后阅读",
+        "生产力工具"
+      ],
+      "technologies": [
+        "TypeScript"
+      ],
+      "aiFingerprint": "29b4d11ec40de77e268b9876915a7099aa099ce97fe8882adf85e09821f210dd",
+      "updatedAt": "2025-11-17T10:40:29Z"
+    },
+    "461893894": {
+      "id": "461893894",
+      "fullName": "zh-lx/code-inspector",
+      "tags": [
+        "开发工具",
+        "代码定位",
+        "IDE集成"
+      ],
+      "technologies": [
+        "TypeScript",
+        "Vite",
+        "Webpack",
+        "VS Code"
+      ],
+      "aiFingerprint": "191c77dc8ac2e8f1fef00974f40b38ad0ee6f5aa013c5690c4f79aa37528f714",
+      "updatedAt": "2025-11-15T05:22:14Z"
+    },
+    "461908156": {
+      "id": "461908156",
+      "fullName": "darkroomengineering/lenis",
+      "tags": [
+        "滚动优化",
+        "用户体验",
+        "前端交互",
+        "网页动画"
+      ],
+      "technologies": [
+        "TypeScript",
+        "React",
+        "Vue",
+        "性能优化"
+      ],
+      "aiFingerprint": "0e891901c9cdc0c758d34b98670edcd1da9c92715cfd1038be7c8e967b03b3de",
+      "updatedAt": "2025-11-17T12:42:37Z"
+    },
+    "463757301": {
+      "id": "463757301",
+      "fullName": "Ray-56/rust-samples",
+      "tags": [
+        "学习项目",
+        "Rust实践"
+      ],
+      "technologies": [
+        "Rust"
+      ],
+      "aiFingerprint": "ed4db4322056ccf0ba92ea8b837e3ed50ff4ede8e94b61db1d09ed65a2b151ac",
+      "updatedAt": "2025-08-08T14:59:17Z"
+    },
+    "464839626": {
+      "id": "464839626",
+      "fullName": "lisonge/vite-plugin-monkey",
+      "tags": [
+        "用户脚本",
+        "浏览器扩展"
+      ],
+      "technologies": [
+        "TypeScript",
+        "Vite",
+        "Tampermonkey"
+      ],
+      "aiFingerprint": "962d831757802edf36628b442910639c430445331883da85e247d3a5448592ec",
+      "updatedAt": "2025-11-17T08:14:38Z"
+    },
+    "471887218": {
+      "id": "471887218",
+      "fullName": "xiaolincoder/CS-Base",
+      "tags": [
+        "计算机基础",
+        "图解教程",
+        "面试准备"
+      ],
+      "technologies": [
+        "C",
+        "C++",
+        "Java",
+        "Python",
+        "Go"
+      ],
+      "aiFingerprint": "6c5374101b7eb3d009bd889c6c0f773af48c13313fcaf74c75fecfe5ec70e967",
+      "updatedAt": "2025-11-17T12:39:04Z"
+    },
+    "472582409": {
+      "id": "472582409",
+      "fullName": "sunface/codecc",
+      "tags": [
+        "技术博客",
+        "思考"
+      ],
+      "technologies": [
+        "未标注"
+      ],
+      "aiFingerprint": "3efdd181ea80b98587b1b8fbf574491a2efe19d93ebda05fbeb18456524575e7",
+      "updatedAt": "2025-10-30T10:34:04Z"
+    },
+    "474839179": {
+      "id": "474839179",
+      "fullName": "hiroi-sora/Umi-OCR",
+      "tags": [
+        "OCR识别",
+        "文档处理"
+      ],
+      "technologies": [
+        "Python",
+        "PaddleOCR",
+        "Qt",
+        "QML"
+      ],
+      "aiFingerprint": "09bbe624d93b943e4aa2fa77245ac7a9a08ded48a9ea1406eace944851793d7c",
+      "updatedAt": "2025-11-17T09:52:23Z"
+    },
+    "476957520": {
+      "id": "476957520",
+      "fullName": "AmazingAng/WTF-Solidity",
+      "tags": [
+        "区块链教育",
+        "智能合约"
+      ],
+      "technologies": [
+        "Solidity",
+        "Ethereum",
+        "Web3"
+      ],
+      "aiFingerprint": "fca1d38b7bd88c73e36cc0a2ca97bc9318ecc03a17d61de8fbf0b53921636aa3",
+      "updatedAt": "2025-11-17T09:22:02Z"
+    },
+    "479028898": {
+      "id": "479028898",
+      "fullName": "cunyu1943/JavaPark",
+      "tags": [
+        "Java教程",
+        "学习指南",
+        "编程入门",
+        "实战项目"
+      ],
+      "technologies": [
+        "Java",
+        "Spring Boot",
+        "MySQL",
+        "Redis",
+        "Linux"
+      ],
+      "aiFingerprint": "b644566799dd8944493fa17e2708ae81aa8cfb608e82fc04416195f9206a6bc4",
+      "updatedAt": "2025-11-15T17:18:36Z"
+    },
+    "479222482": {
+      "id": "479222482",
+      "fullName": "tangshimin/typing-learner",
+      "tags": [
+        "单词学习",
+        "语境记忆"
+      ],
+      "technologies": [
+        "Kotlin",
+        "Android"
+      ],
+      "aiFingerprint": "e064b58f6942a5edd0a8a6a7330edeeb69330d0a0a6bd162015a6c4eb3ec54d6",
+      "updatedAt": "2025-11-14T06:25:30Z"
+    },
+    "479451389": {
+      "id": "479451389",
+      "fullName": "subframe7536/maple-font",
+      "tags": [
+        "字体设计",
+        "编程字体",
+        "开源字体",
+        "终端优化"
+      ],
+      "technologies": [
+        "Python",
+        "OpenType",
+        "字体生成",
+        "Nerd Font",
+        "变量字体"
+      ],
+      "aiFingerprint": "ef157e80fee69a0a155f727ad5bac3039ec12bf0fc5563c936f45be5d636cb07",
+      "updatedAt": "2025-11-17T11:59:13Z"
+    },
+    "480048700": {
+      "id": "480048700",
+      "fullName": "turkyden/lizhi",
+      "tags": [
+        "音乐播放器",
+        "跨平台"
+      ],
+      "technologies": [
+        "TypeScript",
+        "React",
+        "Electron"
+      ],
+      "aiFingerprint": "e6e223477e5ca1bfc446111fb2c3ccb69a49554cae34814f04c1d0f33477e4b1",
+      "updatedAt": "2025-11-14T07:33:12Z"
+    },
+    "482152820": {
+      "id": "482152820",
+      "fullName": "geekan/HowToLiveLonger",
+      "tags": [
+        "健康指南",
+        "程序员生活"
+      ],
+      "technologies": [
+        "未标注"
+      ],
+      "aiFingerprint": "2a56fecee79feb48e30b73deb323b4214898372ed61d2b154bc86aa44d81a8ea",
+      "updatedAt": "2025-11-17T02:20:12Z"
+    },
+    "482265185": {
+      "id": "482265185",
+      "fullName": "breezy-weather/breezy-weather",
+      "tags": [
+        "天气应用",
+        "数据可视化"
+      ],
+      "technologies": [
+        "Kotlin"
+      ],
+      "aiFingerprint": "0635c6c3b2cd6e884dd1afcd73170d3253776c6f85f4610dc3594ad4753aba58",
+      "updatedAt": "2025-11-17T09:31:32Z"
+    },
+    "484130565": {
+      "id": "484130565",
+      "fullName": "IT-DAO/web3-start-book",
+      "tags": [
+        "Web3",
+        "入门指南"
+      ],
+      "technologies": [
+        "未标注"
+      ],
+      "aiFingerprint": "a9ac2963213ceca7ea6f64edfd06281cbe7e2d8e1c2a206d7dbc3df9bfa37f6a",
+      "updatedAt": "2025-10-28T14:50:10Z"
+    },
+    "484671271": {
+      "id": "484671271",
+      "fullName": "hamsterbase/hamsterbase",
+      "tags": [
+        "本地存档",
+        "自托管"
+      ],
+      "technologies": [
+        "TypeScript",
+        "Web"
+      ],
+      "aiFingerprint": "8c9847cc0d093e68ebe5f318f37141ef057e0b899b9dc4b8f279d24486e9a0c8",
+      "updatedAt": "2025-11-14T01:29:54Z"
+    },
+    "485609072": {
+      "id": "485609072",
+      "fullName": "SpaceTimee/Sheas-Cealer",
+      "tags": [
+        "网络安全",
+        "网络工具",
+        "隐私保护",
+        "研究工具"
+      ],
+      "technologies": [
+        "C#",
+        "SNI",
+        "网络工具",
+        "安全工具"
+      ],
+      "aiFingerprint": "2dbaf7bba7940e4acf4dfef6c8d75d13d4411a413ce04fd30fe38378290e92f3",
+      "updatedAt": "2025-11-17T11:45:56Z"
+    },
+    "486815039": {
+      "id": "486815039",
+      "fullName": "actualbudget/actual",
+      "tags": [
+        "个人理财",
+        "财务管理",
+        "本地优先"
+      ],
+      "technologies": [
+        "TypeScript",
+        "React"
+      ],
+      "aiFingerprint": "37df7d515b2b7f42609f5170d8eb79dff6cea5b23cdeec21a5cce4c04c34f8bf",
+      "updatedAt": "2025-11-17T12:18:40Z"
+    },
+    "487908269": {
+      "id": "487908269",
+      "fullName": "Cnotech/flash-collector",
+      "tags": [
+        "小游戏",
+        "Flash"
+      ],
+      "technologies": [
+        "TypeScript"
+      ],
+      "aiFingerprint": "1e760468212ea409b9f765cee8227120cf97642abb557170c550fd321666a7ce",
+      "updatedAt": "2025-11-09T21:47:29Z"
+    },
+    "489706360": {
+      "id": "489706360",
+      "fullName": "opsre/Thanks-Mirror",
+      "tags": [
+        "镜像服务",
+        "包管理",
+        "软件资源",
+        "开发者工具"
+      ],
+      "technologies": [
+        "镜像仓库",
+        "包管理器",
+        "系统镜像",
+        "软件镜像"
+      ],
+      "aiFingerprint": "7355886186160417f7d76a2ae0437ce7f81363f092d30f3d77dc626e3b387547",
+      "updatedAt": "2025-11-16T09:06:37Z"
+    },
+    "490703803": {
+      "id": "490703803",
+      "fullName": "lencx/tauri-tutorial",
+      "tags": [
+        "Tauri",
+        "跨端应用",
+        "教程"
+      ],
+      "technologies": [
+        "TypeScript",
+        "React",
+        "Vite",
+        "Tauri"
+      ],
+      "aiFingerprint": "b3c79b49dde289e51f44d7deb23c812fdb19bf4eee17401f60693d27be99967f",
+      "updatedAt": "2025-11-10T12:45:06Z"
+    },
+    "490969685": {
+      "id": "490969685",
+      "fullName": "antfu/vscode-goto-alias",
+      "tags": [
+        "VSCode扩展",
+        "开发工具",
+        "代码导航"
+      ],
+      "technologies": [
+        "TypeScript"
+      ],
+      "aiFingerprint": "46c7c6b1ecab1565eff34e106a5887f766c36cb3f1726ce7d2f4e415177a0128",
+      "updatedAt": "2025-11-10T18:22:53Z"
+    },
+    "494567206": {
+      "id": "494567206",
+      "fullName": "ansh/jiffyreader-public-archive",
+      "tags": [
+        "浏览器扩展",
+        "阅读加速"
+      ],
+      "technologies": [
+        "TypeScript",
+        "Chrome API"
+      ],
+      "aiFingerprint": "56f9af6878c5b611d97217bbf121d52e407c6edefc54401a93a3b15efea21064",
+      "updatedAt": "2025-11-14T02:23:59Z"
+    },
+    "495067941": {
+      "id": "495067941",
+      "fullName": "zijie0/HumanSystemOptimization",
+      "tags": [
+        "健康",
+        "生活方式"
+      ],
+      "technologies": [
+        "未标注"
+      ],
+      "aiFingerprint": "cab20eb48eda21dd5d6c3dee61f0cd6ef43da376fcf15c39674c2f294d0f375b",
+      "updatedAt": "2025-11-17T10:34:38Z"
+    },
+    "495846831": {
+      "id": "495846831",
+      "fullName": "XiaoMiku01/fansMedalHelper",
+      "tags": [
+        "B站",
+        "粉丝牌",
+        "自动化"
+      ],
+      "technologies": [
+        "Python"
+      ],
+      "aiFingerprint": "bbd36e0336f1abec54f92d70b747cd47e1b2fc2cb37cb2a619fdea286818906e",
+      "updatedAt": "2025-11-12T08:20:31Z"
+    },
+    "502863191": {
+      "id": "502863191",
+      "fullName": "xszyou/Fay",
+      "tags": [
+        "数字人",
+        "AI框架"
+      ],
+      "technologies": [
+        "Python",
+        "Unity3D",
+        "UE5"
+      ],
+      "aiFingerprint": "6f88f94bdcc17d399ba6012f886f0a28ead3ad14f8174e991781d0fd3c520638",
+      "updatedAt": "2025-11-17T09:09:07Z"
+    },
+    "503408858": {
+      "id": "503408858",
+      "fullName": "greycodee/wechat-backup",
+      "tags": [
+        "微信备份",
+        "数据持久化",
+        "存储管理"
+      ],
+      "technologies": [
+        "Go",
+        "本地存储"
+      ],
+      "aiFingerprint": "35ac8076895b72a9da1e464290943f6aed45cdee847f877b2af500d325f249cf",
+      "updatedAt": "2025-11-15T12:57:01Z"
+    },
+    "505336286": {
+      "id": "505336286",
+      "fullName": "easychen/lean-side-bussiness",
+      "tags": [
+        "副业指南",
+        "程序员",
+        "职业发展"
+      ],
+      "technologies": [
+        "未标注"
+      ],
+      "aiFingerprint": "999ec0a1411289d9a63480cc43c22e03dc2242e64270e2bd070df468e6f9eb33",
+      "updatedAt": "2025-11-17T12:42:17Z"
+    },
+    "505981007": {
+      "id": "505981007",
+      "fullName": "Crossbell-Box/xLog",
+      "tags": [
+        "区块链",
+        "博客",
+        "社区"
+      ],
+      "technologies": [
+        "TypeScript",
+        "Ethereum",
+        "DApp"
+      ],
+      "aiFingerprint": "d8b56888f3e600cc75417735a81a4c55b961a0c68c409961d4f6b9b5e46805ee",
+      "updatedAt": "2025-11-17T06:41:47Z"
+    },
+    "506056362": {
+      "id": "506056362",
+      "fullName": "gonglei007/GameDevMind",
+      "tags": [
+        "游戏开发",
+        "技术图谱"
+      ],
+      "technologies": [
+        "Shell",
+        "C++",
+        "DevOps"
+      ],
+      "aiFingerprint": "dd975c1bbe7a5f8c94a153d8eaa6d45cd8d5ce4bde72762937a77245474e4bfd",
+      "updatedAt": "2025-11-17T06:45:09Z"
+    },
+    "506639818": {
+      "id": "506639818",
+      "fullName": "VideoTogether/VideoTogether",
+      "tags": [
+        "浏览器插件",
+        "视频同步"
+      ],
+      "technologies": [
+        "JavaScript"
+      ],
+      "aiFingerprint": "7740f3af46fe282007f958131b52f3d4c4c4399fc64a9f390113ff8076a6e257",
+      "updatedAt": "2025-11-16T16:11:33Z"
+    },
+    "508131663": {
+      "id": "508131663",
+      "fullName": "hehonghui/awesome-english-ebooks",
+      "tags": [
+        "电子书资源",
+        "英语学习",
+        "杂志下载",
+        "内容聚合"
+      ],
+      "technologies": [
+        "CSS",
+        "静态网站",
+        "文档管理",
+        "自动化更新"
+      ],
+      "aiFingerprint": "e3039d4dff25d20faa715a0ac5269e4099afac560396cdef60089696e96d6ae6",
+      "updatedAt": "2025-11-17T12:12:48Z"
+    },
+    "509091576": {
+      "id": "509091576",
+      "fullName": "SagerNet/sing-box",
+      "tags": [
+        "代理",
+        "网络工具"
+      ],
+      "technologies": [
+        "Go"
+      ],
+      "aiFingerprint": "fa698e97c5ddb2f660bd011282dd1badee82ab2f0eb009d157f0a8106bda58b9",
+      "updatedAt": "2025-11-17T10:42:35Z"
+    },
+    "517072951": {
+      "id": "517072951",
+      "fullName": "rust-boom/rust-boom",
+      "tags": [
+        "Rust资源",
+        "学习资料"
+      ],
+      "technologies": [
+        "Rust"
+      ],
+      "aiFingerprint": "310c36146d2412e0ad4b0a5de29bc42e8c17f054323c62529612bcfd9efe5142",
+      "updatedAt": "2025-11-17T01:22:59Z"
+    },
+    "518004533": {
+      "id": "518004533",
+      "fullName": "LokerL/tts-vue",
+      "tags": [
+        "语音合成",
+        "桌面应用"
+      ],
+      "technologies": [
+        "TypeScript",
+        "Electron",
+        "Vue",
+        "Vite",
+        "ElementPlus"
+      ],
+      "aiFingerprint": "904a3cf3d9e984950b01d8d8b78ed48aba429cda36c3d4819be5be80b1f1b5be",
+      "updatedAt": "2025-11-17T06:22:35Z"
+    },
+    "518343790": {
+      "id": "518343790",
+      "fullName": "qiutiandefeng/yfexam-exam",
+      "tags": [
+        "在线考试",
+        "企业培训"
+      ],
+      "technologies": [
+        "Java",
+        "Spring Boot",
+        "Vue",
+        "MySQL"
+      ],
+      "aiFingerprint": "8f3a03226abddede7dd80736f5ec3b7063b4fbfb779049f83c7edbb9eb89e7a3",
+      "updatedAt": "2025-11-17T03:57:33Z"
+    },
+    "520610051": {
+      "id": "520610051",
+      "fullName": "ycs77/readme-anime-list",
+      "tags": [
+        "自动化",
+        "动漫追踪"
+      ],
+      "technologies": [
+        "TypeScript",
+        "GitHub Actions"
+      ],
+      "aiFingerprint": "5f5cc4252636ea7f7c1981bfdfd5300c8f6710d0f3b99a47a11380e913777d6f",
+      "updatedAt": "2025-07-22T10:16:20Z"
+    },
+    "522158088": {
+      "id": "522158088",
+      "fullName": "zhayujie/chatgpt-on-wechat",
+      "tags": [
+        "聊天机器人",
+        "大语言模型",
+        "企业应用",
+        "多平台集成"
+      ],
+      "technologies": [
+        "Python",
+        "ChatGPT",
+        "API集成",
+        "多模态AI"
+      ],
+      "aiFingerprint": "2d4495ee6ddafeb817dfb40912b85774aaf81e10b576b2a45429118904a424e5",
+      "updatedAt": "2025-11-17T12:05:23Z"
+    },
+    "524706527": {
+      "id": "524706527",
+      "fullName": "ddy-ddy/cs-408",
+      "tags": [
+        "考研资料",
+        "计算机课程"
+      ],
+      "technologies": [
+        "OneNote",
+        "Markdown"
+      ],
+      "aiFingerprint": "40064d198f11e11af2f6b3ffaeacc739b5d5e3db9b2456f1c2abf72447bc7b2c",
+      "updatedAt": "2025-11-17T08:35:21Z"
+    },
+    "529238370": {
+      "id": "529238370",
+      "fullName": "KonghaYao/cn-font-split",
+      "tags": [
+        "字体处理",
+        "CJK字体",
+        "性能优化"
+      ],
+      "technologies": [
+        "Rust",
+        "多线程",
+        "字体子集"
+      ],
+      "aiFingerprint": "443bc9f94bfa46f2d45ec9ec5186ec60707eb812368a849c62d838087ca5b9b1",
+      "updatedAt": "2025-11-15T00:23:55Z"
+    },
+    "529800743": {
+      "id": "529800743",
+      "fullName": "LauZzL/link-helper",
+      "tags": [
+        "网盘下载",
+        "浏览器扩展",
+        "油猴脚本"
+      ],
+      "technologies": [
+        "JavaScript"
+      ],
+      "aiFingerprint": "b0e94c07bca969846e7e86a84a543d9f8bf08e006af93c1d7d2fae28c0693bd3",
+      "updatedAt": "2025-11-11T11:47:39Z"
+    },
+    "532590625": {
+      "id": "532590625",
+      "fullName": "gibbok/typescript-book",
+      "tags": [
+        "TypeScript教程",
+        "编程书籍",
+        "开源文档",
+        "学习资源"
+      ],
+      "technologies": [
+        "TypeScript",
+        "JavaScript",
+        "文档生成",
+        "代码示例",
+        "教程编写"
+      ],
+      "aiFingerprint": "82c85d6454c2b478627e8dd2043beb9dba4ad70fc189577e5c86d3b2447a2fb9",
+      "updatedAt": "2025-11-15T22:43:15Z"
+    },
+    "539865222": {
+      "id": "539865222",
+      "fullName": "mfish-qf/mfish-nocode-view",
+      "tags": [
+        "低代码平台",
+        "前端框架",
+        "可视化开发"
+      ],
+      "technologies": [
+        "Vue3",
+        "TypeScript",
+        "Vite",
+        "Ant Design Vue"
+      ],
+      "aiFingerprint": "77d5841c20e50b930f2efeeda4be24bf880062eea598729eabe37ec7a409fa95",
+      "updatedAt": "2025-11-15T15:22:07Z"
+    },
+    "542386106": {
+      "id": "542386106",
+      "fullName": "HIllya51/LunaTranslator",
+      "tags": [
+        "视觉小说",
+        "翻译工具",
+        "OCR识别"
+      ],
+      "technologies": [
+        "C++",
+        "OCR",
+        "Win32"
+      ],
+      "aiFingerprint": "37d7e958d53949b604fca8518e7d8e8b2c202161e868d5e6133c7716393b564a",
+      "updatedAt": "2025-11-17T12:12:57Z"
+    },
+    "547270634": {
+      "id": "547270634",
+      "fullName": "trifectatechfoundation/teach-rs",
+      "tags": [
+        "Rust",
+        "教育",
+        "课程材料"
+      ],
+      "technologies": [
+        "Rust"
+      ],
+      "aiFingerprint": "8672ef20ab22714e92c8ced73eb4ab72187475afe7e4f1438f25ea9023b8af79",
+      "updatedAt": "2025-11-13T00:36:52Z"
+    },
+    "547725599": {
+      "id": "547725599",
+      "fullName": "hua1995116/awesome-ai-painting",
+      "tags": [
+        "AI绘画",
+        "资源汇总",
+        "教程资料",
+        "图像生成"
+      ],
+      "technologies": [
+        "Stable Diffusion",
+        "AI模型",
+        "深度学习",
+        "图像处理"
+      ],
+      "aiFingerprint": "284872406d2bd2fe10d76984ef61eb4039b7746560bdc38d9f70814c92a9e2e3",
+      "updatedAt": "2025-11-17T12:04:28Z"
+    },
+    "550851278": {
+      "id": "550851278",
+      "fullName": "shion-app/shion",
+      "tags": [
+        "时间追踪",
+        "桌面应用"
+      ],
+      "technologies": [
+        "Vue",
+        "Tauri"
+      ],
+      "aiFingerprint": "76488a942969039e1b75362c965f098ec1b5efb429be127c8c661d612d90ee6d",
+      "updatedAt": "2025-11-16T14:18:38Z"
+    },
+    "551376520": {
+      "id": "551376520",
+      "fullName": "tw93/Pake",
+      "tags": [
+        "桌面应用",
+        "网页打包",
+        "跨平台"
+      ],
+      "technologies": [
+        "Rust",
+        "Tauri"
+      ],
+      "aiFingerprint": "08766147c1cc6ca73bf02131ebab77fc7e1551106bc5f0840e813c0f216b951d",
+      "updatedAt": "2025-11-17T12:45:27Z"
+    },
+    "557902888": {
+      "id": "557902888",
+      "fullName": "xianyuyimu/TVBOX-",
+      "tags": [
+        "视频播放",
+        "媒体中心"
+      ],
+      "technologies": [
+        "JavaScript"
+      ],
+      "aiFingerprint": "fa82cb193b2a68a81fc717d3a7bf730527b881420caef4639432af263af3f649",
+      "updatedAt": "2025-11-17T03:24:57Z"
+    },
+    "561730219": {
+      "id": "561730219",
+      "fullName": "krahets/hello-algo",
+      "tags": [
+        "算法教程",
+        "数据结构"
+      ],
+      "technologies": [
+        "Java",
+        "Python",
+        "Go",
+        "C++",
+        "JavaScript"
+      ],
+      "aiFingerprint": "7dff0c6b3e334b3274dfcc0e98ec9ccfacf32355beb738cf8f2da3e13a7ab407",
+      "updatedAt": "2025-11-17T12:44:38Z"
+    },
+    "564785929": {
+      "id": "564785929",
+      "fullName": "atelier-anchor/smiley-sans",
+      "tags": [
+        "中文字体",
+        "字体设计",
+        "开源字体"
+      ],
+      "technologies": [
+        "HTML",
+        "字体渲染"
+      ],
+      "aiFingerprint": "b785f0c984acba1ef2131503cba4e42748200cde3a7c2f2fdeb64366101df4ed",
+      "updatedAt": "2025-11-17T10:51:12Z"
+    },
+    "565339821": {
+      "id": "565339821",
+      "fullName": "zhaoolee/ins",
+      "tags": [
+        "灵感库",
+        "网站监测"
+      ],
+      "technologies": [
+        "Python",
+        "Github Actions"
+      ],
+      "aiFingerprint": "fe8e2f4fd50bc923cb49da4c64ff79d5f34efa0dbaca6fb44a3f0cba8a44415d",
+      "updatedAt": "2025-11-16T22:03:05Z"
+    },
+    "570011726": {
+      "id": "570011726",
+      "fullName": "zu1k/bs-core",
+      "tags": [
+        "图书搜索",
+        "私人图书馆"
+      ],
+      "technologies": [
+        "TypeScript"
+      ],
+      "aiFingerprint": "527919b05d2cc370ff7463186ed5258c1de6805449f1cf2587ab1b6fd32946aa",
+      "updatedAt": "2025-11-17T02:54:26Z"
+    },
+    "570245790": {
+      "id": "570245790",
+      "fullName": "eastmaple/easytrojan",
+      "tags": [
+        "代理服务",
+        "网络工具",
+        "一键部署"
+      ],
+      "technologies": [
+        "Shell",
+        "Trojan"
+      ],
+      "aiFingerprint": "8e4c87f3047f0d19f3b152ec5ee7c723750e69fba3a01cd3be01bab9986587f8",
+      "updatedAt": "2025-11-12T00:46:04Z"
+    },
+    "570479128": {
+      "id": "570479128",
+      "fullName": "quarkape/free-canvas",
+      "tags": [
+        "图片下载",
+        "设计工具"
+      ],
+      "technologies": [
+        "JavaScript",
+        "Canvas"
+      ],
+      "aiFingerprint": "0881ecb43b3d4d31af2aee16bf9bf4613a8060d2af937e0f80e0a1f948b95f28",
+      "updatedAt": "2025-09-01T01:57:16Z"
+    },
+    "572149789": {
+      "id": "572149789",
+      "fullName": "CaliCastle/cali.so",
+      "tags": [
+        "个人网站",
+        "开源项目",
+        "作品展示",
+        "开发者博客"
+      ],
+      "technologies": [
+        "TypeScript",
+        "NextJS",
+        "React",
+        "TailwindCSS",
+        "Framer Motion"
+      ],
+      "aiFingerprint": "bbcbd72be70c6747c467e465bc2fdaba8c7db4ed739ff9818f1819dafc70ff65",
+      "updatedAt": "2025-11-15T20:08:08Z"
+    },
+    "575739024": {
+      "id": "575739024",
+      "fullName": "Traveller-hongchen/Awakened-PoE-Trade-Simplified-Chinese",
+      "tags": [
+        "游戏交易",
+        "价格查询"
+      ],
+      "technologies": [
+        "TypeScript"
+      ],
+      "aiFingerprint": "8d9b9516a044d5668df71e596dd3fee2d1986a30b375c0e456d87890abad6711",
+      "updatedAt": "2025-11-06T18:40:53Z"
+    },
+    "577116112": {
+      "id": "577116112",
+      "fullName": "PlexPt/awesome-chatgpt-prompts-zh",
+      "tags": [
+        "AI提示",
+        "中文指南"
+      ],
+      "technologies": [
+        "ChatGPT"
+      ],
+      "aiFingerprint": "cc8fde1d94b22d997f40d2e2f7d47d6c32b4e664e10f7f4143db0d3c736fef03",
+      "updatedAt": "2025-11-17T12:38:39Z"
+    },
+    "577603990": {
+      "id": "577603990",
+      "fullName": "LAION-AI/Open-Assistant",
+      "tags": [
+        "AI助手",
+        "对话系统"
+      ],
+      "technologies": [
+        "Python",
+        "Next.js",
+        "RLHF"
+      ],
+      "aiFingerprint": "c7c13f9c0fb52e1b00cc6be21122314456a22ced586c0fd5d7cc02ff19bb13c6",
+      "updatedAt": "2025-11-17T08:32:19Z"
+    },
+    "581536785": {
+      "id": "581536785",
+      "fullName": "eliaszon/Programmers-Overseas-Job-Interview-Handbook",
+      "tags": [
+        "面试手册",
+        "海外工作"
+      ],
+      "technologies": [
+        "文档",
+        "Markdown"
+      ],
+      "aiFingerprint": "1ecb709f2644cc01441941810fcee9d7e322506f8dbbb4fa961f93b0f6ea75f3",
+      "updatedAt": "2025-11-13T15:08:31Z"
+    },
+    "583824425": {
+      "id": "583824425",
+      "fullName": "easychen/stack-roadmap",
+      "tags": [
+        "全栈开发",
+        "学习路线"
+      ],
+      "technologies": [
+        "PHP",
+        "Web开发"
+      ],
+      "aiFingerprint": "1f406c97ecc2f5d06b9008c809a389659e756a70d547dff6029e53d6f5810b2e",
+      "updatedAt": "2025-11-17T04:15:18Z"
+    },
+    "585146387": {
+      "id": "585146387",
+      "fullName": "shadcn-ui/ui",
+      "tags": [
+        "UI组件",
+        "前端框架"
+      ],
+      "technologies": [
+        "TypeScript",
+        "React",
+        "Tailwind CSS",
+        "Next.js"
+      ],
+      "aiFingerprint": "f6010483a17c371f4ed9b1acd0c41b6454bb0506792046a42aeb7a4c78e376cb",
+      "updatedAt": "2025-11-17T12:37:29Z"
+    },
+    "587586087": {
+      "id": "587586087",
+      "fullName": "LC044/WeChatMsg",
+      "tags": [
+        "微信工具",
+        "聊天分析"
+      ],
+      "technologies": [
+        "PyQt",
+        "LLMs"
+      ],
+      "aiFingerprint": "b402ddc923bb8e34a2913f6c57429255906e9fbdb437eb082cfa7fa8d5c9eadb",
+      "updatedAt": "2025-11-17T08:11:18Z"
+    },
+    "594330628": {
+      "id": "594330628",
+      "fullName": "Dr-TSNG/ZygiskNext",
+      "tags": [
+        "Android",
+        "系统模块"
+      ],
+      "technologies": [
+        "Zygisk",
+        "KernelSU",
+        "Magisk"
+      ],
+      "aiFingerprint": "c29754da15b8940defb089f7fac769839e1cf45efc48fe1a95567abd0162178f",
+      "updatedAt": "2025-11-17T12:30:55Z"
+    },
+    "600596928": {
+      "id": "600596928",
+      "fullName": "danny-avila/LibreChat",
+      "tags": [
+        "AI聊天",
+        "多模型",
+        "自托管",
+        "开发者工具"
+      ],
+      "technologies": [
+        "TypeScript",
+        "OpenAI",
+        "Anthropic",
+        "Gemini",
+        "Azure"
+      ],
+      "aiFingerprint": "412bb86e38d50656fb43ed0d9176587bb4e328bc12c80f3bdd1a15f81d5f01ac",
+      "updatedAt": "2025-11-17T11:51:31Z"
+    },
+    "606762843": {
+      "id": "606762843",
+      "fullName": "pot-app/pot-desktop",
+      "tags": [
+        "划词翻译",
+        "OCR识别",
+        "跨平台工具",
+        "文本处理"
+      ],
+      "technologies": [
+        "JavaScript",
+        "Tauri",
+        "OCR",
+        "翻译API",
+        "TTS"
+      ],
+      "aiFingerprint": "c6624f14737146a778022dd853108c08c4846d5fc50455397b9e0bfa0c88d6ce",
+      "updatedAt": "2025-11-17T11:28:03Z"
+    },
+    "607042713": {
+      "id": "607042713",
+      "fullName": "xiaoyaocz/dart_simple_live",
+      "tags": [
+        "直播",
+        "视频播放"
+      ],
+      "technologies": [
+        "Dart",
+        "Flutter"
+      ],
+      "aiFingerprint": "06f16348c382bcecaf9ad6b446986953d1aab1f607c53e5a3dade54bb6e73dc3",
+      "updatedAt": "2025-11-17T10:48:33Z"
+    },
+    "608058255": {
+      "id": "608058255",
+      "fullName": "speauty/anto",
+      "tags": [
+        "字幕翻译",
+        "桌面应用",
+        "多媒体工具"
+      ],
+      "technologies": [
+        "Go",
+        "GUI"
+      ],
+      "aiFingerprint": "aba489a4b8be68b3f7073edc4dc68757726ee36d4708b7af951f8a76238875f6",
+      "updatedAt": "2025-11-13T02:22:05Z"
+    },
+    "609013171": {
+      "id": "609013171",
+      "fullName": "TG-Twilight/AWAvenue-Ads-Rule",
+      "tags": [
+        "广告过滤",
+        "网络规则",
+        "隐私保护"
+      ],
+      "technologies": [
+        "Adblock",
+        "AdGuard",
+        "Clash",
+        "DNS"
+      ],
+      "aiFingerprint": "bb69c17aa8f7d3080feeb3d81fa175052e54047bb83ed5cf93ffe610754134f2",
+      "updatedAt": "2025-11-17T11:08:18Z"
+    },
+    "614110852": {
+      "id": "614110852",
+      "fullName": "ShaigroRB/freetchio",
+      "tags": [
+        "游戏资源",
+        "免费素材",
+        "折扣发现"
+      ],
+      "technologies": [
+        "JavaScript"
+      ],
+      "aiFingerprint": "a098fb9fd133ceeed6adac878060c5a2251842993aa1b5129b80ef7ca092550b",
+      "updatedAt": "2025-11-17T12:17:13Z"
+    },
+    "614258120": {
+      "id": "614258120",
+      "fullName": "ChatGPTBox-dev/chatGPTBox",
+      "tags": [
+        "浏览器扩展",
+        "AI集成",
+        "生产力工具",
+        "ChatGPT"
+      ],
+      "technologies": [
+        "JavaScript",
+        "浏览器API",
+        "ChatGPT API",
+        "用户界面"
+      ],
+      "aiFingerprint": "bebff950d999547b61f463c2a7ca3ced1550f53e8cbc6352f2c67555d53c07f7",
+      "updatedAt": "2025-11-17T12:00:57Z"
+    },
+    "614765452": {
+      "id": "614765452",
+      "fullName": "Significant-Gravitas/AutoGPT",
+      "tags": [
+        "AI代理",
+        "自主智能",
+        "开源AI",
+        "任务自动化"
+      ],
+      "technologies": [
+        "Python",
+        "GPT-4",
+        "OpenAI",
+        "LLaMA",
+        "自主代理"
+      ],
+      "aiFingerprint": "198f00841dd3b4632c991e7c4c29236be045e0cc00c4e0c7601a190c3b5afa86",
+      "updatedAt": "2025-11-17T11:48:55Z"
+    },
+    "616372661": {
+      "id": "616372661",
+      "fullName": "binary-husky/gpt_academic",
+      "tags": [
+        "学术工具",
+        "论文写作",
+        "LLM交互",
+        "文档处理"
+      ],
+      "technologies": [
+        "Python",
+        "大语言模型",
+        "ChatGLM",
+        "PDF解析",
+        "多模型"
+      ],
+      "aiFingerprint": "8f272e041c9591ff8b7d9478df0b74efa918e5501d1cdb0e714313e90d6b5600",
+      "updatedAt": "2025-11-17T12:43:07Z"
+    },
+    "616519872": {
+      "id": "616519872",
+      "fullName": "galaxy-s10/billd-live",
+      "tags": [
+        "直播系统",
+        "实时通信",
+        "视频流"
+      ],
+      "technologies": [
+        "Vue3",
+        "Node.js",
+        "WebRTC",
+        "SRS",
+        "Docker"
+      ],
+      "aiFingerprint": "03bcb0ce3d5e83bc60f06658b68f468ba068544afef1154eb1815a817a2b46f1",
+      "updatedAt": "2025-11-12T17:26:45Z"
+    },
+    "619059435": {
+      "id": "619059435",
+      "fullName": "bookfere/Ebook-Translator-Calibre-Plugin",
+      "tags": [
+        "电子书翻译",
+        "Calibre插件"
+      ],
+      "technologies": [
+        "Python",
+        "DeepL",
+        "OpenAI"
+      ],
+      "aiFingerprint": "cd4b961e79c0a2b564d57e1e8f5c305a27360b19d15f802c23fd7c1d55a67c07",
+      "updatedAt": "2025-11-17T01:09:18Z"
+    },
+    "623522857": {
+      "id": "623522857",
+      "fullName": "haibbo/cf-openai-azure-proxy",
+      "tags": [
+        "AI代理",
+        "云服务"
+      ],
+      "technologies": [
+        "JavaScript",
+        "Cloudflare Workers"
+      ],
+      "aiFingerprint": "01ee67ee897651b6b3b947c050bf9978fb67955f5b9c83ad4637a2dcddfa0b08",
+      "updatedAt": "2025-11-07T11:41:02Z"
+    },
+    "625592115": {
+      "id": "625592115",
+      "fullName": "deweizhu/bookget",
+      "tags": [
+        "古籍下载",
+        "数字图书"
+      ],
+      "technologies": [
+        "Go",
+        "HTTP"
+      ],
+      "aiFingerprint": "8c4956a8ad99286f8e370091a2c4d669b84c4aaa27f14ba09b09b2209f1bbbfd",
+      "updatedAt": "2025-11-13T08:34:09Z"
+    },
+    "627925034": {
+      "id": "627925034",
+      "fullName": "NEKOparapa/AiNiee",
+      "tags": [
+        "AI翻译",
+        "文本处理"
+      ],
+      "technologies": [
+        "Python"
+      ],
+      "aiFingerprint": "f7ab9c8444a8cc0074865078f4c6795fb2e50dd9c7d962c29bf551c6f708458a",
+      "updatedAt": "2025-11-17T12:32:49Z"
+    },
+    "631396418": {
+      "id": "631396418",
+      "fullName": "astral-sh/rye",
+      "tags": [
+        "Python工具",
+        "包管理"
+      ],
+      "technologies": [
+        "Rust",
+        "Python"
+      ],
+      "aiFingerprint": "003d04bc5a4441f35ad604d387efaa06329a2baf5e2b8020b0427fe05e432fc0",
+      "updatedAt": "2025-11-17T08:22:06Z"
+    },
+    "631501316": {
+      "id": "631501316",
+      "fullName": "weekend-project-space/top-rss-list",
+      "tags": [
+        "RSS聚合",
+        "内容订阅",
+        "信息源",
+        "阅读工具"
+      ],
+      "technologies": [
+        "RSS协议",
+        "内容解析",
+        "数据聚合"
+      ],
+      "aiFingerprint": "8f529a2bcd41da53ec7cc038984de6ed1489bb90098366ced703127637c95a76",
+      "updatedAt": "2025-11-17T12:02:51Z"
+    },
+    "633307647": {
+      "id": "633307647",
+      "fullName": "yazinsai/srt-ai",
+      "tags": [
+        "字幕翻译",
+        "AI翻译",
+        "多语言处理"
+      ],
+      "technologies": [
+        "TypeScript",
+        "OpenAI",
+        "文件处理"
+      ],
+      "aiFingerprint": "b79a5e40f547966025fad833e131ce5a3680c2c088c1ecac04822d99b4c5ffdf",
+      "updatedAt": "2025-11-15T08:06:48Z"
+    },
+    "634043200": {
+      "id": "634043200",
+      "fullName": "modular/modular",
+      "tags": [
+        "AI平台",
+        "编程语言"
+      ],
+      "technologies": [
+        "Mojo",
+        "MAX",
+        "机器学习"
+      ],
+      "aiFingerprint": "91967c72407e3d9884ef79cc41e540215f4c9b92cc836a956bfd72b91ae2cafe",
+      "updatedAt": "2025-11-17T04:35:58Z"
+    },
+    "636272306": {
+      "id": "636272306",
+      "fullName": "xiangsx/gpt4free-ts",
+      "tags": [
+        "AI助手",
+        "聊天机器人",
+        "API服务"
+      ],
+      "technologies": [
+        "TypeScript",
+        "GPT-4",
+        "OpenAI"
+      ],
+      "aiFingerprint": "1e92ceceeba6acf48c4ec9893add12be0bdb31fc9b6b6fc24348c7b15550bbb6",
+      "updatedAt": "2025-11-17T03:45:25Z"
+    },
+    "639341095": {
+      "id": "639341095",
+      "fullName": "RookieTree/DaMaiHelper",
+      "tags": [
+        "抢票辅助",
+        "移动应用"
+      ],
+      "technologies": [
+        "Kotlin"
+      ],
+      "aiFingerprint": "0794a8635587a7f4db34b0caa524bf472516cf15181e14fc797112765c52583f",
+      "updatedAt": "2025-11-16T18:57:35Z"
+    },
+    "640079149": {
+      "id": "640079149",
+      "fullName": "QuivrHQ/quivr",
+      "tags": [
+        "AI集成",
+        "RAG系统"
+      ],
+      "technologies": [
+        "Python",
+        "LLM",
+        "向量数据库",
+        "Docker"
+      ],
+      "aiFingerprint": "28b4fb0eeb80ef6872f45feb4c0c7e0c14ac3934fd187b2bc28beaadf78c0eed",
+      "updatedAt": "2025-11-17T07:23:19Z"
+    },
+    "641984003": {
+      "id": "641984003",
+      "fullName": "slan-ning/coolshell-markdown",
+      "tags": [
+        "文档归档",
+        "博客内容"
+      ],
+      "technologies": [
+        "Hack",
+        "Markdown"
+      ],
+      "aiFingerprint": "5b38fb3a92b6754f0fdef821aa78efe48cca08b27ddbd2e61f0e72607353de95",
+      "updatedAt": "2025-09-28T02:30:28Z"
+    },
+    "648503124": {
+      "id": "648503124",
+      "fullName": "workout-lol/workout-lol",
+      "tags": [
+        "健身计划",
+        "应用工具"
+      ],
+      "technologies": [
+        "JavaScript",
+        "React"
+      ],
+      "aiFingerprint": "f8c09a7220630e93b8a76da472f7b17eb08afee239310deca317ae3b30f6e25d",
+      "updatedAt": "2025-11-13T13:10:58Z"
+    },
+    "648688285": {
+      "id": "648688285",
+      "fullName": "ks233/ja-learner",
+      "tags": [
+        "日语学习",
+        "视觉小说"
+      ],
+      "technologies": [
+        "C#",
+        "OCR",
+        "文本处理"
+      ],
+      "aiFingerprint": "a69acf5a1139795984aa4d99a75c248f9f2e3253589ba9705596fbfd568df9e7",
+      "updatedAt": "2025-11-17T08:43:18Z"
+    },
+    "649154175": {
+      "id": "649154175",
+      "fullName": "ramon-victor/freegpt-webui",
+      "tags": [
+        "AI聊天",
+        "Web界面"
+      ],
+      "technologies": [
+        "Python",
+        "GPT-3.5",
+        "GPT-4"
+      ],
+      "aiFingerprint": "47ca9cf04ddc454861f4634b1c70c39b1b49903cdab8d9e468ec179ed4394d2f",
+      "updatedAt": "2025-11-17T00:55:10Z"
+    },
+    "654560183": {
+      "id": "654560183",
+      "fullName": "rivet-dev/rivet",
+      "tags": [
+        "实时处理",
+        "持久化",
+        "服务器架构",
+        "云原生"
+      ],
+      "technologies": [
+        "Rust",
+        "Cloudflare",
+        "FoundationDB",
+        "Actor模型",
+        "无服务器"
+      ],
+      "aiFingerprint": "3b2d1732edfb451f808982a4ffe760a4df2cf770884a9eceb94ce32ab2b6da8b",
+      "updatedAt": "2025-11-17T11:20:12Z"
+    },
+    "654870350": {
+      "id": "654870350",
+      "fullName": "clockworklabs/SpacetimeDB",
+      "tags": [
+        "数据库",
+        "游戏开发",
+        "智能合约"
+      ],
+      "technologies": [
+        "Rust"
+      ],
+      "aiFingerprint": "5336905005eb019c07641a7c477bcaeec0654e9dacf794189982d522a51dbdba",
+      "updatedAt": "2025-11-17T12:20:32Z"
+    },
+    "660551251": {
+      "id": "660551251",
+      "fullName": "FoundationAgents/MetaGPT",
+      "tags": [
+        "AI框架",
+        "多智能体",
+        "自然语言编程"
+      ],
+      "technologies": [
+        "Python",
+        "GPT",
+        "LLM"
+      ],
+      "aiFingerprint": "354d4ca043df4192239d35c70a5ecfb4a05ca5b5be94e43c9f8b5189e8d0a069",
+      "updatedAt": "2025-11-17T12:21:28Z"
+    },
+    "661957079": {
+      "id": "661957079",
+      "fullName": "gkd-kit/gkd",
+      "tags": [
+        "Android",
+        "无障碍"
+      ],
+      "technologies": [
+        "Kotlin",
+        "Jetpack Compose"
+      ],
+      "aiFingerprint": "b1f6df38c623d70d1fd2177e051a963e7cb83fc0c80de5a4bbaf02f8378fce81",
+      "updatedAt": "2025-11-17T12:44:47Z"
+    },
+    "664655564": {
+      "id": "664655564",
+      "fullName": "codeacme17/examor",
+      "tags": [
+        "AI学习助手",
+        "记忆管理",
+        "教育科技"
+      ],
+      "technologies": [
+        "TypeScript",
+        "LLM",
+        "OpenAI",
+        "Azure"
+      ],
+      "aiFingerprint": "d1375ab861967d896e793ac9d83ea07ef9bc3d08d74e3102401718bdcdad1387",
+      "updatedAt": "2025-11-14T18:20:13Z"
+    },
+    "665445324": {
+      "id": "665445324",
+      "fullName": "kuafuai/DevOpsGPT",
+      "tags": [
+        "AI开发",
+        "DevOps"
+      ],
+      "technologies": [
+        "HTML",
+        "LLM"
+      ],
+      "aiFingerprint": "139424b0bc88628aa3d2c55d60a09bc123e9b0d09cef5cf6207b3040da1d6d8b",
+      "updatedAt": "2025-11-17T09:26:54Z"
+    },
+    "669387149": {
+      "id": "669387149",
+      "fullName": "Xposed-Modules-Repo/Hook.JiuWu.Xp",
+      "tags": [
+        "安卓Hook",
+        "Xposed模块",
+        "VIP破解",
+        "系统修改"
+      ],
+      "technologies": [
+        "Xposed框架",
+        "Hook技术",
+        "安卓系统",
+        "模块开发"
+      ],
+      "aiFingerprint": "84371cb3935a4071f304a78b1270589c2992a6e4602876bc97395cdd28056e4d",
+      "updatedAt": "2025-11-16T06:34:39Z"
+    },
+    "669720169": {
+      "id": "669720169",
+      "fullName": "all-in-aigc/claude-webapi",
+      "tags": [
+        "AI",
+        "SDK"
+      ],
+      "technologies": [
+        "Go"
+      ],
+      "aiFingerprint": "ff826140b8f1e39ac24283608e53d5483c9ea5374bab17127f36e81b69a98787",
+      "updatedAt": "2025-10-27T03:12:54Z"
+    },
+    "669879380": {
+      "id": "669879380",
+      "fullName": "rasbt/LLMs-from-scratch",
+      "tags": [
+        "AI模型",
+        "深度学习"
+      ],
+      "technologies": [
+        "PyTorch",
+        "Jupyter Notebook"
+      ],
+      "aiFingerprint": "b4d2b755c88e03d7e855d418b40270c467dcb0342326414db0c0ea37e0aaa447",
+      "updatedAt": "2025-11-17T12:41:44Z"
+    },
+    "671061529": {
+      "id": "671061529",
+      "fullName": "brunodev85/winlator",
+      "tags": [
+        "安卓应用",
+        "Windows模拟"
+      ],
+      "technologies": [
+        "C",
+        "Wine"
+      ],
+      "aiFingerprint": "0826109302081bc461c2069ed52797243462bd6c363c3dea45f372b67482612b",
+      "updatedAt": "2025-11-17T10:36:16Z"
+    },
+    "673881338": {
+      "id": "673881338",
+      "fullName": "qiye45/wechatDownload",
+      "tags": [
+        "微信公众号",
+        "下载工具"
+      ],
+      "technologies": [
+        "HTML",
+        "JavaScript",
+        "爬虫"
+      ],
+      "aiFingerprint": "7d5611f25ad37fecba0d45fbacffabfba3287334fe009fc7b44d9efc5e1cdd3a",
+      "updatedAt": "2025-11-17T06:00:30Z"
+    },
+    "677164306": {
+      "id": "677164306",
+      "fullName": "EmNudge/watlings",
+      "tags": [
+        "WebAssembly",
+        "编程学习"
+      ],
+      "technologies": [
+        "JavaScript",
+        "WebAssembly"
+      ],
+      "aiFingerprint": "fae2dcda105a5430588ba95621499fe8a1e605827f21cd3b2bf9a8933559d5d0",
+      "updatedAt": "2025-10-23T15:31:57Z"
+    },
+    "677467268": {
+      "id": "677467268",
+      "fullName": "ill-inc/biomes-game",
+      "tags": [
+        "沙盒游戏",
+        "MMORPG"
+      ],
+      "technologies": [
+        "TypeScript",
+        "Next.js",
+        "React",
+        "WebAssembly"
+      ],
+      "aiFingerprint": "d992088ea7a96fa5831b025364d5319ed4b3da9cab23497f80a3e519ff0432a6",
+      "updatedAt": "2025-11-13T10:40:04Z"
+    },
+    "681516317": {
+      "id": "681516317",
+      "fullName": "luban-agi/Awesome-AIGC-Tutorials",
+      "tags": [
+        "AI教程",
+        "资源聚合",
+        "学习资料"
+      ],
+      "technologies": [
+        "LLM",
+        "Stable Diffusion",
+        "Midjourney"
+      ],
+      "aiFingerprint": "c75efb6dbce094cf0542b07d02376f0c664eaf184ca3e321ebfd81254cce2191",
+      "updatedAt": "2025-11-17T03:10:07Z"
+    },
+    "686838799": {
+      "id": "686838799",
+      "fullName": "yihong0618/epubhv",
+      "tags": [
+        "电子书",
+        "日语学习",
+        "排版工具"
+      ],
+      "technologies": [
+        "Python"
+      ],
+      "aiFingerprint": "1cf380690b2f7b1c7f02858901b42228d8348714afac059918207feed8c2c816",
+      "updatedAt": "2025-11-13T07:11:51Z"
+    },
+    "695373997": {
+      "id": "695373997",
+      "fullName": "terobox/ChatGPT-API-Faucet",
+      "tags": [
+        "AI开发",
+        "API测试"
+      ],
+      "technologies": [
+        "TypeScript"
+      ],
+      "aiFingerprint": "826562b9e48c475ece2c3364e9ada8c61ffa8102f0d2766539ce738a8cf7f2fc",
+      "updatedAt": "2025-11-17T10:28:55Z"
+    },
+    "727213319": {
+      "id": "727213319",
+      "fullName": "lizongying/my-tv",
+      "tags": [
+        "电视直播",
+        "媒体播放"
+      ],
+      "technologies": [
+        "C"
+      ],
+      "aiFingerprint": "5207667e556e039a3098a36acebcd114eaac8d06d5b5bfaa2dba53e1fa86a217",
+      "updatedAt": "2025-11-17T10:20:17Z"
+    },
+    "737509032": {
+      "id": "737509032",
+      "fullName": "dyang886/Game-Cheats-Manager",
+      "tags": [
+        "游戏辅助",
+        "工具管理"
+      ],
+      "technologies": [
+        "C++"
+      ],
+      "aiFingerprint": "6c62b15bd12da8a9d4c884d1972206077ca1f8f4c5e170a23a576f11e4da4d0b",
+      "updatedAt": "2025-11-17T09:55:58Z"
+    },
+    "737898780": {
+      "id": "737898780",
+      "fullName": "maybe-finance/maybe",
+      "tags": [
+        "个人理财",
+        "财务管理",
+        "Web应用",
+        "Ruby开发"
+      ],
+      "technologies": [
+        "Ruby",
+        "Ruby on Rails",
+        "PostgreSQL",
+        "Hotwire",
+        "StimulusJS"
+      ],
+      "aiFingerprint": "0fa6e5b19d9c78512752f45265cbd9245b53218aa6827c26328c29c02bcd178d",
+      "updatedAt": "2025-11-17T11:53:23Z"
+    },
+    "739013174": {
+      "id": "739013174",
+      "fullName": "Aethersailor/Custom_OpenClash_Rules",
+      "tags": [
+        "网络代理",
+        "规则配置",
+        "上网优化"
+      ],
+      "technologies": [
+        "Shell",
+        "OpenClash",
+        "DNS"
+      ],
+      "aiFingerprint": "fd4e2d1a4efd080b0850897ddc9488d5fa7709b83d53308356d00b2259ca27f4",
+      "updatedAt": "2025-11-17T11:14:54Z"
+    },
+    "750320895": {
+      "id": "750320895",
+      "fullName": "manymore13/report",
+      "tags": [
+        "研报",
+        "金融数据"
+      ],
+      "technologies": [
+        "HTML",
+        "数据采集"
+      ],
+      "aiFingerprint": "aa34594682a4a87cc28de6e259454f5239c117c7ff4d14c002e2bd1fdbecbdb3",
+      "updatedAt": "2025-11-17T04:17:50Z"
+    },
+    "750651438": {
+      "id": "750651438",
+      "fullName": "weijunext/nextjs-starter",
+      "tags": [
+        "SaaS模板",
+        "多语言网站"
+      ],
+      "technologies": [
+        "TypeScript",
+        "Next.js",
+        "TailwindCSS"
+      ],
+      "aiFingerprint": "c2ed0607c2dc5e33c05f1bb23aa9821da78d40b7f8fd52cbfc487ad152ba398e",
+      "updatedAt": "2025-11-17T09:17:56Z"
+    },
+    "762295267": {
+      "id": "762295267",
+      "fullName": "NielsLee/FoodRecords",
+      "tags": [
+        "饮食记录",
+        "移动应用",
+        "健康管理"
+      ],
+      "technologies": [
+        "Kotlin"
+      ],
+      "aiFingerprint": "5bf054e95945aed86ce9d0730239fff1965f19c8c6c4d7c5d0972751c244e346",
+      "updatedAt": "2025-11-11T14:38:11Z"
+    },
+    "764165494": {
+      "id": "764165494",
+      "fullName": "cooderl/wewe-rss",
+      "tags": [
+        "微信公众号",
+        "RSS订阅"
+      ],
+      "technologies": [
+        "TypeScript",
+        "NestJS",
+        "MySQL",
+        "tRPC"
+      ],
+      "aiFingerprint": "98a41f512f8c71243ca6dbcbd98e29cd78ce21364e477b33b664c1f9313918a1",
+      "updatedAt": "2025-11-17T05:44:33Z"
+    },
+    "767335452": {
+      "id": "767335452",
+      "fullName": "hardhackerlabs/book",
+      "tags": [
+        "创业记录",
+        "AI产品",
+        "知识管理"
+      ],
+      "technologies": [
+        "MDX",
+        "内容管理",
+        "AI技术"
+      ],
+      "aiFingerprint": "d14e766add0305ba56b38c3b550bce4ff5e08e2f9ed8cc9e89c200fea7b0656a",
+      "updatedAt": "2025-11-14T15:29:58Z"
+    },
+    "767869293": {
+      "id": "767869293",
+      "fullName": "weijunext/landing-page-boilerplate",
+      "tags": [
+        "落地页模板",
+        "前端开发"
+      ],
+      "technologies": [
+        "TypeScript"
+      ],
+      "aiFingerprint": "a88bc29ce1dd3d5273152e6366a4ef6e4d0f7d10a2bd770e5d52e01a91a8e179",
+      "updatedAt": "2025-11-16T14:21:01Z"
+    },
+    "768534013": {
+      "id": "768534013",
+      "fullName": "cs-lazy-tools/ChatGPT-On-CS",
+      "tags": [
+        "智能客服",
+        "多平台集成"
+      ],
+      "technologies": [
+        "TypeScript",
+        "GPT-4",
+        "LLM"
+      ],
+      "aiFingerprint": "37bcc72b14a8ea64cb3aebdc1c9afeb33d3128413b04fae397c2f75ab1efc656",
+      "updatedAt": "2025-11-17T08:39:44Z"
+    },
+    "771841294": {
+      "id": "771841294",
+      "fullName": "AkiChase/scrcpy-mask",
+      "tags": [
+        "安卓控制",
+        "游戏模拟",
+        "输入映射",
+        "远程控制"
+      ],
+      "technologies": [
+        "Rust",
+        "Bevy",
+        "React",
+        "Scrcpy",
+        "输入映射"
+      ],
+      "aiFingerprint": "8954f546ef6f7f8120015e64f110a6b847d8159c8b5c9bb8fa062e53916a98e7",
+      "updatedAt": "2025-11-16T07:21:49Z"
+    },
+    "773286980": {
+      "id": "773286980",
+      "fullName": "xai-org/grok-1",
+      "tags": [
+        "大语言模型",
+        "AI研究",
+        "开源模型",
+        "自然语言处理"
+      ],
+      "technologies": [
+        "Python",
+        "深度学习",
+        "Transformer",
+        "分布式训练"
+      ],
+      "aiFingerprint": "176de5d2f35e6dc15f7eedc15e6a3f6b55e1e461e3c2798b3b1d58de32619f89",
+      "updatedAt": "2025-11-17T11:35:43Z"
+    },
+    "774217261": {
+      "id": "774217261",
+      "fullName": "aehyok/video2blog",
+      "tags": [
+        "视频处理",
+        "AI应用",
+        "跨平台"
+      ],
+      "technologies": [
+        "Vue",
+        "Electron",
+        "Vite"
+      ],
+      "aiFingerprint": "e6dfa06861f37e84f1b60c1f121c566d066bdb6175a305a732cad2e26035c8a6",
+      "updatedAt": "2025-11-12T06:29:00Z"
+    },
+    "776293959": {
+      "id": "776293959",
+      "fullName": "koipy-org/koipy",
+      "tags": [
+        "Python",
+        "工具"
+      ],
+      "technologies": [
+        "Python"
+      ],
+      "aiFingerprint": "0e1902a3cf6d986a2387cda591cd6adb1adebefad7c385889e910cd7a231fcb4",
+      "updatedAt": "2025-11-07T21:05:32Z"
+    },
+    "798179440": {
+      "id": "798179440",
+      "fullName": "ddean2009/MoneyPrinterPlus",
+      "tags": [
+        "AI视频生成",
+        "短视频制作"
+      ],
+      "technologies": [
+        "Python",
+        "Stable Diffusion"
+      ],
+      "aiFingerprint": "a3117f1c8e54dd3fb86ca4be135bbdaa3aa1eda6452cf72442b5bbb27a66e833",
+      "updatedAt": "2025-11-17T10:22:43Z"
+    },
+    "814181904": {
+      "id": "814181904",
+      "fullName": "gfxholo/iconic",
+      "tags": [
+        "Obsidian插件",
+        "图标定制",
+        "界面美化"
+      ],
+      "technologies": [
+        "TypeScript",
+        "Obsidian API"
+      ],
+      "aiFingerprint": "fe2b44805cd18e93614381a58efcad8e92f9ed2b0a13b528044c91382aaa4bc1",
+      "updatedAt": "2025-11-15T06:06:38Z"
+    },
+    "829042475": {
+      "id": "829042475",
+      "fullName": "TahaSh/swapy",
+      "tags": [
+        "前端交互",
+        "拖拽布局"
+      ],
+      "technologies": [
+        "TypeScript"
+      ],
+      "aiFingerprint": "7426a0a595caf48b552c48e052acefbf374181504f844cc32a62242faf7ed043",
+      "updatedAt": "2025-11-16T19:13:01Z"
+    },
+    "836580142": {
+      "id": "836580142",
+      "fullName": "cmdch2017/GenerateAndAutoupload",
+      "tags": [
+        "视频上传",
+        "内容生成"
+      ],
+      "technologies": [
+        "Python"
+      ],
+      "aiFingerprint": "6a6c9cc54b7eaf6511c52324a0d8aab6eb58ec843f8cac8f43001014e3cb7d1c",
+      "updatedAt": "2025-10-30T08:12:35Z"
+    },
+    "844150277": {
+      "id": "844150277",
+      "fullName": "byodian/oneimg",
+      "tags": [
+        "图片生成",
+        "社交媒体",
+        "内容创作"
+      ],
+      "technologies": [
+        "TypeScript"
+      ],
+      "aiFingerprint": "c196c92a0588aa76e7749410fb98403c87dc87cb0f238ee170a232f36c19cb14",
+      "updatedAt": "2025-11-12T13:20:48Z"
+    },
+    "851498240": {
+      "id": "851498240",
+      "fullName": "zetaloop/keyviz",
+      "tags": [
+        "按键可视化",
+        "工具软件",
+        "汉化"
+      ],
+      "technologies": [
+        "Dart",
+        "Flutter"
+      ],
+      "aiFingerprint": "fa45fbc8b3fe61772befd85ef6dc167b6a273be87b7f16441028c04194944b65",
+      "updatedAt": "2025-11-17T11:03:59Z"
+    },
+    "881506708": {
+      "id": "881506708",
+      "fullName": "RooCodeInc/Roo-Code",
+      "tags": [
+        "AI编程助手",
+        "代码生成",
+        "开发工具"
+      ],
+      "technologies": [
+        "TypeScript",
+        "AI"
+      ],
+      "aiFingerprint": "817bd0d786a1c0990ab886480dc8a06fc9398649a479952e80263c58d3a2b737",
+      "updatedAt": "2025-11-17T12:42:55Z"
+    },
+    "888092115": {
+      "id": "888092115",
+      "fullName": "microsoft/markitdown",
+      "tags": [
+        "文档转换",
+        "Markdown"
+      ],
+      "technologies": [
+        "Python",
+        "Markdown",
+        "Microsoft Office"
+      ],
+      "aiFingerprint": "19a6c4e5ea7aaeb0059033f542953ed983d58329711895bcf8234269699f24ed",
+      "updatedAt": "2025-11-17T12:29:02Z"
+    },
+    "891642747": {
+      "id": "891642747",
+      "fullName": "langchain-ai/open_deep_research",
+      "tags": [
+        "AI研究",
+        "深度搜索",
+        "知识发现",
+        "LangChain"
+      ],
+      "technologies": [
+        "Python",
+        "LangChain",
+        "LLM",
+        "数据处理"
+      ],
+      "aiFingerprint": "58021e2b018819c15f6bb9c8f7c80c6d169baa95be011a83b6da051dd8442f6b",
+      "updatedAt": "2025-11-17T12:04:28Z"
+    },
+    "895942941": {
+      "id": "895942941",
+      "fullName": "coderamp-labs/gitingest",
+      "tags": [
+        "AI工具",
+        "代码分析"
+      ],
+      "technologies": [
+        "Python"
+      ],
+      "aiFingerprint": "0277d6b91e295a4162d0e244cb134df87022941cb60c7304e19132fa078b8a39",
+      "updatedAt": "2025-11-17T10:15:17Z"
+    },
+    "896144595": {
+      "id": "896144595",
+      "fullName": "virattt/ai-hedge-fund",
+      "tags": [
+        "量化交易",
+        "AI投资",
+        "金融科技"
+      ],
+      "technologies": [
+        "Python",
+        "AI",
+        "机器学习"
+      ],
+      "aiFingerprint": "01cbd01f093827e32b9c6712a356d59c8d7d3da5aa4ea6e14b9fa8e4da80a165",
+      "updatedAt": "2025-11-17T12:14:30Z"
+    },
+    "901726626": {
+      "id": "901726626",
+      "fullName": "whotto/Video_note_generator",
+      "tags": [
+        "视频处理",
+        "内容生成",
+        "社交媒体"
+      ],
+      "technologies": [
+        "Python"
+      ],
+      "aiFingerprint": "60fc13f2d7f9531f6fc83988428668e1eb303f956d27b6ee81f17c36e8709afc",
+      "updatedAt": "2025-11-17T02:47:49Z"
+    },
+    "915198910": {
+      "id": "915198910",
+      "fullName": "yeongpin/cursor-free-vip",
+      "tags": [
+        "AI工具",
+        "自动化"
+      ],
+      "technologies": [
+        "Python",
+        "Cursor AI"
+      ],
+      "aiFingerprint": "937f32ae0bb1b8fa5a460a57af5a80368e27f0d06045f71295f1ba8265c01ee1",
+      "updatedAt": "2025-11-17T12:44:53Z"
+    },
+    "916662373": {
+      "id": "916662373",
+      "fullName": "santinic/audiblez",
+      "tags": [
+        "有声书",
+        "文本转语音",
+        "电子书",
+        "音频生成"
+      ],
+      "technologies": [
+        "Python",
+        "TTS",
+        "Kokoro",
+        "EPUB",
+        "音频处理"
+      ],
+      "aiFingerprint": "9c5c38514bd2f8b3850ff232cb667b9d788c85a45fd03d6ee6752bd79054aabc",
+      "updatedAt": "2025-11-17T11:47:51Z"
+    },
+    "917697396": {
+      "id": "917697396",
+      "fullName": "rokcso/hugo-bearneo",
+      "tags": [
+        "博客主题",
+        "Hugo"
+      ],
+      "technologies": [
+        "HTML",
+        "CSS",
+        "JavaScript"
+      ],
+      "aiFingerprint": "20d872bd26735a349c380ba517cd8ece9ec4773562941467a52c6f40c2522a99",
+      "updatedAt": "2025-11-13T14:14:45Z"
+    },
+    "918932603": {
+      "id": "918932603",
+      "fullName": "bytedance/UI-TARS-desktop",
+      "tags": [
+        "AI代理",
+        "多模态"
+      ],
+      "technologies": [
+        "TypeScript"
+      ],
+      "aiFingerprint": "29d9b0e90c8bc826f17ac1e41b0fd3e005a9cd40a78844757c14fa45aaf71913",
+      "updatedAt": "2025-11-17T10:27:03Z"
+    },
+    "930132430": {
+      "id": "930132430",
+      "fullName": "AnotiaWang/deep-research-web-ui",
+      "tags": [
+        "AI研究",
+        "网络爬虫"
+      ],
+      "technologies": [
+        "TypeScript",
+        "Nuxt",
+        "LLM"
+      ],
+      "aiFingerprint": "533924aaf4d76ddddc774d6ff4af5db2dd01dde72f8a96d9f183700bd96286dc",
+      "updatedAt": "2025-11-17T08:18:47Z"
+    },
+    "932490533": {
+      "id": "932490533",
+      "fullName": "ThinkInAIXYZ/deepchat",
+      "tags": [
+        "AI助手",
+        "聊天机器人",
+        "智能代理"
+      ],
+      "technologies": [
+        "TypeScript",
+        "LLM"
+      ],
+      "aiFingerprint": "172444fa4ec9e0be37fafddf4e142fa99efbcb1d5516f573c67d91f54fc8012a",
+      "updatedAt": "2025-11-17T10:43:08Z"
+    },
+    "935604638": {
+      "id": "935604638",
+      "fullName": "Fosowl/agenticSeek",
+      "tags": [
+        "AI代理",
+        "自主智能",
+        "本地AI",
+        "Web自动化"
+      ],
+      "technologies": [
+        "Python",
+        "LLM",
+        "DeepSeek",
+        "自主代理",
+        "语音助手"
+      ],
+      "aiFingerprint": "956ebcc8da49ae2e18bbc8e99f898d8f26c89e25ed9605faee1872aefb84ecc8",
+      "updatedAt": "2025-11-17T12:38:39Z"
+    },
+    "964996396": {
+      "id": "964996396",
+      "fullName": "hanshuaikang/AI-Media2Doc",
+      "tags": [
+        "内容创作",
+        "媒体转换",
+        "文档生成",
+        "AI助手"
+      ],
+      "technologies": [
+        "Vue",
+        "Python",
+        "AI",
+        "OpenAI",
+        "字幕生成"
+      ],
+      "aiFingerprint": "78871b23af9e20463dc017c6dc3ad92df0e2ec2f56a47622695f61bb064e3d6a",
+      "updatedAt": "2025-11-17T11:38:47Z"
+    },
+    "975233337": {
+      "id": "975233337",
+      "fullName": "wangwangit/SubsTracker",
+      "tags": [
+        "订阅管理",
+        "到期提醒",
+        "云服务",
+        "消息推送"
+      ],
+      "technologies": [
+        "JavaScript",
+        "Cloudflare Workers",
+        "Telegram Bot",
+        "API集成"
+      ],
+      "aiFingerprint": "afe2d6c70d28771245f92c44859068ecdfe127846d9f0089157ea8e3af42d03b",
+      "updatedAt": "2025-11-17T12:34:03Z"
+    },
+    "982517950": {
+      "id": "982517950",
+      "fullName": "CursorTouch/Windows-MCP",
+      "tags": [
+        "AI工具",
+        "Windows自动化",
+        "MCP协议"
+      ],
+      "technologies": [
+        "Python",
+        "MCP",
+        "Windows"
+      ],
+      "aiFingerprint": "1e64e971aa4a598c3b114b08724d99645796e0abc90028c9f92fabfc3f68f8ba",
+      "updatedAt": "2025-11-17T10:55:14Z"
+    },
+    "1016571503": {
+      "id": "1016571503",
+      "fullName": "iosifache/annas-mcp",
+      "tags": [
+        "文档搜索",
+        "CLI工具"
+      ],
+      "technologies": [
+        "Go",
+        "HTTP"
+      ],
+      "aiFingerprint": "11ca1a6263f3d286e42c33923de5feea37568c26dc497a1cc1fb81f0282e6962",
+      "updatedAt": "2025-11-14T05:15:42Z"
+    },
+    "1020672081": {
+      "id": "1020672081",
+      "fullName": "Usagi-org/ai-goofish-monitor",
+      "tags": [
+        "电商监控",
+        "智能分析"
+      ],
+      "technologies": [
+        "Python",
+        "Playwright",
+        "AI"
+      ],
+      "aiFingerprint": "a04164bbfa887b5b3cf316234d2af9bb0c01d2eb6b9dc3eeda6c810e5878d312",
+      "updatedAt": "2025-11-17T12:41:39Z"
+    },
+    "1046711235": {
+      "id": "1046711235",
+      "fullName": "glink25/Cent",
+      "tags": [
+        "财务管理",
+        "协作工具"
+      ],
+      "technologies": [
+        "TypeScript",
+        "PWA"
+      ],
+      "aiFingerprint": "9dbfb346f93533d69d692fa55e6f5bb6d043a4e4f326409588fcf1eb53e4b52f",
+      "updatedAt": "2025-11-17T07:21:12Z"
+    },
+    "1047424430": {
+      "id": "1047424430",
+      "fullName": "Standed/n8n-nodes-weixin-wechat",
+      "tags": [
+        "微信自动化",
+        "企业微信",
+        "个人微信",
+        "n8n插件"
+      ],
+      "technologies": [
+        "JavaScript",
+        "n8n",
+        "页面自动化"
+      ],
+      "aiFingerprint": "36de02c4217b920755d6403d9de82220ee39214534672a48d366b4374d45a957",
+      "updatedAt": "2025-11-15T16:26:43Z"
+    },
+    "1076863218": {
+      "id": "1076863218",
+      "fullName": "MoonshotAI/kimi-cli",
+      "tags": [
+        "命令行工具",
+        "AI助手",
+        "终端应用",
+        "自动化"
+      ],
+      "technologies": [
+        "Python",
+        "CLI开发",
+        "API调用",
+        "文本处理"
+      ],
+      "aiFingerprint": "71b4805b951a6f0a8fce124206589302ba2b0d506c50145217103037a71ce3d4",
+      "updatedAt": "2025-11-17T12:00:39Z"
+    },
+    "1084802670": {
+      "id": "1084802670",
+      "fullName": "NoFxAiOS/nofx",
+      "tags": [
+        "AI交易",
+        "多交易所",
+        "量化系统",
+        "实时监控"
+      ],
+      "technologies": [
+        "Go",
+        "AI",
+        "区块链",
+        "交易引擎",
+        "多模型"
+      ],
+      "aiFingerprint": "0c1a206842dccf6eba30e4c9f4af16d67fb5d5c6028804f683a29b3ca56fedec",
+      "updatedAt": "2025-11-17T12:43:58Z"
+    },
+    "1096861940": {
+      "id": "1096861940",
+      "fullName": "Losses/coding-prompt",
+      "tags": [
+        "编程练习",
+        "学习笔记"
+      ],
+      "technologies": [
+        "未标注"
+      ],
+      "aiFingerprint": "1c7711193c3750800e1aea9b110fed2b389745b89fe31a96bf28ba6fa6cb735b",
+      "updatedAt": "2025-11-16T18:09:19Z"
+    }
+  },
+  "siyuanDocId": "20251117204210-vd543de",
+  "lastSync": "2025-11-17T12:45:48.187Z",
+  "stats": {
+    "added": 0,
+    "removed": 0,
+    "aiUpdated": 0
+  }
+}
