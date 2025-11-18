@@ -293,7 +293,7 @@ A: 在 `.env` 中设置 `SYNC_TARGET=both` 并配置思源笔记和 Obsidian 的
 
 ## 📄 许可证
 
-ISC
+GNU Affero General Public License v3.0，完整条款见 `GNU-AGPL-3.0.txt`。
 
 ## 🤝 贡献
 

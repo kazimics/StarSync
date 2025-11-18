@@ -295,7 +295,7 @@ A: Set `SYNC_TARGET=both` in `.env` and configure both SiYuan and Obsidian setti
 
 ## 📄 License
 
-ISC
+GNU Affero General Public License v3.0. See `GNU-AGPL-3.0.txt` for full terms.
 
 ## 🤝 Contributing
 
