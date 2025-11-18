@@ -15,11 +15,18 @@ const CONFIG = {
   openaiModel: process.env.OPENAI_MODEL || "gpt-4o-mini",
   openaiBaseUrl: process.env.OPENAI_BASE_URL || "https://api.openai.com/v1",
   timezone: process.env.SYNC_TZ || "Asia/Shanghai",
+  syncTarget: process.env.SYNC_TARGET || "siyuan",
   siyuan: {
     apiUrl: process.env.SIYUAN_API_URL || "http://127.0.0.1:6806",
     token: process.env.SIYUAN_API_TOKEN,
     notebookId: process.env.SIYUAN_NOTEBOOK_ID,
     docPath: process.env.SIYUAN_DOC_PATH || "/GitHub/Stars",
+  },
+  obsidian: {
+    vaultPath: process.env.OBSIDIAN_VAULT_PATH,
+    filePath: process.env.OBSIDIAN_FILE_PATH || "GitHub/Stars.md",
+    apiUrl: process.env.OBSIDIAN_API_URL,
+    token: process.env.OBSIDIAN_API_TOKEN,
   },
 };
 
@@ -36,6 +43,7 @@ const FILES = {
   rawStarred: path.resolve(__dirname, "..", "starred_repos.json"),
   state: path.resolve(__dirname, "..", "starred_state.json"),
   mdCache: path.resolve(__dirname, "..", "siyuan_table.md"),
+  obsidianTable: path.resolve(__dirname, "..", "obsidian_table.md"),
 };
 
 // 验证必需的环境变量
