@@ -1,6 +1,6 @@
 # GitHub Stars Sync Tool
 
-An automated tool that synchronizes your GitHub starred repositories to knowledge base systems (supports SiYuan and Obsidian) and generates Chinese tags and tech stack summaries using AI.
+An automated tool that synchronizes your GitHub starred repositories to knowledge base systems (supports SiYuan, Obsidian, and Logseq) and generates Chinese tags and tech stack summaries using AI.
 
 **Language**: [中文简体](README.zh-CN.md) | English
 
@@ -179,6 +179,7 @@ The generated table contains the following columns:
 |--------|-------------|
 | Repository | Repository name (link) |
 | Description | Repository description |
+| Topics | Native GitHub topics (`#topic1# #topic2#` for SiYuan, `#topic1 #topic2` for Obsidian) |
 | Tags | AI-generated Chinese tags (`#标签名#` for SiYuan, `#标签名` for Obsidian) |
 | Technologies | Tech stack summary |
 | Updated | Last update time |
@@ -189,9 +190,9 @@ The generated table contains the following columns:
 ```
 > Last synced: 2025-11-17 (Auto-generated)
 
-| Repository | Description | Tags | Technologies | Updated | Archived |
-| --- | --- | --- | --- | --- | --- |
-| [Pake](https://github.com/tw93/Pake) | Turn any webpage into a desktop app with one command | #桌面应用# #网页打包# #跨平台# | Rust · Tauri | 2025-11-17 | No |
+| Repository | Description | Topics | Tags | Technologies | Updated | Archived |
+| --- | --- | --- | --- | --- | --- | --- |
+| [Pake](https://github.com/tw93/Pake) | Turn any webpage into a desktop app with one command | #desktop# #app# #web# | #桌面应用# #网页打包# #跨平台# | Rust · Tauri | 2025-11-17 | No |
 ```
 
 ### Logseq Block Format
