@@ -94,24 +94,41 @@ async function runCycle(options = {}) {
     let obsidianPath = null;
     let logseqPath = null;
 
-    // 4. 构建并同步到 SiYuan (如果启用)
+    // 4. 构建并同步到各平台 (独立进行，互不影响)
     if (shouldSyncSiYuan) {
-      const markdown = buildMarkdownTable(enriched);
-      fs.writeFileSync(FILES.mdCache, markdown, "utf8");
-      docId = await syncToSiYuan(markdown, stateCache);
+      try {
+        const markdown = buildMarkdownTable(enriched);
+        fs.writeFileSync(FILES.mdCache, markdown, "utf8");
+        docId = await syncToSiYuan(markdown, stateCache);
+        console.log("✅ SiYuan 同步成功");
+      } catch (error) {
+        logError("⚠️ SiYuan 同步失败，继续其他平台同步", error);
+        docId = stateCache?.siyuanDocId || null; // 保持原有 docId
+      }
     }
 
-    // 5. 构建并同步到 Obsidian (如果启用)
     if (shouldSyncObsidian) {
-      const obsidianMarkdown = buildObsidianTable(enriched);
-      fs.writeFileSync(FILES.obsidianTable, obsidianMarkdown, "utf8");
-      obsidianPath = await syncToObsidian(obsidianMarkdown, stateCache);
+      try {
+        const obsidianMarkdown = buildObsidianTable(enriched);
+        fs.writeFileSync(FILES.obsidianTable, obsidianMarkdown, "utf8");
+        obsidianPath = await syncToObsidian(obsidianMarkdown, stateCache);
+        console.log("✅ Obsidian 同步成功");
+      } catch (error) {
+        logError("⚠️ Obsidian 同步失败，继续其他平台同步", error);
+        obsidianPath = null;
+      }
     }
 
     if (shouldSyncLogseq) {
-      const logseqBlocks = buildLogseqBlocks(enriched);
-      fs.writeFileSync(FILES.logseqBlocks, logseqBlocks, "utf8");
-      logseqPath = await syncToLogseq(logseqBlocks);
+      try {
+        const logseqBlocks = buildLogseqBlocks(enriched);
+        fs.writeFileSync(FILES.logseqBlocks, logseqBlocks, "utf8");
+        logseqPath = await syncToLogseq(logseqBlocks);
+        console.log("✅ Logseq 同步成功");
+      } catch (error) {
+        logError("⚠️ Logseq 同步失败，继续其他平台同步", error);
+        logseqPath = null;
+      }
     }
 
     // 6. 保存状态
