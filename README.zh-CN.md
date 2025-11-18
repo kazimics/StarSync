@@ -1,16 +1,17 @@
 # GitHub 星标仓库同步工具
 
-一个自动化工具，用于将 GitHub 已星标的仓库同步到思源笔记（SiYuan），并使用 AI 为每个仓库生成中文标签和技术栈信息。
+一个自动化工具，用于将 GitHub 已星标的仓库同步到知识库系统（支持思源笔记和 Obsidian），并使用 AI 为每个仓库生成中文标签和技术栈信息。
 
 ## ✨ 功能特性
 
 - 🔄 **自动同步**：自动从 GitHub 获取所有已星标的仓库
 - 🤖 **AI 标签生成**：使用 OpenAI API 为仓库生成中文标签和技术栈摘要
 - 📊 **Markdown 表格**：生成格式化的 Markdown 表格，包含仓库信息、标签和技术栈
-- 📝 **思源笔记同步**：自动将生成的表格同步到思源笔记
+- 📝 **知识库同步**：自动将生成的表格同步到知识库系统（思源笔记、Obsidian）
 - 💾 **状态管理**：保存同步状态，支持增量更新
 - 🚀 **智能缓存**：仅更新变更的仓库，减少 AI API 调用
-- 🏷️ **标签格式**：生成思源笔记原生标签格式（`#标签名#`）
+- 🏷️ **标签格式**：生成知识库原生标签格式（思源笔记：`#标签名#`，Obsidian：`#标签名`）
+- ⚙️ **可配置目标**：通过配置选择同步目标（思源笔记、Obsidian 或两者）
 
 ## 📁 项目结构
 
@@ -26,12 +27,14 @@ OrganizeRepositories/
 │   ├── githubService.js # GitHub 仓库获取和规范化
 │   ├── aiService.js     # AI 元数据生成
 │   ├── siyuanService.js # SiYuan 同步服务
+│   ├── obsidianService.js # Obsidian 同步服务
 │   └── stateService.js  # 状态管理服务
 ├── utils/              # 工具函数
 │   ├── helpers.js      # 通用工具函数
 │   └── repoUtils.js    # 仓库相关工具函数
 ├── formatters/         # 格式化模块
-│   └── markdownFormatter.js # Markdown 表格生成
+│   ├── markdownFormatter.js # SiYuan 格式 Markdown 表格生成
+│   └── obsidianFormatter.js # Obsidian 格式 Markdown 表格生成
 ├── index.js            # 入口文件（主流程控制）
 ├── package.json        # 项目依赖
 └── README.md           # 项目说明文档
@@ -44,7 +47,7 @@ OrganizeRepositories/
 - Node.js >= 14.0.0
 - GitHub Personal Access Token
 - OpenAI API Key（或兼容的 API）
-- 思源笔记（可选，如需同步到思源笔记）
+- 思源笔记或 Obsidian（可选，如需同步到知识库）
 
 ### 安装
 
@@ -73,11 +76,19 @@ OPENAI_API_KEY=your_openai_api_key
 OPENAI_MODEL=gpt-4o-mini
 OPENAI_BASE_URL=https://api.openai.com/v1
 
+# 同步目标配置（可选）
+# 选项: siyuan | obsidian | both (默认: siyuan)
+SYNC_TARGET=siyuan
+
 # 思源笔记配置（可选）
 SIYUAN_API_URL=http://127.0.0.1:6806
 SIYUAN_API_TOKEN=your_siyuan_token
 SIYUAN_NOTEBOOK_ID=your_notebook_id
 SIYUAN_DOC_PATH=/GitHub/Stars
+
+# Obsidian 配置（可选）
+OBSIDIAN_VAULT_PATH=C:/Users/username/Documents/ObsidianVault
+OBSIDIAN_FILE_PATH=GitHub/Stars.md
 
 # 其他配置（可选）
 SYNC_TZ=Asia/Shanghai
@@ -104,6 +115,18 @@ FORCE_SYNC=false
 3. 获取 API Token 和 Notebook ID
 4. 配置文档路径（如 `/GitHub/Stars`）
 
+### 配置 Obsidian（可选）
+
+1. 在 `.env` 中设置 `SYNC_TARGET=obsidian` 或 `SYNC_TARGET=both`
+2. 配置 `OBSIDIAN_VAULT_PATH` 为你的 Obsidian vault 目录路径
+3. 配置 `OBSIDIAN_FILE_PATH`（可包含或不包含 `.md` 扩展名，缺失会自动添加）
+4. 示例：
+   ```env
+   SYNC_TARGET=obsidian
+   OBSIDIAN_VAULT_PATH="C:/Users/username/Documents/My Obsidian Vault"
+   OBSIDIAN_FILE_PATH="GitHub/Stars"
+   ```
+
 ### 运行
 
 ```bash
@@ -124,14 +147,15 @@ node index.js --force
    - 检查仓库是否有变更（使用指纹机制）
    - 为变更的仓库调用 AI 生成中文标签和技术栈
    - 使用缓存数据更新未变更的仓库
-4. **生成表格**：将数据格式化为 Markdown 表格
-5. **同步到思源**：将表格同步到思源笔记（如果已配置）
+4. **生成表格**：将数据格式化为 Markdown 表格（格式取决于同步目标）
+5. **同步到知识库**：将表格同步到配置的知识库系统
 
 ### 生成的文件
 
 - `starred_repos.json`：原始仓库数据
 - `starred_state.json`：同步状态（包含仓库元数据）
-- `siyuan_table.md`：生成的 Markdown 表格
+- `siyuan_table.md`：生成的 Markdown 表格（思源笔记格式，如果启用了思源笔记同步）
+- `obsidian_table.md`：生成的 Markdown 表格（Obsidian 格式，如果启用了 Obsidian 同步）
 
 ### 表格格式
 
@@ -141,7 +165,7 @@ node index.js --force
 |------|------|
 | 仓库 | 仓库名称（链接） |
 | 简介 | 仓库描述 |
-| 标签 | AI 生成的中文标签（思源笔记格式：`#标签名#`） |
+| 标签 | AI 生成的中文标签（思源笔记：`#标签名#`，Obsidian：`#标签名`） |
 | 使用技术 | 技术栈摘要 |
 | 更新时间 | 仓库最后更新时间 |
 | 归档 | 是否已归档 |
@@ -171,6 +195,9 @@ node index.js --force
 | `SIYUAN_API_TOKEN` | ❌ | - | 思源笔记 API Token |
 | `SIYUAN_NOTEBOOK_ID` | ❌ | - | 思源笔记笔记本 ID |
 | `SIYUAN_DOC_PATH` | ❌ | `/GitHub/Stars` | 思源笔记文档路径 |
+| `SYNC_TARGET` | ❌ | `siyuan` | 同步目标：`siyuan` \| `obsidian` \| `both` |
+| `OBSIDIAN_VAULT_PATH` | ❌ | - | Obsidian vault 目录路径 |
+| `OBSIDIAN_FILE_PATH` | ❌ | `GitHub/Stars.md` | vault 内的文件路径（缺失 .md 扩展名会自动添加） |
 | `SYNC_TZ` | ❌ | `Asia/Shanghai` | 时区设置 |
 | `FORCE_SYNC` | ❌ | `false` | 强制同步标志 |
 
@@ -210,7 +237,8 @@ FORCE_SYNC=true node index.js --force
 
 ### 计划中的功能
 
-- [ ] **Obsidian 同步支持**
+- [x] **Obsidian 同步支持** ✅
+  - [x] 基于文件的同步（通过 vault 路径）
 
 - [ ] **Logseq 同步支持**
 
@@ -250,6 +278,18 @@ A: 确认：
 2. API 服务是否已启用
 3. Token 和 Notebook ID 是否正确
 4. 文档路径是否存在或可创建
+
+### Q: Obsidian 同步失败？
+
+A: 检查以下内容：
+1. `OBSIDIAN_VAULT_PATH` 是否正确配置？（如果路径包含空格，请使用引号）
+2. vault 路径是否存在且可写？
+3. `OBSIDIAN_FILE_PATH` 是否正确配置？（`.md` 扩展名会自动添加）
+4. 查看控制台错误信息获取详细信息
+
+### Q: 如何同时同步到思源笔记和 Obsidian？
+
+A: 在 `.env` 中设置 `SYNC_TARGET=both` 并配置思源笔记和 Obsidian 的设置。工具会生成两种格式并同时同步到两个目标。
 
 ## 📄 许可证
 

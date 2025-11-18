@@ -1,6 +1,6 @@
 # GitHub Stars Sync Tool
 
-An automated tool that synchronizes your GitHub starred repositories to knowledge base systems (currently supports SiYuan) and generates Chinese tags and tech stack summaries using AI.
+An automated tool that synchronizes your GitHub starred repositories to knowledge base systems (supports SiYuan and Obsidian) and generates Chinese tags and tech stack summaries using AI.
 
 **Language**: [中文简体](README.zh-CN.md) | English
 
@@ -9,10 +9,11 @@ An automated tool that synchronizes your GitHub starred repositories to knowledg
 - 🔄 **Auto Sync**: Automatically fetches all starred repositories from GitHub
 - 🤖 **AI Tag Generation**: Uses OpenAI API to generate Chinese tags and tech stack summaries for repositories
 - 📊 **Markdown Table**: Generates formatted Markdown tables with repository info, tags, and tech stacks
-- 📝 **Knowledge Base Sync**: Automatically syncs generated tables to knowledge base systems
+- 📝 **Knowledge Base Sync**: Automatically syncs generated tables to knowledge base systems (SiYuan, Obsidian)
 - 💾 **State Management**: Saves sync state for incremental updates
 - 🚀 **Smart Caching**: Only updates changed repositories, reducing AI API calls
-- 🏷️ **Tag Format**: Generates native tag format for knowledge bases (e.g., `#标签名#` for SiYuan)
+- 🏷️ **Tag Format**: Generates native tag format for knowledge bases (`#标签名#` for SiYuan, `#标签名` for Obsidian)
+- ⚙️ **Configurable Targets**: Choose sync target (SiYuan, Obsidian, or both) via configuration
 
 ## 📁 Project Structure
 
@@ -28,12 +29,14 @@ OrganizeRepositories/
 │   ├── githubService.js # GitHub repository fetching and normalization
 │   ├── aiService.js     # AI metadata generation
 │   ├── siyuanService.js # SiYuan sync service
+│   ├── obsidianService.js # Obsidian sync service
 │   └── stateService.js  # State management service
 ├── utils/              # Utility functions
 │   ├── helpers.js      # Common utility functions
 │   └── repoUtils.js    # Repository-related utilities
 ├── formatters/         # Formatting modules
-│   └── markdownFormatter.js # Markdown table generation
+│   ├── markdownFormatter.js # SiYuan format Markdown table generation
+│   └── obsidianFormatter.js # Obsidian format Markdown table generation
 ├── index.js            # Entry point (main workflow control)
 ├── package.json        # Project dependencies
 └── README.md           # Project documentation
@@ -46,7 +49,7 @@ OrganizeRepositories/
 - Node.js >= 14.0.0
 - GitHub Personal Access Token
 - OpenAI API Key (or compatible API)
-- SiYuan Note (optional, if you want to sync to SiYuan)
+- SiYuan Note or Obsidian (optional, if you want to sync to knowledge bases)
 
 ### Installation
 
@@ -75,11 +78,19 @@ OPENAI_API_KEY=your_openai_api_key
 OPENAI_MODEL=gpt-4o-mini
 OPENAI_BASE_URL=https://api.openai.com/v1
 
+# Sync Target Configuration (Optional)
+# Options: siyuan | obsidian | both (default: siyuan)
+SYNC_TARGET=siyuan
+
 # SiYuan Configuration (Optional)
 SIYUAN_API_URL=http://127.0.0.1:6806
 SIYUAN_API_TOKEN=your_siyuan_token
 SIYUAN_NOTEBOOK_ID=your_notebook_id
 SIYUAN_DOC_PATH=/GitHub/Stars
+
+# Obsidian Configuration (Optional)
+OBSIDIAN_VAULT_PATH=C:/Users/username/Documents/ObsidianVault
+OBSIDIAN_FILE_PATH=GitHub/Stars.md
 
 # Other Configuration (Optional)
 SYNC_TZ=Asia/Shanghai
@@ -106,6 +117,18 @@ FORCE_SYNC=false
 3. Get API Token and Notebook ID
 4. Configure document path (e.g., `/GitHub/Stars`)
 
+### Configure Obsidian (Optional)
+
+1. Set `SYNC_TARGET=obsidian` or `SYNC_TARGET=both` in `.env`
+2. Configure `OBSIDIAN_VAULT_PATH` to your Obsidian vault directory
+3. Configure `OBSIDIAN_FILE_PATH` (with or without `.md` extension, will auto-add if missing)
+4. Example:
+   ```env
+   SYNC_TARGET=obsidian
+   OBSIDIAN_VAULT_PATH="C:/Users/username/Documents/My Obsidian Vault"
+   OBSIDIAN_FILE_PATH="GitHub/Stars"
+   ```
+
 ### Run
 
 ```bash
@@ -126,14 +149,15 @@ node index.js --force
    - Checks if repositories have changed (using fingerprint mechanism)
    - Calls AI to generate Chinese tags and tech stacks for changed repositories
    - Uses cached data for unchanged repositories
-4. **Generate Table**: Formats data as Markdown table
-5. **Sync to Knowledge Base**: Syncs table to knowledge base system (if configured)
+4. **Generate Table**: Formats data as Markdown table (format depends on sync target)
+5. **Sync to Knowledge Base**: Syncs table to configured knowledge base system(s)
 
 ### Generated Files
 
 - `starred_repos.json`: Raw repository data
 - `starred_state.json`: Sync state (contains repository metadata)
-- `siyuan_table.md`: Generated Markdown table
+- `siyuan_table.md`: Generated Markdown table (SiYuan format, if SiYuan sync enabled)
+- `obsidian_table.md`: Generated Markdown table (Obsidian format, if Obsidian sync enabled)
 
 ### Table Format
 
@@ -143,7 +167,7 @@ The generated table contains the following columns:
 |--------|-------------|
 | Repository | Repository name (link) |
 | Description | Repository description |
-| Tags | AI-generated Chinese tags (SiYuan format: `#标签名#`) |
+| Tags | AI-generated Chinese tags (`#标签名#` for SiYuan, `#标签名` for Obsidian) |
 | Technologies | Tech stack summary |
 | Updated | Last update time |
 | Archived | Whether archived |
@@ -173,6 +197,9 @@ The generated table contains the following columns:
 | `SIYUAN_API_TOKEN` | ❌ | - | SiYuan API Token |
 | `SIYUAN_NOTEBOOK_ID` | ❌ | - | SiYuan notebook ID |
 | `SIYUAN_DOC_PATH` | ❌ | `/GitHub/Stars` | SiYuan document path |
+| `SYNC_TARGET` | ❌ | `siyuan` | Sync target: `siyuan` \| `obsidian` \| `both` |
+| `OBSIDIAN_VAULT_PATH` | ❌ | - | Obsidian vault directory path |
+| `OBSIDIAN_FILE_PATH` | ❌ | `GitHub/Stars.md` | File path within vault (.md extension auto-added if missing) |
 | `SYNC_TZ` | ❌ | `Asia/Shanghai` | Timezone setting |
 | `FORCE_SYNC` | ❌ | `false` | Force sync flag |
 
@@ -212,7 +239,8 @@ FORCE_SYNC=true node index.js --force
 
 ### Planned Features
 
-- [ ] **Obsidian Sync Support**
+- [x] **Obsidian Sync Support** ✅
+  - [x] File-based sync (via vault path)
 
 - [ ] **Logseq Sync Support**
 
@@ -252,6 +280,18 @@ A: Confirm:
 2. Is API service enabled?
 3. Are the Token and Notebook ID correct?
 4. Does the document path exist or can it be created?
+
+### Q: Obsidian sync failed?
+
+A: Check the following:
+1. Is `OBSIDIAN_VAULT_PATH` correctly configured? (Use quotes if path contains spaces)
+2. Does the vault path exist and is writable?
+3. Is `OBSIDIAN_FILE_PATH` configured correctly? (`.md` extension will be auto-added)
+4. Check console error messages for detailed information
+
+### Q: How to sync to both SiYuan and Obsidian?
+
+A: Set `SYNC_TARGET=both` in `.env` and configure both SiYuan and Obsidian settings. The tool will generate both formats and sync to both targets simultaneously.
 
 ## 📄 License
 
