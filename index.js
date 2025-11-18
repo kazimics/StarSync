@@ -8,6 +8,7 @@ const {
 const { enrichRepos } = require("./services/aiService");
 const { syncToSiYuan } = require("./services/siyuanService");
 const { syncToObsidian } = require("./services/obsidianService");
+const { syncToLogseq } = require("./services/logseqService");
 const {
   loadState,
   saveState,
@@ -15,9 +16,29 @@ const {
 } = require("./services/stateService");
 const { buildMarkdownTable } = require("./formatters/markdownFormatter");
 const { buildObsidianTable } = require("./formatters/obsidianFormatter");
+const { buildLogseqBlocks } = require("./formatters/logseqFormatter");
 
 let stateCache = loadState();
 let isRunning = false;
+
+function parseTargets(input) {
+  const fallback = new Set(["siyuan"]);
+  if (!input) {
+    return fallback;
+  }
+  const normalized = String(input).toLowerCase().trim();
+  if (!normalized) {
+    return fallback;
+  }
+  if (normalized === "all") {
+    return new Set(["siyuan", "obsidian", "logseq"]);
+  }
+  const targets = normalized
+    .split(",")
+    .map((part) => part.trim())
+    .filter(Boolean);
+  return targets.length ? new Set(targets) : fallback;
+}
 
 /**
  * 主函数
@@ -64,13 +85,14 @@ async function runCycle(options = {}) {
     const { enriched, stats } = await enrichRepos(normalizedRepos, stateCache);
 
     // 3. 根据配置选择同步目标
-    const syncTarget = CONFIG.syncTarget.toLowerCase();
-    const shouldSyncSiYuan = syncTarget === "siyuan" || syncTarget === "both";
-    const shouldSyncObsidian =
-      syncTarget === "obsidian" || syncTarget === "both";
+    const targets = parseTargets(CONFIG.syncTarget);
+    const shouldSyncSiYuan = targets.has("siyuan");
+    const shouldSyncObsidian = targets.has("obsidian");
+    const shouldSyncLogseq = targets.has("logseq");
 
     let docId = stateCache?.siyuanDocId || null;
     let obsidianPath = null;
+    let logseqPath = null;
 
     // 4. 构建并同步到 SiYuan (如果启用)
     if (shouldSyncSiYuan) {
@@ -84,6 +106,12 @@ async function runCycle(options = {}) {
       const obsidianMarkdown = buildObsidianTable(enriched);
       fs.writeFileSync(FILES.obsidianTable, obsidianMarkdown, "utf8");
       obsidianPath = await syncToObsidian(obsidianMarkdown, stateCache);
+    }
+
+    if (shouldSyncLogseq) {
+      const logseqBlocks = buildLogseqBlocks(enriched);
+      fs.writeFileSync(FILES.logseqBlocks, logseqBlocks, "utf8");
+      logseqPath = await syncToLogseq(logseqBlocks);
     }
 
     // 6. 保存状态

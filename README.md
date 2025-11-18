@@ -10,10 +10,11 @@ An automated tool that synchronizes your GitHub starred repositories to knowledg
 - 🤖 **AI Tag Generation**: Uses OpenAI API to generate Chinese tags and tech stack summaries for repositories
 - 📊 **Markdown Table**: Generates formatted Markdown tables with repository info, tags, and tech stacks
 - 📝 **Knowledge Base Sync**: Automatically syncs generated tables to knowledge base systems (SiYuan, Obsidian)
+- 🧩 **Logseq Blocks**: Exports each repository as a structured block tailored for Logseq
 - 💾 **State Management**: Saves sync state for incremental updates
 - 🚀 **Smart Caching**: Only updates changed repositories, reducing AI API calls
 - 🏷️ **Tag Format**: Generates native tag format for knowledge bases (`#标签名#` for SiYuan, `#标签名` for Obsidian)
-- ⚙️ **Configurable Targets**: Choose sync target (SiYuan, Obsidian, or both) via configuration
+- ⚙️ **Configurable Targets**: Choose sync target (SiYuan, Obsidian, Logseq, or all) via configuration
 
 ## 📁 Project Structure
 
@@ -79,7 +80,7 @@ OPENAI_MODEL=gpt-4o-mini
 OPENAI_BASE_URL=https://api.openai.com/v1
 
 # Sync Target Configuration (Optional)
-# Options: siyuan | obsidian | both (default: siyuan)
+# Options: siyuan | obsidian | logseq | all | comma-separated combos (default: siyuan)
 SYNC_TARGET=siyuan
 
 # SiYuan Configuration (Optional)
@@ -91,6 +92,10 @@ SIYUAN_DOC_PATH=/GitHub/Stars
 # Obsidian Configuration (Optional)
 OBSIDIAN_VAULT_PATH=C:/Users/username/Documents/ObsidianVault
 OBSIDIAN_FILE_PATH=GitHub/Stars.md
+
+# Logseq Configuration (Optional)
+LOGSEQ_GRAPH_PATH=D:/Documents/Logseq
+LOGSEQ_PAGE_PATH=pages/github-stars.md
 
 # Other Configuration (Optional)
 SYNC_TZ=Asia/Shanghai
@@ -119,7 +124,7 @@ FORCE_SYNC=false
 
 ### Configure Obsidian (Optional)
 
-1. Set `SYNC_TARGET=obsidian` or `SYNC_TARGET=both` in `.env`
+1. Set `SYNC_TARGET=obsidian` or `SYNC_TARGET=all` in `.env`
 2. Configure `OBSIDIAN_VAULT_PATH` to your Obsidian vault directory
 3. Configure `OBSIDIAN_FILE_PATH` (with or without `.md` extension, will auto-add if missing)
 4. Example:
@@ -128,6 +133,13 @@ FORCE_SYNC=false
    OBSIDIAN_VAULT_PATH="C:/Users/username/Documents/My Obsidian Vault"
    OBSIDIAN_FILE_PATH="GitHub/Stars"
    ```
+
+### Configure Logseq (Optional)
+
+1. Add `logseq` (or `all`, or a comma-separated combination including `logseq`) to `SYNC_TARGET`
+2. Point `LOGSEQ_GRAPH_PATH` to the root folder of your Logseq graph (contains `pages/`, `journals/`, etc.)
+3. Set `LOGSEQ_PAGE_PATH` to the relative page path (defaults to `pages/github-stars.md`, `.md` auto-added)
+4. Each repository becomes its own block with Logseq properties (`repo::`, `tags::`, `tech::`, ...), enabling full-text search without huge tables
 
 ### Run
 
@@ -182,6 +194,23 @@ The generated table contains the following columns:
 | [Pake](https://github.com/tw93/Pake) | Turn any webpage into a desktop app with one command | #桌面应用# #网页打包# #跨平台# | Rust · Tauri | 2025-11-17 | No |
 ```
 
+### Logseq Block Format
+
+When `logseq` is included in `SYNC_TARGET`, the script writes a normal Markdown page inside your Logseq graph. Each repository is rendered as its own block:
+
+```
+- [[owner/repo]] ([GitHub](https://github.com/owner/repo))
+  repo:: https://github.com/owner/repo
+  desc:: Project description...
+  tags:: #[[AI]] #[[工具]]
+  tech:: Rust · Tauri
+  language:: Rust
+  updated:: 2025-11-18
+  archived:: No
+```
+
+This structure keeps every entry searchable/editable in Logseq without triggering the “large block” warning.
+
 ## 🔧 Configuration
 
 ### Environment Variables
@@ -197,9 +226,11 @@ The generated table contains the following columns:
 | `SIYUAN_API_TOKEN` | ❌ | - | SiYuan API Token |
 | `SIYUAN_NOTEBOOK_ID` | ❌ | - | SiYuan notebook ID |
 | `SIYUAN_DOC_PATH` | ❌ | `/GitHub/Stars` | SiYuan document path |
-| `SYNC_TARGET` | ❌ | `siyuan` | Sync target: `siyuan` \| `obsidian` \| `both` |
+| `SYNC_TARGET` | ❌ | `siyuan` | `siyuan` \| `obsidian` \| `logseq` \| `all` \| comma-separated combos |
 | `OBSIDIAN_VAULT_PATH` | ❌ | - | Obsidian vault directory path |
 | `OBSIDIAN_FILE_PATH` | ❌ | `GitHub/Stars.md` | File path within vault (.md extension auto-added if missing) |
+| `LOGSEQ_GRAPH_PATH` | ❌ | - | Logseq graph root folder (where `pages/` lives) |
+| `LOGSEQ_PAGE_PATH` | ❌ | `pages/github-stars.md` | Relative page path inside the graph (.md auto-added if missing) |
 | `SYNC_TZ` | ❌ | `Asia/Shanghai` | Timezone setting |
 | `FORCE_SYNC` | ❌ | `false` | Force sync flag |
 
@@ -240,9 +271,8 @@ FORCE_SYNC=true node index.js --force
 ### Planned Features
 
 - [x] **Obsidian Sync Support** ✅
-  - [x] File-based sync (via vault path)
 
-- [ ] **Logseq Sync Support**
+- [x] **Logseq Sync Support** ✅
 
 - [ ] **Notion Sync Support**
 
@@ -289,9 +319,6 @@ A: Check the following:
 3. Is `OBSIDIAN_FILE_PATH` configured correctly? (`.md` extension will be auto-added)
 4. Check console error messages for detailed information
 
-### Q: How to sync to both SiYuan and Obsidian?
-
-A: Set `SYNC_TARGET=both` in `.env` and configure both SiYuan and Obsidian settings. The tool will generate both formats and sync to both targets simultaneously.
 
 ## 📄 License
 

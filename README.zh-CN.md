@@ -8,6 +8,7 @@
 - 🤖 **AI 标签生成**：使用 OpenAI API 为仓库生成中文标签和技术栈摘要
 - 📊 **Markdown 表格**：生成格式化的 Markdown 表格，包含仓库信息、标签和技术栈
 - 📝 **知识库同步**：自动将生成的表格同步到知识库系统（思源笔记、Obsidian）
+- 🧩 **Logseq 块导出**：为 Logseq 生成每仓库一个块，保持可检索可编辑
 - 💾 **状态管理**：保存同步状态，支持增量更新
 - 🚀 **智能缓存**：仅更新变更的仓库，减少 AI API 调用
 - 🏷️ **标签格式**：生成知识库原生标签格式（思源笔记：`#标签名#`，Obsidian：`#标签名`）
@@ -77,7 +78,7 @@ OPENAI_MODEL=gpt-4o-mini
 OPENAI_BASE_URL=https://api.openai.com/v1
 
 # 同步目标配置（可选）
-# 选项: siyuan | obsidian | both (默认: siyuan)
+# 选项: siyuan | obsidian | logseq | all | 逗号分隔组合（默认: siyuan）
 SYNC_TARGET=siyuan
 
 # 思源笔记配置（可选）
@@ -89,6 +90,10 @@ SIYUAN_DOC_PATH=/GitHub/Stars
 # Obsidian 配置（可选）
 OBSIDIAN_VAULT_PATH=C:/Users/username/Documents/ObsidianVault
 OBSIDIAN_FILE_PATH=GitHub/Stars.md
+
+# Logseq 配置（可选）
+LOGSEQ_GRAPH_PATH=D:/Documents/Logseq
+LOGSEQ_PAGE_PATH=pages/github-stars.md
 
 # 其他配置（可选）
 SYNC_TZ=Asia/Shanghai
@@ -117,7 +122,7 @@ FORCE_SYNC=false
 
 ### 配置 Obsidian（可选）
 
-1. 在 `.env` 中设置 `SYNC_TARGET=obsidian` 或 `SYNC_TARGET=both`
+1. 在 `.env` 中设置 `SYNC_TARGET=obsidian` 或 `SYNC_TARGET=all`
 2. 配置 `OBSIDIAN_VAULT_PATH` 为你的 Obsidian vault 目录路径
 3. 配置 `OBSIDIAN_FILE_PATH`（可包含或不包含 `.md` 扩展名，缺失会自动添加）
 4. 示例：
@@ -126,6 +131,13 @@ FORCE_SYNC=false
    OBSIDIAN_VAULT_PATH="C:/Users/username/Documents/My Obsidian Vault"
    OBSIDIAN_FILE_PATH="GitHub/Stars"
    ```
+
+### 配置 Logseq（可选）
+
+1. 在 `SYNC_TARGET` 中加入 `logseq`（或 `all` / 包含 `logseq` 的逗号组合）
+2. 将 `LOGSEQ_GRAPH_PATH` 指向 Logseq 图谱根目录（包含 `pages/`、`journals/` 等文件夹）
+3. 设置 `LOGSEQ_PAGE_PATH` 为图谱内的页面路径（默认 `pages/github-stars.md`，缺失会自动补 `.md`）
+4. 每个仓库会生成独立块及属性（`repo::`、`tags::`、`tech::` 等），从而避免 “Large block” 限制并保持可搜索性
 
 ### 运行
 
@@ -180,6 +192,23 @@ node index.js --force
 | [Pake](https://github.com/tw93/Pake) | 一键打包网页生成轻量桌面应用 | #桌面应用# #网页打包# #跨平台# | Rust · Tauri | 2025-11-17 | 否 |
 ```
 
+### Logseq 块格式
+
+当 `SYNC_TARGET` 包含 `logseq` 时，脚本会在 Logseq 图谱中写入普通 Markdown 页面，每个仓库对应一个块：
+
+```
+- [[owner/repo]] ([GitHub](https://github.com/owner/repo))
+  repo:: https://github.com/owner/repo
+  desc:: 仓库简介……
+  tags:: #[[AI]] #[[工具]]
+  tech:: Rust · Tauri
+  language:: Rust
+  updated:: 2025-11-18
+  archived:: No
+```
+
+这种结构避免了单个巨大表格，完整保留搜索与属性查询能力。
+
 ## 🔧 配置说明
 
 ### 环境变量
@@ -195,9 +224,11 @@ node index.js --force
 | `SIYUAN_API_TOKEN` | ❌ | - | 思源笔记 API Token |
 | `SIYUAN_NOTEBOOK_ID` | ❌ | - | 思源笔记笔记本 ID |
 | `SIYUAN_DOC_PATH` | ❌ | `/GitHub/Stars` | 思源笔记文档路径 |
-| `SYNC_TARGET` | ❌ | `siyuan` | 同步目标：`siyuan` \| `obsidian` \| `both` |
+| `SYNC_TARGET` | ❌ | `siyuan` | 同步目标：`siyuan` \| `obsidian` \| `logseq` \|`all` \| 逗号分隔组合 |
 | `OBSIDIAN_VAULT_PATH` | ❌ | - | Obsidian vault 目录路径 |
 | `OBSIDIAN_FILE_PATH` | ❌ | `GitHub/Stars.md` | vault 内的文件路径（缺失 .md 扩展名会自动添加） |
+| `LOGSEQ_GRAPH_PATH` | ❌ | - | Logseq 图谱根目录（包含 `pages/`） |
+| `LOGSEQ_PAGE_PATH` | ❌ | `pages/github-stars.md` | 图谱内的页面路径（缺失 `.md` 会自动补全） |
 | `SYNC_TZ` | ❌ | `Asia/Shanghai` | 时区设置 |
 | `FORCE_SYNC` | ❌ | `false` | 强制同步标志 |
 
@@ -238,9 +269,8 @@ FORCE_SYNC=true node index.js --force
 ### 计划中的功能
 
 - [x] **Obsidian 同步支持** ✅
-  - [x] 基于文件的同步（通过 vault 路径）
 
-- [ ] **Logseq 同步支持**
+- [x] **Logseq 同步支持** ✅
 
 - [ ] **Notion 同步支持**
 
@@ -286,10 +316,6 @@ A: 检查以下内容：
 2. vault 路径是否存在且可写？
 3. `OBSIDIAN_FILE_PATH` 是否正确配置？（`.md` 扩展名会自动添加）
 4. 查看控制台错误信息获取详细信息
-
-### Q: 如何同时同步到思源笔记和 Obsidian？
-
-A: 在 `.env` 中设置 `SYNC_TARGET=both` 并配置思源笔记和 Obsidian 的设置。工具会生成两种格式并同时同步到两个目标。
 
 ## 📄 许可证
 

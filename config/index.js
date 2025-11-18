@@ -28,6 +28,10 @@ const CONFIG = {
     apiUrl: process.env.OBSIDIAN_API_URL,
     token: process.env.OBSIDIAN_API_TOKEN,
   },
+  logseq: {
+    graphPath: process.env.LOGSEQ_GRAPH_PATH,
+    pagePath: process.env.LOGSEQ_PAGE_PATH || "pages/github-stars.md",
+  },
 };
 
 // 规范化 docPath
@@ -44,6 +48,7 @@ const FILES = {
   state: path.resolve(__dirname, "..", "starred_state.json"),
   mdCache: path.resolve(__dirname, "..", "siyuan_table.md"),
   obsidianTable: path.resolve(__dirname, "..", "obsidian_table.md"),
+  logseqBlocks: path.resolve(__dirname, "..", "logseq_blocks.md"),
 };
 
 // 验证必需的环境变量

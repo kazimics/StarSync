@@ -6,8 +6,8 @@ const { escapeTable, formatDate } = require("../utils/helpers");
  */
 function buildObsidianTable(rows) {
   const header =
-    "| 仓库 | 简介 | 标签 | 使用技术 | 更新时间 | 归档 |\n" +
-    "| --- | --- | --- | --- | --- | --- |\n";
+    "| 仓库 | 简介 | 主题 | 标签 | 使用技术 | 更新时间 | 归档 |\n" +
+    "| --- | --- | --- | --- | --- | --- | --- |\n";
 
   const body = rows
     .map((row) => {
@@ -15,7 +15,11 @@ function buildObsidianTable(rows) {
       const desc = row.description
         ? escapeTable(row.description)
         : "（无简介）";
-      // Obsidian 标签格式: #tag (单个 #，无尾随 #)
+      // Obsidian 主题格式: #topic (GitHub 原生 topics)
+      const topicsCell = row.topics.length
+        ? row.topics.map((topic) => `#${topic}`).join(" ")
+        : "—";
+      // Obsidian 标签格式: #tag (AI 生成的标签)
       const tagCell = row.tags.length
         ? row.tags.map((tag) => `#${tag}`).join(" ")
         : "—";
@@ -25,7 +29,9 @@ function buildObsidianTable(rows) {
       const updated = formatDate(row.updatedAt);
       const archived = row.archived ? "是" : "否";
 
-      return `| ${nameCell} | ${desc} | ${escapeTable(tagCell)} | ${escapeTable(
+      return `| ${nameCell} | ${desc} | ${escapeTable(
+        topicsCell
+      )} | ${escapeTable(tagCell)} | ${escapeTable(
         techCell
       )} | ${updated} | ${archived} |`;
     })
@@ -40,4 +46,3 @@ function buildObsidianTable(rows) {
 module.exports = {
   buildObsidianTable,
 };
-
