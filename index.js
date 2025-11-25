@@ -81,7 +81,11 @@ async function runCycle(options = {}) {
     const rawRepos = await fetchStarredRepos();
     const normalizedRepos = normalizeRepos(rawRepos);
 
-    // 2. 丰富仓库数据（AI 生成标签和技术栈）
+    // 2. 丰富仓库数据（AI 生成标签和技术栈，根据配置决定是否启用）
+    const aiEnabled = CONFIG.enableAI;
+    console.log(
+      aiEnabled ? "🤖 AI 模式：启用智能标签生成" : "📝 基础模式：仅同步基础信息"
+    );
     const { enriched, stats } = await enrichRepos(normalizedRepos, stateCache);
 
     // 3. 根据配置选择同步目标
@@ -97,7 +101,7 @@ async function runCycle(options = {}) {
     // 4. 构建并同步到各平台 (独立进行，互不影响)
     if (shouldSyncSiYuan) {
       try {
-        const markdown = buildMarkdownTable(enriched);
+        const markdown = buildMarkdownTable(enriched, aiEnabled);
         fs.writeFileSync(FILES.mdCache, markdown, "utf8");
         docId = await syncToSiYuan(markdown, stateCache);
         console.log("✅ SiYuan 同步成功");
@@ -109,7 +113,7 @@ async function runCycle(options = {}) {
 
     if (shouldSyncObsidian) {
       try {
-        const obsidianMarkdown = buildObsidianTable(enriched);
+        const obsidianMarkdown = buildObsidianTable(enriched, aiEnabled);
         fs.writeFileSync(FILES.obsidianTable, obsidianMarkdown, "utf8");
         obsidianPath = await syncToObsidian(obsidianMarkdown, stateCache);
         console.log("✅ Obsidian 同步成功");
@@ -121,7 +125,7 @@ async function runCycle(options = {}) {
 
     if (shouldSyncLogseq) {
       try {
-        const logseqBlocks = buildLogseqBlocks(enriched);
+        const logseqBlocks = buildLogseqBlocks(enriched, aiEnabled);
         fs.writeFileSync(FILES.logseqBlocks, logseqBlocks, "utf8");
         logseqPath = await syncToLogseq(logseqBlocks);
         console.log("✅ Logseq 同步成功");
@@ -132,7 +136,13 @@ async function runCycle(options = {}) {
     }
 
     // 6. 保存状态
-    const nextState = buildNextState(enriched, docId, stats, stateCache);
+    const nextState = buildNextState(
+      enriched,
+      docId,
+      stats,
+      stateCache,
+      aiEnabled
+    );
     saveState(nextState);
     stateCache = nextState;
 

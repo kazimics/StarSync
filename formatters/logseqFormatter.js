@@ -5,7 +5,7 @@ function sanitize(text) {
 }
 
 function formatTags(tags = []) {
-  if (!tags.length) return "";
+  if (!(tags && Array.isArray(tags)) || !tags.length) return "";
   return tags.map((tag) => `#[[${tag}]]`).join(" ");
 }
 
@@ -16,7 +16,7 @@ function formatTechnologies(row) {
   return row.language || "未标注";
 }
 
-function buildLogseqBlock(row) {
+function buildLogseqBlock(row, aiEnabled = true) {
   const headerParts = [`[[${row.fullName}]]`];
   if (row.url) {
     headerParts.push(`([GitHub](${row.url}))`);
@@ -26,30 +26,47 @@ function buildLogseqBlock(row) {
     `- ${headerParts.join(" ")}`,
     `  repo:: ${row.url || ""}`,
     `  desc:: ${sanitize(row.description) || "（无简介）"}`,
-    `  tags:: ${formatTags(row.tags) || "—"}`,
-    `  tech:: ${formatTechnologies(row)}`,
-    `  updated:: ${formatDate(row.updatedAt)}`,
-    `  archived:: ${row.archived ? "Yes" : "No"}`,
+    `  topics:: ${
+      row.topics && Array.isArray(row.topics) && row.topics.length
+        ? row.topics.map((topic) => `[[${topic}]]`).join(" ")
+        : "—"
+    }`,
   ];
 
-  if (row.language) {
-    lines.splice(5, 0, `  language:: ${row.language}`);
+  // 检查是否有历史 AI 数据
+  const hasHistoricalAIData =
+    (row.tags && row.tags.length > 0) ||
+    (row.technologies && row.technologies.length > 0);
+
+  // 如果启用 AI 或有历史 AI 数据，显示标签
+  if ((aiEnabled || hasHistoricalAIData) && row.tags && row.tags.length > 0) {
+    lines.push(`  tags:: ${formatTags(row.tags) || "—"}`);
   }
 
-  if (row.topics?.length) {
-    lines.push(`  topics:: ${row.topics.map((topic) => `[[${topic}]]`).join(" ")}`);
+  // 如果启用 AI，显示 AI 技术栈；如果有历史数据，显示历史技术栈；否则显示语言
+  if (aiEnabled || hasHistoricalAIData) {
+    if (row.technologies && row.technologies.length > 0) {
+      lines.push(`  tech:: ${formatTechnologies(row)}`);
+    } else {
+      lines.push(`  tech:: ${row.language || "未标注"}`);
+    }
+  } else {
+    // 完全没有 AI 数据时，只显示语言信息
+    lines.push(`  tech:: ${row.language || "未标注"}`);
   }
+
+  lines.push(`  updated:: ${formatDate(row.updatedAt)}`);
+  lines.push(`  archived:: ${row.archived ? "Yes" : "No"}`);
 
   return lines.join("\n");
 }
 
-function buildLogseqBlocks(rows) {
+function buildLogseqBlocks(rows, aiEnabled = true) {
   const header = `- Last synced:: ${formatDate(new Date().toISOString())}\n`;
-  const body = rows.map((row) => buildLogseqBlock(row)).join("\n\n");
+  const body = rows.map((row) => buildLogseqBlock(row, aiEnabled)).join("\n\n");
   return `${header}\n${body}\n`;
 }
 
 module.exports = {
   buildLogseqBlocks,
 };
-

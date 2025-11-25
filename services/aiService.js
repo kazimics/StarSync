@@ -9,18 +9,27 @@ const {
 const { defaultTags, defaultTechnologies } = require("../utils/repoUtils");
 
 /**
+ * 检查 AI 是否可用
+ */
+function isAIAvailable() {
+  return CONFIG.enableAI && CONFIG.openaiKey && CONFIG.openaiKey.trim() !== "";
+}
+
+/**
  * 调用 AI 生成元数据（标签和技术栈）
  */
 async function callAIForMetadata(batch) {
-  const payloadRepos = batch.map((repo) => ({
-    id: repo.id,
-    name: repo.name,
-    fullName: repo.fullName,
-    description: repo.description,
-    language: repo.language,
-    topics: repo.topics,
-    archived: repo.archived,
-  }));
+  const payloadRepos = batch
+    .filter((repo) => repo && repo.id) // 过滤掉无效的仓库数据
+    .map((repo) => ({
+      id: repo.id,
+      name: repo.name,
+      fullName: repo.fullName,
+      description: repo.description,
+      language: repo.language,
+      topics: repo.topics,
+      archived: repo.archived,
+    }));
 
   const systemPrompt =
     "你是资深开发者关系工程师，请为 GitHub 仓库生成中文标签与技术栈摘要，用于本地知识库搜索。";
@@ -74,49 +83,83 @@ async function callAIForMetadata(batch) {
  */
 async function enrichRepos(repos, stateCache) {
   const prevMap = stateCache.repos || {};
-  const pending = [];
-  const { buildFingerprint } = require("../utils/helpers");
 
+  // 如果 AI 不可用或禁用，只使用历史数据，不调用 AI
+  if (!isAIAvailable()) {
+    console.log("📝 AI 已禁用，使用历史智能标签");
+    const enriched = repos.map((repo) => {
+      const previous = prevMap[repo.id];
+
+      return {
+        ...repo,
+        tags: previous?.tags || [],
+        technologies: previous?.technologies || [],
+        aiFingerprint: previous?.aiFingerprint,
+      };
+    });
+
+    // 计算新增和移除的仓库数量
+    const prevIds = new Set(Object.keys(prevMap));
+    const currentIds = new Set(enriched.map((r) => r.id));
+
+    const stats = {
+      added: enriched.filter((r) => !prevIds.has(r.id)).length,
+      removed: Array.from(prevIds).filter((id) => !currentIds.has(id)).length,
+      aiUpdated: 0,
+    };
+
+    return { enriched, stats };
+  }
+
+  // AI 可用，检查是否需要重新生成数据
   const enriched = repos.map((repo) => {
-    const fingerprint = buildFingerprint(repo);
     const previous = prevMap[repo.id];
 
-    if (!previous || previous.aiFingerprint !== fingerprint) {
-      pending.push({ repo, fingerprint });
+    // 检查是否需要重新生成 AI 数据
+    const needsAI = shouldRegenerateAI(previous, repo);
+
+    if (needsAI) {
+      return { ...repo, needsAI: true };
     }
 
+    // 使用历史 AI 数据
     return {
       ...repo,
-      aiFingerprint: fingerprint,
-      tags: previous?.tags || defaultTags(repo),
-      technologies: previous?.technologies || defaultTechnologies(repo),
+      tags: previous?.tags || [],
+      technologies: previous?.technologies || [],
+      aiFingerprint: previous?.aiFingerprint,
     };
   });
 
+  // 只处理需要 AI 生成的仓库
+  const pending = enriched.filter((repo) => repo.needsAI);
   let aiUpdated = 0;
 
   if (pending.length > 0) {
-    console.log(`🤖 需要 AI 更新的仓库: ${pending.length}`);
+    console.log(`🤖 AI 模式：需要处理 ${pending.length} 个仓库`);
 
+    const { buildFingerprint } = require("../utils/helpers");
     const batches = chunk(pending, 20);
+
     for (let i = 0; i < batches.length; i++) {
       const batch = batches[i];
+
       console.log(
         `   ⏳ 正在处理第 ${i + 1}/${batches.length} 批，仓库 ${i * 20 + 1}-${
           i * 20 + batch.length
         }`
       );
-      const aiResult = await callAIForMetadata(batch.map((b) => b.repo));
+
+      const aiResult = await callAIForMetadata(batch);
       for (const meta of aiResult) {
         const target = enriched.find((r) => r.id === meta.id);
         if (!target) continue;
-        target.tags = sanitizeStringList(meta.tags, defaultTags(target));
-        target.technologies = sanitizeStringList(
-          meta.technologies,
-          defaultTechnologies(target)
-        );
+        target.tags = sanitizeStringList(meta.tags);
+        target.technologies = sanitizeStringList(meta.technologies);
+        target.aiFingerprint = buildFingerprint(target);
         aiUpdated += 1;
       }
+
       console.log(
         `   ✅ 第 ${i + 1}/${
           batches.length
@@ -138,8 +181,36 @@ async function enrichRepos(repos, stateCache) {
   return { enriched, stats };
 }
 
+/**
+ * 检查是否需要重新生成 AI 数据
+ */
+function shouldRegenerateAI(previous, current) {
+  // 如果之前没有 AI 数据，需要生成
+  if (!previous || !previous.tags || !previous.technologies) {
+    return true;
+  }
+
+  // 如果当前没有原始数据，不需要生成
+  if (!current) {
+    return false;
+  }
+
+  // 检查数据指纹是否发生变化
+  const { buildFingerprint } = require("../utils/helpers");
+  const currentFingerprint = buildFingerprint(current);
+  const previousFingerprint = previous.aiFingerprint;
+
+  // 如果指纹不匹配，说明原始数据发生了变化，需要重新生成
+  if (currentFingerprint !== previousFingerprint) {
+    console.log(`   🔄 仓库 ${current.name} 数据发生变化，重新生成 AI 标签`);
+    return true;
+  }
+
+  // 数据没有变化，不需要重新生成
+  return false;
+}
+
 module.exports = {
   callAIForMetadata,
   enrichRepos,
 };
-

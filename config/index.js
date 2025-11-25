@@ -11,6 +11,7 @@ function assertEnv(value, name) {
 const CONFIG = {
   githubToken: process.env.GITHUB_TOKEN,
   githubUsername: process.env.GITHUB_USERNAME,
+  enableAI: process.env.ENABLE_AI !== "false", // 默认启用 AI
   openaiKey: process.env.OPENAI_API_KEY,
   openaiModel: process.env.OPENAI_MODEL || "gpt-4o-mini",
   openaiBaseUrl: process.env.OPENAI_BASE_URL || "https://api.openai.com/v1",
@@ -54,7 +55,11 @@ const FILES = {
 // 验证必需的环境变量
 assertEnv(CONFIG.githubToken, "GITHUB_TOKEN");
 assertEnv(CONFIG.githubUsername, "GITHUB_USERNAME");
-assertEnv(CONFIG.openaiKey, "OPENAI_API_KEY");
+
+// 只有启用 AI 时才验证 OpenAI 配置
+if (CONFIG.enableAI) {
+  assertEnv(CONFIG.openaiKey, "OPENAI_API_KEY");
+}
 
 const FORCE_SYNC =
   process.argv.includes("--force") || process.env.FORCE_SYNC === "true";
@@ -65,4 +70,3 @@ module.exports = {
   FORCE_SYNC,
   assertEnv,
 };
-
