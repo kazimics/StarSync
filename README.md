@@ -7,7 +7,7 @@ An automated tool that synchronizes your GitHub starred repositories to knowledg
 ## ✨ Features
 
 - 🔄 **Auto Sync**: Automatically fetches all starred repositories from GitHub
-- 🤖 **AI Tag Generation**: Uses OpenAI API to generate Chinese tags and tech stack summaries for repositories
+- 🤖 **AI Tag Generation**: Uses OpenAI API to generate Chinese tags and tech stack summaries for repositories (optional, can be disabled)
 - 📊 **Markdown Table**: Generates formatted Markdown tables with repository info, tags, and tech stacks
 - 📝 **Knowledge Base Sync**: Automatically syncs generated tables to knowledge base systems (SiYuan, Obsidian)
 - 🧩 **Logseq Blocks**: Exports each repository as a structured block tailored for Logseq
@@ -74,7 +74,8 @@ Create a `.env` file with the following configuration:
 GITHUB_TOKEN=your_github_token
 GITHUB_USERNAME=your_username
 
-# OpenAI Configuration (Required)
+# OpenAI Configuration (Required if AI enabled)
+ENABLE_AI=true
 OPENAI_API_KEY=your_openai_api_key
 OPENAI_MODEL=gpt-4o-mini
 OPENAI_BASE_URL=https://api.openai.com/v1
@@ -108,6 +109,20 @@ FORCE_SYNC=false
 2. Click "Generate new token (classic)"
 3. Check `public_repo` and `read:user` permissions
 4. Generate and copy the token
+
+### Disable AI Features
+
+To disable AI features (tag generation and tech stack analysis), set `ENABLE_AI=false` in your `.env` file:
+
+```env
+ENABLE_AI=false
+```
+
+When AI is disabled:
+- No OpenAI API Key is required
+- Tags and tech stack columns will be empty or contain only GitHub topics
+- Sync process will be faster as no AI calls are made
+- The tool will still fetch and organize your starred repositories
 
 ### Get OpenAI API Key
 
@@ -220,7 +235,8 @@ This structure keeps every entry searchable/editable in Logseq without triggerin
 |----------|----------|---------|-------------|
 | `GITHUB_TOKEN` | ✅ | - | GitHub Personal Access Token |
 | `GITHUB_USERNAME` | ✅ | - | GitHub username |
-| `OPENAI_API_KEY` | ✅ | - | OpenAI API Key |
+| `ENABLE_AI` | ❌ | `true` | Enable AI features (tag generation, tech stack analysis) |
+| `OPENAI_API_KEY` | ✅ (if AI enabled) | - | OpenAI API Key |
 | `OPENAI_MODEL` | ❌ | `gpt-4o-mini` | OpenAI model name |
 | `OPENAI_BASE_URL` | ❌ | `https://api.openai.com/v1` | OpenAI API endpoint |
 | `SIYUAN_API_URL` | ❌ | `http://127.0.0.1:6806` | SiYuan API address |

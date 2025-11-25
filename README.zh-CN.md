@@ -5,7 +5,7 @@
 ## ✨ 功能特性
 
 - 🔄 **自动同步**：自动从 GitHub 获取所有已星标的仓库
-- 🤖 **AI 标签生成**：使用 OpenAI API 为仓库生成中文标签和技术栈摘要
+- 🤖 **AI 标签生成**：使用 OpenAI API 为仓库生成中文标签和技术栈摘要（可选，可禁用）
 - 📊 **Markdown 表格**：生成格式化的 Markdown 表格，包含仓库信息、标签和技术栈
 - 📝 **知识库同步**：自动将生成的表格同步到知识库系统（思源笔记、Obsidian）
 - 🧩 **Logseq 块导出**：为 Logseq 生成每仓库一个块，保持可检索可编辑
@@ -72,7 +72,8 @@ npm install
 GITHUB_TOKEN=your_github_token
 GITHUB_USERNAME=your_username
 
-# OpenAI 配置（必需）
+# OpenAI 配置（启用 AI 时必需）
+ENABLE_AI=true
 OPENAI_API_KEY=your_openai_api_key
 OPENAI_MODEL=gpt-4o-mini
 OPENAI_BASE_URL=https://api.openai.com/v1
@@ -106,6 +107,20 @@ FORCE_SYNC=false
 2. 点击 "Generate new token (classic)"
 3. 勾选 `public_repo` 和 `read:user` 权限
 4. 生成并复制 token
+
+### 禁用 AI 功能
+
+要禁用 AI 功能（标签生成和技术栈分析），在 `.env` 文件中设置 `ENABLE_AI=false`：
+
+```env
+ENABLE_AI=false
+```
+
+禁用 AI 后：
+- 不需要 OpenAI API Key
+- 标签和技术栈列将为空或仅包含 GitHub topics
+- 同步过程会更快，因为不会调用 AI
+- 工具仍会获取和整理你的星标仓库
 
 ### 获取 OpenAI API Key
 
@@ -218,7 +233,8 @@ node index.js --force
 |--------|------|--------|------|
 | `GITHUB_TOKEN` | ✅ | - | GitHub Personal Access Token |
 | `GITHUB_USERNAME` | ✅ | - | GitHub 用户名 |
-| `OPENAI_API_KEY` | ✅ | - | OpenAI API Key |
+| `ENABLE_AI` | ❌ | `true` | 启用 AI 功能（标签生成、技术栈分析） |
+| `OPENAI_API_KEY` | ✅ (启用 AI 时) | - | OpenAI API Key |
 | `OPENAI_MODEL` | ❌ | `gpt-4o-mini` | OpenAI 模型名称 |
 | `OPENAI_BASE_URL` | ❌ | `https://api.openai.com/v1` | OpenAI API 端点 |
 | `SIYUAN_API_URL` | ❌ | `http://127.0.0.1:6806` | 思源笔记 API 地址 |
